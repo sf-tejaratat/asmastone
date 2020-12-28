@@ -1354,10 +1354,16 @@ body.page-top .p-loading__bg {
 }
 .p-loading__inner,
 .p-loading__logo {
-    width: 21.25vw;
+    /* width: 21.25vw;
     height: 13.125vw;
     max-width: 340px;
     max-height: 21px;
+    min-width: 170px;
+    min-height: 10px; */
+    width: 21.25vw;
+    height: 33.125vw;
+    max-width: 340px;
+    max-height: 100px;
     min-width: 170px;
     min-height: 10px;
 }
