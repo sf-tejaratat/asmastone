@@ -1,0 +1,378 @@
+<template>
+      <div>
+        <div id="wrapper">
+            <header class="l-header js-header b-fonts__medium">
+                <div class="p-header l-wide-container">
+                    <div class="p-header__left js-logo">
+                        <div class="p-header__left__inner">
+                            <a class="js-target--pointer__stateChange" href="/">
+                                <div class="js-target__inner--pointer__stateChange js-target__parent--spring">
+                                     <svg id="logo" class="p-header__logo js-logo" x="0px" y="0px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 684.62 320.15" style="enable-background:new 0 0 684.62 320.15;" xml:space="preserve">
+
+                                    <g >
+                                        <g >
+                                            <path class="js-st-logo st-logo" d="M242.4 102.22V3.4c0-3.64-.32-3.39 3.35-3.39h84C333.17 0 333-.21 333 3.28v105.78c0 4.14-.4 3.71 3.74 3.72h101.25c3.91 0 3.56-.4 3.57 3.66v84.67c0 3.47.23 3.24-3.26 3.24H245.6c-3.48 0-3.2.18-3.2-3.3zM0 102.23V3.4C0-.25-.3 0 3.35 0h83.5c3.59 0 3.31-.28 3.32 3.42v197.66c0 3.48.25 3.27-3.23 3.27H3.2c-3.48 0-3.19.16-3.19-3.3Q0 151.64 0 102.23zM109 102.24V3.66c0-4-.33-3.65 3.58-3.65h83.26c3.6 0 3.52-.41 3.52 3.51v197.4c0 3.77 0 3.43-3.37 3.43h-83.75c-3.26 0-3.26 0-3.26-3.29zM584.82 204.35h-96.24c-3.75 0-3.46.36-3.47-3.52v-84.7c0-3.71-.2-3.35 3.39-3.35h192.72c3.38 0 3.4-.39 3.4 3.4v84.93c0 3.61-.08 3.24-3.32 3.24z"/>
+                                            <path class="js-st-logo st-logo" d="M351 46.08V4.34 2.67c0-2.64 0-2.66 2.66-2.66h86.37c1 0 1.5.39 1.47 1.41V89c0 3.46.25 3.25-3.25 3.25h-84.18c-3 0-3.05 0-3.05-3Q351 67.66 351 46.08zM485.11 46V4.32 2.4c0-2.36 0-2.39 2.43-2.39H574.36a1 1 0 011 1.06v88.72c0 2.36 0 2.39-2.42 2.39H486.12a1 1 0 01-1-1.06c0-.72-.05-1.44-.05-2.16zM594.24 46.1V2.94c0-2.92 0-2.93 2.85-2.93h85.38c2 .07 2.08.13 2.15 2.25V88.58c0 4.06.16 3.64-3.61 3.64h-83.23c-3.89 0-3.53.3-3.53-3.44q-.03-21.34-.01-42.68z"/>
+                                            <path class="js-st-logo st-logo" d="M20.72 282.1V277h27.8v4.1a59.06 59.06 0 00-8.13 11.6 70.73 70.73 0 00-6.22 14.88 55.49 55.49 0 00-2 11.81h-5.45a52.8 52.8 0 012-12.25 64.49 64.49 0 015.46-13.84 59.3 59.3 0 017.57-11.23zM113.94 305.62l5.36-.47a11.9 11.9 0 001.78 5.29 9.57 9.57 0 004.32 3.34 16.34 16.34 0 006.59 1.27 15.88 15.88 0 005.74-1 8 8 0 003.71-2.65 6.17 6.17 0 001.21-3.68 5.6 5.6 0 00-1.17-3.53 8.6 8.6 0 00-3.87-2.53 75.57 75.57 0 00-7.64-2.1 39.08 39.08 0 01-8.29-2.68 11.66 11.66 0 01-4.59-4 9.76 9.76 0 01-1.51-5.35 10.9 10.9 0 011.85-6.07 11.44 11.44 0 015.39-4.3 20.56 20.56 0 017.88-1.46 21.44 21.44 0 018.42 1.54 12.13 12.13 0 015.61 4.52 13 13 0 012.11 6.77l-5.45.41a8.77 8.77 0 00-3-6.15q-2.53-2.08-7.49-2.08c-3.43 0-5.94.63-7.51 1.89a5.68 5.68 0 00-2.36 4.55 4.88 4.88 0 001.67 3.81q1.63 1.5 8.57 3.06a57.37 57.37 0 019.51 2.74 13.1 13.1 0 015.53 4.38 10.7 10.7 0 011.79 6.11 11.65 11.65 0 01-2 6.46 13 13 0 01-5.64 4.72 19.69 19.69 0 01-8.28 1.68 24.61 24.61 0 01-9.77-1.7 13.59 13.59 0 01-6.18-5.11 14.54 14.54 0 01-2.29-7.68zM226.82 319.42v-37.88h-14.15v-5.07h34.05v5.07h-14.21v37.88zM309.73 298.5q0-10.69 5.74-16.74a19.54 19.54 0 0114.83-6.05 20.6 20.6 0 0110.7 2.84 18.62 18.62 0 017.28 7.93 25.7 25.7 0 012.53 11.52 25.25 25.25 0 01-2.64 11.69 18 18 0 01-7.47 7.81 21.31 21.31 0 01-10.43 2.65 20.25 20.25 0 01-10.84-2.93 18.86 18.86 0 01-7.24-8 24.21 24.21 0 01-2.46-10.72zm5.86.09q0 7.77 4.18 12.23a14.56 14.56 0 0021 0Q345 306.27 345 298a22 22 0 00-1.77-9.15 13.66 13.66 0 00-5.19-6.06 14 14 0 00-7.66-2.16 14.51 14.51 0 00-10.39 4.15q-4.4 4.11-4.4 13.81zM418.07 319.42v-42.95h5.83l22.56 33.72v-33.72h5.45v42.95h-5.83l-22.56-33.75v33.75zM521.58 319.42v-42.95h31v5.07h-25.32v13.15H551v5h-23.74v14.62h26.37v5.07zM631.55 305.62l5.36-.47a11.78 11.78 0 001.77 5.29 9.68 9.68 0 004.32 3.34 16.38 16.38 0 006.59 1.27 15.93 15.93 0 005.75-1 8 8 0 003.7-2.65 6.18 6.18 0 001.22-3.68 5.6 5.6 0 00-1.17-3.53 8.6 8.6 0 00-3.87-2.53 75.23 75.23 0 00-7.65-2.1 39.28 39.28 0 01-8.29-2.68 11.56 11.56 0 01-4.58-4 9.76 9.76 0 01-1.51-5.35 10.89 10.89 0 011.81-6.03 11.44 11.44 0 015.39-4.3 20.61 20.61 0 017.89-1.46 21.44 21.44 0 018.42 1.54 12.13 12.13 0 015.61 4.52 13 13 0 012.11 6.77L659 289a8.77 8.77 0 00-3-6.15c-1.68-1.39-4.18-2.08-7.48-2.08s-5.94.63-7.52 1.89a5.66 5.66 0 00-2.35 4.55 4.85 4.85 0 001.67 3.81q1.63 1.5 8.57 3.06a57.48 57.48 0 019.5 2.74 13.14 13.14 0 015.54 4.38 10.7 10.7 0 011.79 6.11 11.66 11.66 0 01-2 6.46 12.89 12.89 0 01-5.64 4.72 19.68 19.68 0 01-8.27 1.68 24.55 24.55 0 01-9.77-1.7 13.59 13.59 0 01-6.18-5.11 14.45 14.45 0 01-2.31-7.74z"/>
+                                        </g>
+                                    </g>
+                                </svg>
+                                </div>
+                            </a>
+                        </div>
+                        <a @click="home()" href="/" class="p-header__close c-btn--close js-target__aboutClose js-target--pointer__stateChange js-hover" data-hover-in-time="1200" data-hover-out-time="100">
+                            <div class="c-btn--close__layer front js-target__inner--pointer__stateChange js-target__parent--spring">
+                                <div class="c-btn--close__bar">
+                                    <div class="c-btn--close__bar__inner js-closeBar"></div>
+                                </div>
+                                <div class="c-btn--close__bar">
+                                    <div class="c-btn--close__bar__inner js-closeBar"></div>
+                                </div>
+                            </div>
+                            <div class="c-btn--close__layer back">
+                                <div class="c-btn--close__bar">
+                                    <div class="c-btn--close__bar__inner js-closeBar"></div>
+                                </div>
+                                <div class="c-btn--close__bar">
+                                    <div class="c-btn--close__bar__inner js-closeBar"></div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <a @click="home()" href="/" class="p-header__close--works-detail c-btn--close js-target__worksDetailClose js-target--pointer__stateChange js-hover" data-hover-in-time="1200" data-hover-out-time="100">
+                        <div class="c-btn--close__layer front js-target__inner--pointer__stateChange js-target__parent--spring">
+                            <div class="c-btn--close__bar">
+                                <div class="c-btn--close__bar__inner js-closeBar"></div>
+                            </div>
+                            <div class="c-btn--close__bar">
+                                <div class="c-btn--close__bar__inner js-closeBar"></div>
+                            </div>
+                        </div>
+                        <div class="c-btn--close__layer back">
+                            <div class="c-btn--close__bar">
+                                <div class="c-btn--close__bar__inner js-closeBar"></div>
+                            </div>
+                            <div class="c-btn--close__bar">
+                                <div class="c-btn--close__bar__inner js-closeBar"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <nav class="js-nav">
+                        <ul class="p-header__list">
+                            <li class="p-header__list__item works pc">
+                                <div class="p-header__list__item__inner--works">
+                                    <div class="p-header__list__item--all">
+                                        <a class="js-nav__link js-target--pointer__stateChange" href="/works/">
+                                            <span class="js-target__inner--pointer__stateChange js-target__parent--spring">All</span>
+                                        </a>
+                                    </div>
+                                    <div class="p-header__list__item--focus">
+                                        <a class="js-nav__link js-target--pointer__stateChange" href="/">
+                                            <span class="js-target__inner--pointer__stateChange js-target__parent--spring">Focus</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="p-header__list__item has-children">
+                                <a @click="about()" class="js-nav__link js-target--pointer__stateChange about" href="/about">
+                                    <span class="js-target__inner--pointer__stateChange js-target__parent--spring">About</span>
+                                </a>
+                                <div class="p-header__list__item__inner">
+                                    <ul class="p-header__languageList">
+                                        <li class="p-header__languageList__item">
+                                            <a class="js-nav__link js-trigger--langChange js-target--pointer__stateChange" data-lang="en" href="#">
+                                                <span class="js-target__inner--pointer__stateChange js-target__parent--spring">En</span>
+                                            </a>
+                                        </li>
+                                        <li class="p-header__languageList__item">
+                                            <a class="js-nav__link js-trigger--langChange js-target--pointer__stateChange" data-lang="zh-cmn-Hans" href="#">
+                                                <span class="js-target__inner--pointer__stateChange js-target__parent--spring">Cn</span>
+                                            </a>
+                                        </li>
+                                        <li class="p-header__languageList__item">
+                                            <a class="js-nav__link js-trigger--langChange js-target--pointer__stateChange" data-lang="ja" href="#">
+                                                <span class="js-target__inner--pointer__stateChange js-target__parent--spring">Jp</span>
+                                            </a>
+                                        </li>
+                                        <li class="p-header__languageList__item line"></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div class="l-navSp b-fonts__medium js-nav">
+                <div class="p-navSp">
+                    <div class="p-header__list__item__inner--works">
+                        <div class="p-header__list__item--all p-navSp__item">
+                            <a class="js-nav__link js-target--pointer__stateChange" href="/works/">
+                                <span class="js-target__inner--pointer__stateChange js-target__parent--spring">All</span>
+                            </a>
+                        </div>
+                        <div class="p-header__list__item--focus p-navSp__item">
+                            <a class="js-nav__link js-target--pointer__stateChange" href="/">
+                                <span class="js-target__inner--pointer__stateChange js-target__parent--spring">Focus</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <main id="page" class="js-smooth-scroll-wrapper">
+                <div id="contents" class="js-smooth-scroll-content">
+                    <div id="works-detail" class="l-works-detail page-content" data-works-num="2">
+                        <article class="p-works-detail b-fonts__medium">
+                            <section class="l-works-detail__head js-parallax__content" data-parallax-ratio="0.8">
+                                <div class="p-works-detail__head js-parallax__target">
+                                    <div class="p-works-detail__head__blank"></div>
+                                    <div style="position: relative">
+                                        <h1 class="p-works-detail__title js-work__title">
+                                            <span class="p-works-detail__title__inner js-work__title__inner">Yas Project</span>
+                                        </h1>
+                                    </div>
+                                    <div class="l-container p-info">
+                                        <p class="p-info__number js-transition__number js-target--split">02</p>
+                                        <time class="p-info__year js-transition__year js-target--split">2020</time>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="l-works-detail__body">
+                                <div class="p-works-detail__body">
+                                    <div class="p-works-detail__body__inner">
+                                        <div class="js-parallax__content" data-parallax-ratio="0.5">
+                                            <div class="bg js-transition__bg js-parallax__target"></div>
+                                        </div>
+                                        <div class="l-container js-transition__listContainer">
+                                            <ul class="p-works-detail__list js-transition__list js-target--smooth" data-smooth-move-ratio="0.012">
+                                                <li class="js-target--imageZoom p-works-detail__list__item js-target--indicator js-transition__list__item js-target--pointer__stateChange" data-mouse-pointer-type="zoom">
+                                                    <div style="overflow:hidden;" class="p-works-detail__opacity" data-image-zoom="images/7stones/1.jpg">
+                                                        <div class="inner" style="pointer-events: none;">
+                                                            <div class="js-parent--parallax">
+                                                                <div class="p-works-detail__list__item__inner">
+                                                                    <div class="js-target--parallax">
+                                                                        <div>
+                                                                            <div class="img">
+                                                                                <img src="images/7stones/1.jpg" alt="" width="1100" height="858">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="js-target--imageZoom p-works-detail__list__item js-target--indicator js-transition__list__item js-target--pointer__stateChange" data-mouse-pointer-type="zoom">
+                                                    <div style="overflow:hidden;" class="p-works-detail__opacity" data-image-zoom="images/7stones/2.jpg">
+                                                        <div class="inner" style="pointer-events: none;">
+                                                            <div class="js-parent--parallax">
+                                                                <div class="p-works-detail__list__item__inner">
+                                                                    <div class="js-target--parallax">
+                                                                        <div>
+                                                                            <div class="img">
+                                                                                <img src="images/7stones/2.jpg" alt="" width="1100" height="556">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </article>
+                    </div>
+                </div>
+            </main>
+            <aside id="side-contact" class="p-sideContact">
+                <address class="l-wide-container">
+                    <dl class="p-sideContact__inner js-target--sideFix">
+                        <div class="p-sideContact__unit">
+                            <dt class="b-fonts__medium">Hello.</dt>
+                            <dd>
+                                <a class="js-target--pointer__stateChange lang-fonts--en c-link--underline js-hover" data-hover-in-time="1010" data-hover-out-time="850" href="mailto: &#105;&#110;&#102;&#111;&#64;&#97;&#115;&#109;&#111;&#98;&#105;&#117;&#115;&#46;&#99;&#111;&#46;&#106;&#112;">
+                                    <span class="js-target__inner--pointer__stateChange c-link--underline__inner">
+                                        &#105;&#110;&#102;&#111;&#64;&#97;&#115;&#109;&#111;&#98;&#105;&#117;&#115;&#46;&#99;&#111;&#46;&#106;&#112;<span class="c-link--underline__line"></span>
+                                    </span>
+                                </a>
+                            </dd>
+                        </div>
+                        <div class="p-sideContact__unit">
+                            <dt class="b-fonts__medium">Work Together.</dt>
+                            <dd>
+                                <a class="js-target--pointer__stateChange lang-fonts--en c-link--underline js-hover" data-hover-in-time="1010" data-hover-out-time="850" href="mailto: &#106;&#111;&#98;&#115;&#64;&#97;&#115;&#109;&#111;&#98;&#105;&#117;&#115;&#46;&#99;&#111;&#46;&#106;&#112;">
+                                    <span class="js-target__inner--pointer__stateChange c-link--underline__inner">
+                                        &#106;&#111;&#98;&#115;&#64;&#97;&#115;&#109;&#111;&#98;&#105;&#117;&#115;&#46;&#99;&#111;&#46;&#106;&#112;<span class="c-link--underline__line"></span>
+                                    </span>
+                                </a>
+                            </dd>
+                        </div>
+                    </dl>
+                </address>
+            </aside>
+            <div id="stage" class="p-stage">
+                <div id="app-canvas"></div>
+                <ul class="p-stage__menu">
+                    <li @click="work1()" class="p-stage__menu__item js-canvas__target" data-canvas-thumb="images/7stones/1.jpg" data-canvas-zoom="images/7stones/1.jpg" data-canvas-url="work1">
+                       نمونه کار شماره ۱<br>Minami Azabu
+                    </li>
+
+                </ul>
+            </div>
+            <div id="indicator">
+                <div id="app-indicator"></div>
+            </div>
+            <div id="pageCover" class="p-pageCover js-target--height__screenFix--mobile" data-fix-height-ratio="1.1">
+                <div class="p-pageCover__inner js-target--height__screenFix--mobile" data-fix-height-ratio="1">
+                    <p id="pageCoverText" class="p-pageCover__text b-fonts__medium">Next</p>
+                </div>
+            </div>
+        </div>
+        <div id="app-mousePointer"></div>
+        <div id="wait-loader" class="l-wide-container p-waitLoader">
+            <div class="p-waitLoader__inner">
+                <div class="p-waitLoader__circle">
+                    <div class="p-waitLoader__layer back"></div>
+                    <div class="p-waitLoader__layer front"></div>
+                </div>
+            </div>
+        </div>
+         <div id="loading" class="p-loading">
+        <div class="p-loading__outer">
+            <div class="p-loading__bg"></div>
+            <div class="p-loading__inner">
+                <div>
+                    <div class="p-loading__front">
+                        <div class="p-loading__front__inner">
+                            <svg class="p-loading__logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 280.13 113.21" style="enable-background:new 0 0 280.13 113.21;" xml:space="preserve">
+                                <g>
+                                    <g id="Layer_2" data-name="Layer 2">
+                                        <g id="Layer_1-2" data-name="Layer 1">
+                                            <path class="st-logo-load"  d="M0,26.21,9.9.44h3.67L24.12,26.21H20.23l-3-7.81H6.45L3.62,26.21ZM7.44,15.63h8.73L13.48,8.49q-1.23-3.25-1.83-5.34a32.85,32.85,0,0,1-1.38,4.92Z"/>
+                                            <path class="st-logo-load"  d="M26.89,26.21V.44H38.32a15.31,15.31,0,0,1,5.24.69,5.73,5.73,0,0,1,2.86,2.46A7.25,7.25,0,0,1,47.5,7.47a6.48,6.48,0,0,1-1.78,4.62,8.94,8.94,0,0,1-5.48,2.39,9.14,9.14,0,0,1,2,1.29,17.2,17.2,0,0,1,2.83,3.43l4.49,7H45.32l-3.41-5.36q-1.5-2.33-2.46-3.55a8,8,0,0,0-1.74-1.73,5.28,5.28,0,0,0-1.55-.68,10.54,10.54,0,0,0-1.9-.12h-4V26.21Zm3.41-14.4h7.33a11.09,11.09,0,0,0,3.66-.48,3.84,3.84,0,0,0,2-1.55A4.17,4.17,0,0,0,44,7.47a3.84,3.84,0,0,0-1.33-3,6.22,6.22,0,0,0-4.19-1.17H30.3Z"/>
+                                            <path class="st-logo-load"  d="M71.23,17.17l3.41.87a11.48,11.48,0,0,1-3.86,6.4A10.65,10.65,0,0,1,64,26.65,12.25,12.25,0,0,1,57.19,25a10.61,10.61,0,0,1-4-4.91,17.53,17.53,0,0,1-1.36-6.91,15.26,15.26,0,0,1,1.53-7,10.53,10.53,0,0,1,4.38-4.55A12.77,12.77,0,0,1,64,0a10.55,10.55,0,0,1,6.5,2A10.21,10.21,0,0,1,74.2,7.51l-3.36.79a8,8,0,0,0-2.6-4.1A7,7,0,0,0,64,2.92a8.34,8.34,0,0,0-5,1.42,7.54,7.54,0,0,0-2.8,3.83,15.27,15.27,0,0,0-.81,4.94,15.69,15.69,0,0,0,1,5.74,7.13,7.13,0,0,0,3,3.67,8.36,8.36,0,0,0,4.38,1.21,7.35,7.35,0,0,0,4.85-1.65A8.49,8.49,0,0,0,71.23,17.17Z"/>
+                                            <path class="st-logo-load"  d="M78.94,26.21V.44h3.41V11h13.4V.44h3.41V26.21H95.75V14.06H82.35V26.21Z"/>
+                                            <path class="st-logo-load" d="M105.42,26.21V.44h3.41V26.21Z"/>
+                                            <path class="st-logo-load" d="M121.39,26.21V3.48H112.9v-3h20.43v3H124.8V26.21Z"/>
+                                            <path class="st-logo-load" d="M136.9,26.21V.44h18.63v3H140.31v7.89h14.25v3H140.31v8.77h15.82v3Z"/>
+                                            <path class="st-logo-load" d="M179.23,17.17l3.41.87a11.48,11.48,0,0,1-3.86,6.4A10.65,10.65,0,0,1,172,26.65a12.25,12.25,0,0,1-6.78-1.7,10.61,10.61,0,0,1-4-4.91,17.53,17.53,0,0,1-1.36-6.91,15.26,15.26,0,0,1,1.53-7,10.53,10.53,0,0,1,4.38-4.55A12.77,12.77,0,0,1,172,0a10.55,10.55,0,0,1,6.5,2,10.21,10.21,0,0,1,3.68,5.54l-3.36.79a8,8,0,0,0-2.6-4.1A7,7,0,0,0,172,2.92a8.34,8.34,0,0,0-5,1.42,7.54,7.54,0,0,0-2.8,3.83,15.27,15.27,0,0,0-.81,4.94,15.69,15.69,0,0,0,1,5.74,7.13,7.13,0,0,0,3,3.67,8.36,8.36,0,0,0,4.38,1.21,7.35,7.35,0,0,0,4.85-1.65A8.49,8.49,0,0,0,179.23,17.17Z"/>
+                                            <path class="st-logo-load" d="M193.39,26.21V3.48H184.9v-3h20.43v3H196.8V26.21Z"/>
+                                            <path class="st-logo-load" d="M225.74.44h3.41V15.33a17.55,17.55,0,0,1-.88,6.17,7.58,7.58,0,0,1-3.17,3.72,11.29,11.29,0,0,1-6,1.43,12.42,12.42,0,0,1-5.93-1.25,7.12,7.12,0,0,1-3.28-3.61,17.14,17.14,0,0,1-1-6.46V.44h3.41V15.31a14.37,14.37,0,0,0,.63,5,4.7,4.7,0,0,0,2.14,2.45,7.36,7.36,0,0,0,3.72.86c2.51,0,4.29-.57,5.36-1.7s1.6-3.33,1.6-6.56Z"/>
+                                            <path class="st-logo-load" d="M234.88,26.21V.44H246.3a15.27,15.27,0,0,1,5.24.69,5.75,5.75,0,0,1,2.87,2.46,7.33,7.33,0,0,1,1.07,3.88,6.47,6.47,0,0,1-1.77,4.62,9,9,0,0,1-5.49,2.39,9.24,9.24,0,0,1,2.06,1.29,17.54,17.54,0,0,1,2.83,3.43l4.48,7H253.3l-3.41-5.36q-1.5-2.33-2.46-3.55a7.75,7.75,0,0,0-1.73-1.73,5.33,5.33,0,0,0-1.56-.68,10.46,10.46,0,0,0-1.9-.12h-4V26.21Zm3.41-14.4h7.33a11.09,11.09,0,0,0,3.66-.48,3.92,3.92,0,0,0,2-1.55A4.16,4.16,0,0,0,252,7.47a3.86,3.86,0,0,0-1.32-3,6.24,6.24,0,0,0-4.19-1.17h-8.16Z"/>
+                                            <path class="st-logo-load" d="M260.89,26.21V.44h18.64v3H264.3v7.89h14.26v3H264.3v8.77h15.83v3Z"/>
+                                            <path class="st-logo-load" d="M17.89,69.41V43.64H36.52v3H21.3v7.89H35.55v3H21.3v8.77H37.12v3Z"/>
+                                            <path class="st-logo-load" d="M41.79,69.41V43.64h3.5L58.83,63.87V43.64h3.26V69.41H58.6L45.06,49.16V69.41Z"/>
+                                            <path class="st-logo-load" d="M79.88,59.3v-3l10.92,0v9.56a19.31,19.31,0,0,1-5.19,3,15.45,15.45,0,0,1-5.48,1,14.58,14.58,0,0,1-6.9-1.63,10.68,10.68,0,0,1-4.68-4.7A14.73,14.73,0,0,1,67,56.65a15.91,15.91,0,0,1,1.58-7,10.46,10.46,0,0,1,4.52-4.85,14.26,14.26,0,0,1,6.81-1.58,13.36,13.36,0,0,1,5,.91,8.26,8.26,0,0,1,3.54,2.52,11,11,0,0,1,2,4.22l-3.07.84A9.68,9.68,0,0,0,85.9,48.6a6.05,6.05,0,0,0-2.47-1.81,9,9,0,0,0-3.55-.67,10.57,10.57,0,0,0-4,.71,7.52,7.52,0,0,0-2.75,1.87,9.13,9.13,0,0,0-1.63,2.55,13.59,13.59,0,0,0-1,5.19,12.57,12.57,0,0,0,1.19,5.76,7.58,7.58,0,0,0,3.45,3.45,10.7,10.7,0,0,0,4.82,1.12,11.43,11.43,0,0,0,4.32-.85,11.07,11.07,0,0,0,3.2-1.82V59.3Z"/>
+                                            <path class="st-logo-load" d="M96.41,69.41V43.64h3.41V69.41Z"/>
+                                            <path class="st-logo-load" d="M105.79,69.41V43.64h3.5l13.54,20.23V43.64h3.27V69.41h-3.5L109.06,49.16V69.41Z"/>
+                                            <path class="st-logo-load" d="M131.9,69.41V43.64h18.63v3H135.31v7.89h14.25v3H135.31v8.77h15.82v3Z"/>
+                                            <path class="st-logo-load" d="M155.91,69.41V43.64h18.63v3H159.32v7.89h14.26v3H159.32v8.77h15.82v3Z"/>
+                                            <path class="st-logo-load" d="M179.9,69.41V43.64h11.43a15.31,15.31,0,0,1,5.24.69,5.73,5.73,0,0,1,2.86,2.46,7.24,7.24,0,0,1,1.07,3.88,6.47,6.47,0,0,1-1.77,4.62,8.94,8.94,0,0,1-5.48,2.39A9.14,9.14,0,0,1,195.3,59a17.2,17.2,0,0,1,2.83,3.43l4.48,7h-4.28l-3.41-5.36q-1.5-2.32-2.47-3.55a7.75,7.75,0,0,0-1.73-1.73,5.39,5.39,0,0,0-1.55-.68,10.54,10.54,0,0,0-1.9-.12h-4V69.41ZM183.31,55h7.33a11.09,11.09,0,0,0,3.66-.48,3.84,3.84,0,0,0,2-1.55,4.17,4.17,0,0,0,.69-2.31,3.8,3.8,0,0,0-1.33-3,6.17,6.17,0,0,0-4.19-1.18h-8.16Z"/>
+                                            <path class="st-logo-load" d="M206.43,69.41V43.64h3.41V69.41Z"/>
+                                            <path class="st-logo-load" d="M215.82,69.41V43.64h3.49l13.54,20.23V43.64h3.27V69.41h-3.5L219.08,49.16V69.41Z"/>
+                                            <path class="st-logo-load" d="M253.91,59.3v-3l10.91,0v9.56a19.26,19.26,0,0,1-5.18,3,15.47,15.47,0,0,1-5.49,1,14.58,14.58,0,0,1-6.9-1.63,10.74,10.74,0,0,1-4.68-4.7A14.73,14.73,0,0,1,241,56.65a15.9,15.9,0,0,1,1.57-7,10.48,10.48,0,0,1,4.53-4.85,14.22,14.22,0,0,1,6.8-1.58,13.32,13.32,0,0,1,5.05.91,8.36,8.36,0,0,1,3.55,2.52,11.32,11.32,0,0,1,1.95,4.22l-3.08.84a9.68,9.68,0,0,0-1.44-3.09,6.08,6.08,0,0,0-2.46-1.81,9.06,9.06,0,0,0-3.55-.67,10.59,10.59,0,0,0-4,.71,7.6,7.6,0,0,0-2.75,1.87,9.1,9.1,0,0,0-1.62,2.55,13.4,13.4,0,0,0-1,5.19,12.57,12.57,0,0,0,1.19,5.76,7.58,7.58,0,0,0,3.45,3.45A10.73,10.73,0,0,0,254,66.77a11.35,11.35,0,0,0,4.32-.85,10.94,10.94,0,0,0,3.2-1.82V59.3Z"/>
+                                            <path class="st-logo-load" d="M14.63,112.61l9.9-25.77H28.2l10.55,25.77H34.87l-3-7.81H21.08l-2.83,7.81ZM22.07,102h8.74l-2.69-7.14q-1.23-3.26-1.83-5.34a32.89,32.89,0,0,1-1.39,4.92Z"/>
+                                            <path class="st-logo-load" d="M41.53,112.61V86.84H53a15.27,15.27,0,0,1,5.24.69A5.75,5.75,0,0,1,61.06,90a7.33,7.33,0,0,1,1.07,3.88,6.44,6.44,0,0,1-1.78,4.62,8.94,8.94,0,0,1-5.48,2.39,9.24,9.24,0,0,1,2.06,1.29,17.54,17.54,0,0,1,2.83,3.43l4.48,7H60l-3.41-5.36q-1.5-2.32-2.46-3.55A8,8,0,0,0,52.35,102a5.33,5.33,0,0,0-1.56-.68,10.46,10.46,0,0,0-1.9-.12h-4v11.44Zm3.41-14.4h7.33a11,11,0,0,0,3.65-.48,3.9,3.9,0,0,0,2-1.55,4.16,4.16,0,0,0,.68-2.31,3.83,3.83,0,0,0-1.32-3,6.22,6.22,0,0,0-4.2-1.18H44.94Z"/>
+                                            <path class="st-logo-load" d="M73.38,112.61V89.88H64.89v-3H85.32v3H76.79v22.73Z"/>
+                                            <path class="st-logo-load" d="M112.49,109.57a10.77,10.77,0,0,1-3.41,2.61,9.24,9.24,0,0,1-4,.87,7.86,7.86,0,0,1-6.27-2.67,7.27,7.27,0,0,1-1.89-4.87,6.78,6.78,0,0,1,1.54-4.32,12.88,12.88,0,0,1,4.6-3.38,15.73,15.73,0,0,1-2.32-3.25,5.7,5.7,0,0,1-.58-2.41,5.4,5.4,0,0,1,1.82-4,6.42,6.42,0,0,1,4.58-1.71A5.94,5.94,0,0,1,110.88,88a5.2,5.2,0,0,1,1.68,3.88q0,3.67-4.87,6.28l4.63,5.89a15.26,15.26,0,0,0,1.23-3.59l3.28.7a17.9,17.9,0,0,1-2.28,5.56,18.11,18.11,0,0,0,4,4l-2.12,2.52A18.52,18.52,0,0,1,112.49,109.57Zm-2-2.5-5.8-7.19a11.18,11.18,0,0,0-3.46,2.84,4.56,4.56,0,0,0-.9,2.59,5.55,5.55,0,0,0,1.25,3.26,4.14,4.14,0,0,0,3.54,1.68,5.81,5.81,0,0,0,2.94-.88A7.15,7.15,0,0,0,110.5,107.07Zm-4.44-10.93A8.37,8.37,0,0,0,108.72,94a3.53,3.53,0,0,0,.61-2,2.89,2.89,0,0,0-.84-2.15,2.8,2.8,0,0,0-2.08-.84,3,3,0,0,0-2.14.83,2.73,2.73,0,0,0-.85,2,2.92,2.92,0,0,0,.31,1.26,6.27,6.27,0,0,0,.92,1.39Z"/>
+                                            <path class="st-logo-load" d="M132.18,112.61V86.84h8.88a21.18,21.18,0,0,1,4.58.37,8.7,8.7,0,0,1,3.78,1.84,10.46,10.46,0,0,1,3.05,4.41,17.15,17.15,0,0,1,1,6.12,18.28,18.28,0,0,1-.68,5.21,12.82,12.82,0,0,1-1.76,3.75,9.3,9.3,0,0,1-2.35,2.34,9.44,9.44,0,0,1-3.07,1.29,17.7,17.7,0,0,1-4.14.44Zm3.41-3h5.5a13.23,13.23,0,0,0,4-.48,5.63,5.63,0,0,0,2.31-1.33,8.14,8.14,0,0,0,1.89-3.26,16,16,0,0,0,.68-5,11.92,11.92,0,0,0-1.33-6.21,6.65,6.65,0,0,0-3.22-2.91,13.43,13.43,0,0,0-4.42-.53h-5.41Z"/>
+                                            <path class="st-logo-load" d="M158.25,112.61V86.84h18.63v3H161.66v7.89h14.25v3H161.66v8.77h15.82v3Z"/>
+                                            <path class="st-logo-load" d="M181,104.33l3.22-.28a7,7,0,0,0,1.06,3.17,5.81,5.81,0,0,0,2.59,2,9.81,9.81,0,0,0,4,.76,9.36,9.36,0,0,0,3.44-.58,4.85,4.85,0,0,0,2.23-1.59,3.72,3.72,0,0,0,.72-2.21,3.31,3.31,0,0,0-.7-2.11,5.16,5.16,0,0,0-2.32-1.53c-.69-.26-2.22-.68-4.59-1.25a23.85,23.85,0,0,1-5-1.61,7,7,0,0,1-2.75-2.4A5.83,5.83,0,0,1,182,93.5a6.57,6.57,0,0,1,1.11-3.65,6.91,6.91,0,0,1,3.23-2.57,12.23,12.23,0,0,1,4.73-.88,13.05,13.05,0,0,1,5.06.92A7.25,7.25,0,0,1,199.5,90a7.76,7.76,0,0,1,1.27,4.06l-3.27.25a5.31,5.31,0,0,0-1.79-3.7,7,7,0,0,0-4.49-1.24,7.2,7.2,0,0,0-4.51,1.13,3.41,3.41,0,0,0-1.41,2.73,2.93,2.93,0,0,0,1,2.29q1,.9,5.14,1.84A33.43,33.43,0,0,1,197.15,99a7.83,7.83,0,0,1,3.32,2.63,6.43,6.43,0,0,1,1.07,3.66,7,7,0,0,1-1.18,3.88A7.78,7.78,0,0,1,197,112a11.86,11.86,0,0,1-5,1,14.83,14.83,0,0,1-5.86-1,8.24,8.24,0,0,1-3.71-3.07A8.76,8.76,0,0,1,181,104.33Z"/>
+                                            <path class="st-logo-load" d="M206.78,112.61V86.84h3.41v25.77Z"/>
+                                            <path class="st-logo-load" d="M228.26,102.5v-3l10.92,0V109a19.46,19.46,0,0,1-5.19,3,15.45,15.45,0,0,1-5.48,1,14.58,14.58,0,0,1-6.9-1.63,10.76,10.76,0,0,1-4.69-4.7,14.85,14.85,0,0,1-1.58-6.87,16,16,0,0,1,1.57-7A10.48,10.48,0,0,1,221.44,88a14.25,14.25,0,0,1,6.8-1.58,13.37,13.37,0,0,1,5.06.91,8.39,8.39,0,0,1,3.54,2.52,11.32,11.32,0,0,1,1.95,4.22l-3.08.84a9.27,9.27,0,0,0-1.44-3.09,5.85,5.85,0,0,0-2.46-1.8,8.85,8.85,0,0,0-3.55-.68,10.5,10.5,0,0,0-4,.71,7.44,7.44,0,0,0-2.75,1.87,9.13,9.13,0,0,0-1.63,2.55,13.4,13.4,0,0,0-1,5.19A12.57,12.57,0,0,0,220,105.4a7.6,7.6,0,0,0,3.46,3.45,10.66,10.66,0,0,0,4.81,1.12,11.44,11.44,0,0,0,4.33-.85,11.21,11.21,0,0,0,3.2-1.82v-4.8Z"/>
+                                            <path class="st-logo-load" d="M244.17,112.61V86.84h3.5l13.53,20.23V86.84h3.27v25.77H261L247.44,92.36v20.25Z"/>
+                                        </g>
+                                    </g>
+
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="p-loading__back">
+                        <div class="p-loading__back__inner">
+                            <svg class="p-loading__logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 280.13 113.21" style="enable-background:new 0 0 280.13 113.21;" xml:space="preserve">
+
+                                <g>
+                                    <g id="Layer_2" data-name="Layer 2">
+                                        <g id="Layer_1-2" data-name="Layer 1">
+                                            <path class="st-logo-load-back"  d="M0,26.21,9.9.44h3.67L24.12,26.21H20.23l-3-7.81H6.45L3.62,26.21ZM7.44,15.63h8.73L13.48,8.49q-1.23-3.25-1.83-5.34a32.85,32.85,0,0,1-1.38,4.92Z"/>
+                                            <path class="st-logo-load-back"  d="M26.89,26.21V.44H38.32a15.31,15.31,0,0,1,5.24.69,5.73,5.73,0,0,1,2.86,2.46A7.25,7.25,0,0,1,47.5,7.47a6.48,6.48,0,0,1-1.78,4.62,8.94,8.94,0,0,1-5.48,2.39,9.14,9.14,0,0,1,2,1.29,17.2,17.2,0,0,1,2.83,3.43l4.49,7H45.32l-3.41-5.36q-1.5-2.33-2.46-3.55a8,8,0,0,0-1.74-1.73,5.28,5.28,0,0,0-1.55-.68,10.54,10.54,0,0,0-1.9-.12h-4V26.21Zm3.41-14.4h7.33a11.09,11.09,0,0,0,3.66-.48,3.84,3.84,0,0,0,2-1.55A4.17,4.17,0,0,0,44,7.47a3.84,3.84,0,0,0-1.33-3,6.22,6.22,0,0,0-4.19-1.17H30.3Z"/>
+                                            <path class="st-logo-load-back"  d="M71.23,17.17l3.41.87a11.48,11.48,0,0,1-3.86,6.4A10.65,10.65,0,0,1,64,26.65,12.25,12.25,0,0,1,57.19,25a10.61,10.61,0,0,1-4-4.91,17.53,17.53,0,0,1-1.36-6.91,15.26,15.26,0,0,1,1.53-7,10.53,10.53,0,0,1,4.38-4.55A12.77,12.77,0,0,1,64,0a10.55,10.55,0,0,1,6.5,2A10.21,10.21,0,0,1,74.2,7.51l-3.36.79a8,8,0,0,0-2.6-4.1A7,7,0,0,0,64,2.92a8.34,8.34,0,0,0-5,1.42,7.54,7.54,0,0,0-2.8,3.83,15.27,15.27,0,0,0-.81,4.94,15.69,15.69,0,0,0,1,5.74,7.13,7.13,0,0,0,3,3.67,8.36,8.36,0,0,0,4.38,1.21,7.35,7.35,0,0,0,4.85-1.65A8.49,8.49,0,0,0,71.23,17.17Z"/>
+                                            <path class="st-logo-load-back"  d="M78.94,26.21V.44h3.41V11h13.4V.44h3.41V26.21H95.75V14.06H82.35V26.21Z"/>
+                                            <path class="st-logo-load-back" d="M105.42,26.21V.44h3.41V26.21Z"/>
+                                            <path class="st-logo-load-back" d="M121.39,26.21V3.48H112.9v-3h20.43v3H124.8V26.21Z"/>
+                                            <path class="st-logo-load-back" d="M136.9,26.21V.44h18.63v3H140.31v7.89h14.25v3H140.31v8.77h15.82v3Z"/>
+                                            <path class="st-logo-load-back" d="M179.23,17.17l3.41.87a11.48,11.48,0,0,1-3.86,6.4A10.65,10.65,0,0,1,172,26.65a12.25,12.25,0,0,1-6.78-1.7,10.61,10.61,0,0,1-4-4.91,17.53,17.53,0,0,1-1.36-6.91,15.26,15.26,0,0,1,1.53-7,10.53,10.53,0,0,1,4.38-4.55A12.77,12.77,0,0,1,172,0a10.55,10.55,0,0,1,6.5,2,10.21,10.21,0,0,1,3.68,5.54l-3.36.79a8,8,0,0,0-2.6-4.1A7,7,0,0,0,172,2.92a8.34,8.34,0,0,0-5,1.42,7.54,7.54,0,0,0-2.8,3.83,15.27,15.27,0,0,0-.81,4.94,15.69,15.69,0,0,0,1,5.74,7.13,7.13,0,0,0,3,3.67,8.36,8.36,0,0,0,4.38,1.21,7.35,7.35,0,0,0,4.85-1.65A8.49,8.49,0,0,0,179.23,17.17Z"/>
+                                            <path class="st-logo-load-back" d="M193.39,26.21V3.48H184.9v-3h20.43v3H196.8V26.21Z"/>
+                                            <path class="st-logo-load-back" d="M225.74.44h3.41V15.33a17.55,17.55,0,0,1-.88,6.17,7.58,7.58,0,0,1-3.17,3.72,11.29,11.29,0,0,1-6,1.43,12.42,12.42,0,0,1-5.93-1.25,7.12,7.12,0,0,1-3.28-3.61,17.14,17.14,0,0,1-1-6.46V.44h3.41V15.31a14.37,14.37,0,0,0,.63,5,4.7,4.7,0,0,0,2.14,2.45,7.36,7.36,0,0,0,3.72.86c2.51,0,4.29-.57,5.36-1.7s1.6-3.33,1.6-6.56Z"/>
+                                            <path class="st-logo-load-back" d="M234.88,26.21V.44H246.3a15.27,15.27,0,0,1,5.24.69,5.75,5.75,0,0,1,2.87,2.46,7.33,7.33,0,0,1,1.07,3.88,6.47,6.47,0,0,1-1.77,4.62,9,9,0,0,1-5.49,2.39,9.24,9.24,0,0,1,2.06,1.29,17.54,17.54,0,0,1,2.83,3.43l4.48,7H253.3l-3.41-5.36q-1.5-2.33-2.46-3.55a7.75,7.75,0,0,0-1.73-1.73,5.33,5.33,0,0,0-1.56-.68,10.46,10.46,0,0,0-1.9-.12h-4V26.21Zm3.41-14.4h7.33a11.09,11.09,0,0,0,3.66-.48,3.92,3.92,0,0,0,2-1.55A4.16,4.16,0,0,0,252,7.47a3.86,3.86,0,0,0-1.32-3,6.24,6.24,0,0,0-4.19-1.17h-8.16Z"/>
+                                            <path class="st-logo-load-back" d="M260.89,26.21V.44h18.64v3H264.3v7.89h14.26v3H264.3v8.77h15.83v3Z"/>
+                                            <path class="st-logo-load-back" d="M17.89,69.41V43.64H36.52v3H21.3v7.89H35.55v3H21.3v8.77H37.12v3Z"/>
+                                            <path class="st-logo-load-back" d="M41.79,69.41V43.64h3.5L58.83,63.87V43.64h3.26V69.41H58.6L45.06,49.16V69.41Z"/>
+                                            <path class="st-logo-load-back" d="M79.88,59.3v-3l10.92,0v9.56a19.31,19.31,0,0,1-5.19,3,15.45,15.45,0,0,1-5.48,1,14.58,14.58,0,0,1-6.9-1.63,10.68,10.68,0,0,1-4.68-4.7A14.73,14.73,0,0,1,67,56.65a15.91,15.91,0,0,1,1.58-7,10.46,10.46,0,0,1,4.52-4.85,14.26,14.26,0,0,1,6.81-1.58,13.36,13.36,0,0,1,5,.91,8.26,8.26,0,0,1,3.54,2.52,11,11,0,0,1,2,4.22l-3.07.84A9.68,9.68,0,0,0,85.9,48.6a6.05,6.05,0,0,0-2.47-1.81,9,9,0,0,0-3.55-.67,10.57,10.57,0,0,0-4,.71,7.52,7.52,0,0,0-2.75,1.87,9.13,9.13,0,0,0-1.63,2.55,13.59,13.59,0,0,0-1,5.19,12.57,12.57,0,0,0,1.19,5.76,7.58,7.58,0,0,0,3.45,3.45,10.7,10.7,0,0,0,4.82,1.12,11.43,11.43,0,0,0,4.32-.85,11.07,11.07,0,0,0,3.2-1.82V59.3Z"/>
+                                            <path class="st-logo-load-back" d="M96.41,69.41V43.64h3.41V69.41Z"/>
+                                            <path class="st-logo-load-back" d="M105.79,69.41V43.64h3.5l13.54,20.23V43.64h3.27V69.41h-3.5L109.06,49.16V69.41Z"/>
+                                            <path class="st-logo-load-back" d="M131.9,69.41V43.64h18.63v3H135.31v7.89h14.25v3H135.31v8.77h15.82v3Z"/>
+                                            <path class="st-logo-load-back" d="M155.91,69.41V43.64h18.63v3H159.32v7.89h14.26v3H159.32v8.77h15.82v3Z"/>
+                                            <path class="st-logo-load-back" d="M179.9,69.41V43.64h11.43a15.31,15.31,0,0,1,5.24.69,5.73,5.73,0,0,1,2.86,2.46,7.24,7.24,0,0,1,1.07,3.88,6.47,6.47,0,0,1-1.77,4.62,8.94,8.94,0,0,1-5.48,2.39A9.14,9.14,0,0,1,195.3,59a17.2,17.2,0,0,1,2.83,3.43l4.48,7h-4.28l-3.41-5.36q-1.5-2.32-2.47-3.55a7.75,7.75,0,0,0-1.73-1.73,5.39,5.39,0,0,0-1.55-.68,10.54,10.54,0,0,0-1.9-.12h-4V69.41ZM183.31,55h7.33a11.09,11.09,0,0,0,3.66-.48,3.84,3.84,0,0,0,2-1.55,4.17,4.17,0,0,0,.69-2.31,3.8,3.8,0,0,0-1.33-3,6.17,6.17,0,0,0-4.19-1.18h-8.16Z"/>
+                                            <path class="st-logo-load-back" d="M206.43,69.41V43.64h3.41V69.41Z"/>
+                                            <path class="st-logo-load-back" d="M215.82,69.41V43.64h3.49l13.54,20.23V43.64h3.27V69.41h-3.5L219.08,49.16V69.41Z"/>
+                                            <path class="st-logo-load-back" d="M253.91,59.3v-3l10.91,0v9.56a19.26,19.26,0,0,1-5.18,3,15.47,15.47,0,0,1-5.49,1,14.58,14.58,0,0,1-6.9-1.63,10.74,10.74,0,0,1-4.68-4.7A14.73,14.73,0,0,1,241,56.65a15.9,15.9,0,0,1,1.57-7,10.48,10.48,0,0,1,4.53-4.85,14.22,14.22,0,0,1,6.8-1.58,13.32,13.32,0,0,1,5.05.91,8.36,8.36,0,0,1,3.55,2.52,11.32,11.32,0,0,1,1.95,4.22l-3.08.84a9.68,9.68,0,0,0-1.44-3.09,6.08,6.08,0,0,0-2.46-1.81,9.06,9.06,0,0,0-3.55-.67,10.59,10.59,0,0,0-4,.71,7.6,7.6,0,0,0-2.75,1.87,9.1,9.1,0,0,0-1.62,2.55,13.4,13.4,0,0,0-1,5.19,12.57,12.57,0,0,0,1.19,5.76,7.58,7.58,0,0,0,3.45,3.45A10.73,10.73,0,0,0,254,66.77a11.35,11.35,0,0,0,4.32-.85,10.94,10.94,0,0,0,3.2-1.82V59.3Z"/>
+                                            <path class="st-logo-load-back" d="M14.63,112.61l9.9-25.77H28.2l10.55,25.77H34.87l-3-7.81H21.08l-2.83,7.81ZM22.07,102h8.74l-2.69-7.14q-1.23-3.26-1.83-5.34a32.89,32.89,0,0,1-1.39,4.92Z"/>
+                                            <path class="st-logo-load-back" d="M41.53,112.61V86.84H53a15.27,15.27,0,0,1,5.24.69A5.75,5.75,0,0,1,61.06,90a7.33,7.33,0,0,1,1.07,3.88,6.44,6.44,0,0,1-1.78,4.62,8.94,8.94,0,0,1-5.48,2.39,9.24,9.24,0,0,1,2.06,1.29,17.54,17.54,0,0,1,2.83,3.43l4.48,7H60l-3.41-5.36q-1.5-2.32-2.46-3.55A8,8,0,0,0,52.35,102a5.33,5.33,0,0,0-1.56-.68,10.46,10.46,0,0,0-1.9-.12h-4v11.44Zm3.41-14.4h7.33a11,11,0,0,0,3.65-.48,3.9,3.9,0,0,0,2-1.55,4.16,4.16,0,0,0,.68-2.31,3.83,3.83,0,0,0-1.32-3,6.22,6.22,0,0,0-4.2-1.18H44.94Z"/>
+                                            <path class="st-logo-load-back" d="M73.38,112.61V89.88H64.89v-3H85.32v3H76.79v22.73Z"/>
+                                            <path class="st-logo-load-back" d="M112.49,109.57a10.77,10.77,0,0,1-3.41,2.61,9.24,9.24,0,0,1-4,.87,7.86,7.86,0,0,1-6.27-2.67,7.27,7.27,0,0,1-1.89-4.87,6.78,6.78,0,0,1,1.54-4.32,12.88,12.88,0,0,1,4.6-3.38,15.73,15.73,0,0,1-2.32-3.25,5.7,5.7,0,0,1-.58-2.41,5.4,5.4,0,0,1,1.82-4,6.42,6.42,0,0,1,4.58-1.71A5.94,5.94,0,0,1,110.88,88a5.2,5.2,0,0,1,1.68,3.88q0,3.67-4.87,6.28l4.63,5.89a15.26,15.26,0,0,0,1.23-3.59l3.28.7a17.9,17.9,0,0,1-2.28,5.56,18.11,18.11,0,0,0,4,4l-2.12,2.52A18.52,18.52,0,0,1,112.49,109.57Zm-2-2.5-5.8-7.19a11.18,11.18,0,0,0-3.46,2.84,4.56,4.56,0,0,0-.9,2.59,5.55,5.55,0,0,0,1.25,3.26,4.14,4.14,0,0,0,3.54,1.68,5.81,5.81,0,0,0,2.94-.88A7.15,7.15,0,0,0,110.5,107.07Zm-4.44-10.93A8.37,8.37,0,0,0,108.72,94a3.53,3.53,0,0,0,.61-2,2.89,2.89,0,0,0-.84-2.15,2.8,2.8,0,0,0-2.08-.84,3,3,0,0,0-2.14.83,2.73,2.73,0,0,0-.85,2,2.92,2.92,0,0,0,.31,1.26,6.27,6.27,0,0,0,.92,1.39Z"/>
+                                            <path class="st-logo-load-back" d="M132.18,112.61V86.84h8.88a21.18,21.18,0,0,1,4.58.37,8.7,8.7,0,0,1,3.78,1.84,10.46,10.46,0,0,1,3.05,4.41,17.15,17.15,0,0,1,1,6.12,18.28,18.28,0,0,1-.68,5.21,12.82,12.82,0,0,1-1.76,3.75,9.3,9.3,0,0,1-2.35,2.34,9.44,9.44,0,0,1-3.07,1.29,17.7,17.7,0,0,1-4.14.44Zm3.41-3h5.5a13.23,13.23,0,0,0,4-.48,5.63,5.63,0,0,0,2.31-1.33,8.14,8.14,0,0,0,1.89-3.26,16,16,0,0,0,.68-5,11.92,11.92,0,0,0-1.33-6.21,6.65,6.65,0,0,0-3.22-2.91,13.43,13.43,0,0,0-4.42-.53h-5.41Z"/>
+                                            <path class="st-logo-load-back" d="M158.25,112.61V86.84h18.63v3H161.66v7.89h14.25v3H161.66v8.77h15.82v3Z"/>
+                                            <path class="st-logo-load-back" d="M181,104.33l3.22-.28a7,7,0,0,0,1.06,3.17,5.81,5.81,0,0,0,2.59,2,9.81,9.81,0,0,0,4,.76,9.36,9.36,0,0,0,3.44-.58,4.85,4.85,0,0,0,2.23-1.59,3.72,3.72,0,0,0,.72-2.21,3.31,3.31,0,0,0-.7-2.11,5.16,5.16,0,0,0-2.32-1.53c-.69-.26-2.22-.68-4.59-1.25a23.85,23.85,0,0,1-5-1.61,7,7,0,0,1-2.75-2.4A5.83,5.83,0,0,1,182,93.5a6.57,6.57,0,0,1,1.11-3.65,6.91,6.91,0,0,1,3.23-2.57,12.23,12.23,0,0,1,4.73-.88,13.05,13.05,0,0,1,5.06.92A7.25,7.25,0,0,1,199.5,90a7.76,7.76,0,0,1,1.27,4.06l-3.27.25a5.31,5.31,0,0,0-1.79-3.7,7,7,0,0,0-4.49-1.24,7.2,7.2,0,0,0-4.51,1.13,3.41,3.41,0,0,0-1.41,2.73,2.93,2.93,0,0,0,1,2.29q1,.9,5.14,1.84A33.43,33.43,0,0,1,197.15,99a7.83,7.83,0,0,1,3.32,2.63,6.43,6.43,0,0,1,1.07,3.66,7,7,0,0,1-1.18,3.88A7.78,7.78,0,0,1,197,112a11.86,11.86,0,0,1-5,1,14.83,14.83,0,0,1-5.86-1,8.24,8.24,0,0,1-3.71-3.07A8.76,8.76,0,0,1,181,104.33Z"/>
+                                            <path class="st-logo-load-back" d="M206.78,112.61V86.84h3.41v25.77Z"/>
+                                            <path class="st-logo-load-back" d="M228.26,102.5v-3l10.92,0V109a19.46,19.46,0,0,1-5.19,3,15.45,15.45,0,0,1-5.48,1,14.58,14.58,0,0,1-6.9-1.63,10.76,10.76,0,0,1-4.69-4.7,14.85,14.85,0,0,1-1.58-6.87,16,16,0,0,1,1.57-7A10.48,10.48,0,0,1,221.44,88a14.25,14.25,0,0,1,6.8-1.58,13.37,13.37,0,0,1,5.06.91,8.39,8.39,0,0,1,3.54,2.52,11.32,11.32,0,0,1,1.95,4.22l-3.08.84a9.27,9.27,0,0,0-1.44-3.09,5.85,5.85,0,0,0-2.46-1.8,8.85,8.85,0,0,0-3.55-.68,10.5,10.5,0,0,0-4,.71,7.44,7.44,0,0,0-2.75,1.87,9.13,9.13,0,0,0-1.63,2.55,13.4,13.4,0,0,0-1,5.19A12.57,12.57,0,0,0,220,105.4a7.6,7.6,0,0,0,3.46,3.45,10.66,10.66,0,0,0,4.81,1.12,11.44,11.44,0,0,0,4.33-.85,11.21,11.21,0,0,0,3.2-1.82v-4.8Z"/>
+                                            <path class="st-logo-load-back" d="M244.17,112.61V86.84h3.5l13.53,20.23V86.84h3.27v25.77H261L247.44,92.36v20.25Z"/>
+                                        </g>
+                                    </g>
+
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="p-alert js-target--height__screenFix--mobile">
+            <p class="p-alert__text b-fonts__medium">Roate your device.</p>
+        </div>
+     </div>
+</template>
+
+     <script>
+     export default {
+
+         methods:{
+             home(){
+                window.location.href = "/";
+             },
+             about(){
+                window.location.href = "/about";
+             }
+         }
+
+     }
+     </script>
+
+    <style >
+        .st-logo {
+           fill: #FFFFFF;
+        }
+          .st-logo-load {
+              fill: #666;
+           }
+        .st-logo-load-back {
+            fill: #fff;
+        }
+    </style>

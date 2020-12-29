@@ -7,18 +7,18 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', '7Stones') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('js/app.js?version=2') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    {{-- <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> --}}
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-    <link rel="stylesheet" href="/css/bundle.css ">
+    <link rel="stylesheet" href="/css/bundle.css?version=2 ">
     {{-- <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -29,9 +29,7 @@
 </head>
 
 <style>
-     .yekan-regular{
-        font-family: yekan-regular;
-    }
+
     .st-logo {
         fill: #FFFFFF;
     }
@@ -48,7 +46,7 @@
     }
 </style>
 
-<body class="font-sans antialiased is-ready yekan-regular">
+<body class="font-sans antialiased is-ready">
 
     <div id="app">
         @yield('content')

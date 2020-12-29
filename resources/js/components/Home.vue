@@ -8,56 +8,18 @@
                     <div class="p-header__left__inner">
                         <a class="js-target--pointer__stateChange" href="/">
                             <div class="js-target__inner--pointer__stateChange js-target__parent--spring">
-                                <!-- <svg version="1.1" id="logo" class="p-header__logo js-logo" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 60 23.3" style="enable-background:new 0 0 60 23.3;" xml:space="preserve">
 
-                                    <g>
-                                        <g>
-                                            <path class="js-st-logo st-logo"
-                                                d="M9.9,10.1C9.7,9.6,9.7,9.6,9,9.6l-3.4,0c-0.6,0-0.7,0.1-0.9,0.6l-0.9,2.6c-0.3,1-0.5,1.7-0.5,1.9	C3.4,14.9,3.5,15,4,15l0.8,0.1c0.2,0.1,0.2,0.5,0,0.6c-0.6,0-1.3,0-2.4-0.1c-0.8,0-1.6,0-2.2,0.1c-0.1-0.1-0.2-0.5,0-0.6L0.8,15	c0.6,0,1.1-0.3,1.4-1.1c0.4-1.1,1.1-2.6,2-5.2l2.4-6.2C6.9,1.7,7.1,1.2,7,0.9C7.6,0.7,8,0.3,8.2,0c0.1,0,0.3,0,0.3,0.2	c0.3,1,0.7,2.1,1,3.1l3.2,9.3c0.7,2,1,2.3,2,2.5l0.6,0.1c0.2,0.1,0.1,0.5,0,0.6c-0.9,0-1.8-0.1-2.8-0.1c-1.1,0-2,0-2.7,0.1	c-0.2-0.1-0.2-0.5,0-0.6l0.7-0.1c0.5,0,0.8-0.2,0.8-0.4c0-0.3-0.1-0.7-0.3-1.2L9.9,10.1z M5.4,8.2C5.2,8.7,5.3,8.8,5.9,8.8h2.8	c0.7,0,0.7-0.1,0.5-0.7L8,4.3C7.8,3.7,7.6,3.1,7.5,2.8h0C7.4,2.9,7.1,3.5,6.9,4.2L5.4,8.2z" />
-                                            <path class="js-st-logo st-logo"
-                                                d="M27.5,16c-1.9,0-3.2-0.6-3.6-0.9c-0.3-0.5-0.6-2.2-0.6-3.2c0.1-0.2,0.5-0.2,0.6-0.1c0.3,1.2,1.3,3.4,4,3.4	c1.9,0,2.9-1.3,2.9-2.7c0-1-0.2-2.1-1.9-3.2L26.6,8c-1.2-0.8-2.5-2.1-2.5-4c0-2.2,1.7-4,4.7-4c0.7,0,1.5,0.1,2.1,0.3	c0.3,0.1,0.6,0.1,0.8,0.1C32,1,32.2,2.3,32.2,3.3c-0.1,0.1-0.5,0.2-0.6,0.1c-0.3-1.1-0.9-2.6-3.1-2.6c-2.3,0-2.8,1.5-2.8,2.6	c0,1.3,1.1,2.3,2,2.8l1.8,1.2c1.5,0.9,2.9,2.2,2.9,4.4C32.4,14.3,30.5,16,27.5,16z" />
-                                            <path class="js-st-logo st-logo"
-                                                d="M48.7,9.5c0.5,1.1,1,2.1,1.6,3.2h0c0.6-1.1,1.2-2.3,1.8-3.5l2.2-4.4c1-2.1,1.7-3.4,1.8-4.4	c0.8,0.1,1.3,0.1,1.7,0.1c0.6,0,1.3,0,2.1-0.1c0.1,0.1,0.1,0.5,0,0.6l-0.5,0c-1.5,0.1-1.6,0.6-1.6,2.2c0,2.4,0.1,6.7,0.3,10.1	c0.1,1.2,0,1.8,1.1,1.9l0.7,0.1c0.1,0.1,0.1,0.5,0,0.6c-0.9,0-1.9-0.1-2.7-0.1c-0.8,0-1.8,0-2.8,0.1c-0.2-0.1-0.2-0.4,0-0.6L55,15	c1.1-0.1,1.1-0.5,1.1-2L56,3.4h0c-0.2,0.3-1,2.1-1.5,3l-2.1,4c-1,2-2.1,4.2-2.5,5.3c0,0.1-0.1,0.1-0.2,0.1c0,0-0.2,0-0.2-0.1	c-0.4-1.2-1.5-3.5-2-4.6l-2.1-4.5c-0.5-1.1-1-2.3-1.5-3.3h0c-0.1,1.4-0.2,2.8-0.2,4.1c-0.1,1.4-0.2,3.5-0.2,5.4	c0,1.7,0.1,2.1,1,2.2l0.9,0.1c0.2,0.1,0.1,0.5,0,0.6c-0.8,0-1.7-0.1-2.6-0.1c-0.7,0-1.6,0-2.4,0.1c-0.1-0.1-0.2-0.5,0-0.6l0.5-0.1	c1-0.1,1.3-0.3,1.4-1.9c0.1-1.5,0.3-2.8,0.4-5.1c0.1-1.9,0.2-3.9,0.3-5.2c0-1.5-0.1-1.8-1.5-2l-0.4,0c-0.1-0.1-0.1-0.5,0.1-0.6	c0.7,0,1.2,0.1,1.8,0.1c0.5,0,1.2,0,1.9-0.1c-0.1,0.9,0.5,2.3,1.2,3.8L48.7,9.5z" />
-                                        </g>
-                                        <g>
-                                            <path class="js-st-logo st-logo"
-                                                d="M0.9,22.3c0.1,0,0.1-0.1,0.1-0.1l0-0.2c0-0.2,0-0.4-0.3-0.4c-0.1,0-0.3,0.1-0.3,0.2c0,0.1,0,0.1,0,0.1	C0.2,22,0.1,22,0.1,22C0,22,0,22,0,22c0-0.2,0.5-0.5,0.8-0.5c0.3,0,0.5,0.2,0.4,0.5l0,0.7c0,0.2,0,0.4,0.2,0.4c0,0,0.1,0,0.1,0	c0,0,0,0,0.1,0c0,0,0,0,0,0.1c0,0-0.2,0.2-0.4,0.2c-0.1,0-0.2,0-0.3-0.1c0,0,0-0.1-0.1-0.1c0,0-0.1,0-0.2,0.1	c-0.1,0.1-0.2,0.1-0.3,0.1c-0.1,0-0.2,0-0.3-0.1C0.1,23.1,0,23,0,22.8c0-0.2,0.1-0.3,0.4-0.4L0.9,22.3z M0.6,23.1	c0.1,0,0.2-0.1,0.3-0.1c0.1-0.1,0.1-0.1,0.1-0.2l0-0.3c0,0,0-0.1,0-0.1c0,0-0.1,0-0.2,0c-0.3,0.1-0.4,0.2-0.4,0.3	C0.3,22.9,0.4,23.1,0.6,23.1z" />
-                                            <path class="js-st-logo st-logo"
-                                                d="M2.9,22c0-0.2,0-0.2-0.1-0.3l0,0c0,0,0-0.1,0-0.1c0.1,0,0.3-0.1,0.4-0.2c0,0,0,0,0,0v0.2c0,0,0,0,0,0	c0.2-0.1,0.3-0.3,0.5-0.3c0.1,0,0.2,0.1,0.2,0.2c0,0.1-0.1,0.2-0.2,0.2c0,0-0.1,0-0.1,0c-0.1,0-0.1-0.1-0.2-0.1	c-0.1,0-0.1,0-0.2,0.1c0,0.1-0.1,0.2-0.1,0.3v0.6c0,0.3,0,0.4,0.2,0.4l0.2,0c0,0,0,0.1,0,0.1c-0.2,0-0.3,0-0.5,0	c-0.2,0-0.3,0-0.4,0c0,0,0-0.1,0-0.1l0.1,0c0.2,0,0.2-0.1,0.2-0.4V22z" />
-                                            <path class="js-st-logo st-logo" d="M6.3,21.5c0,0,0.1,0.1,0.1,0.2c0,0.1,0,0.2-0.1,0.2c0,0,0,0-0.1,0c-0.1-0.1-0.3-0.2-0.4-0.2	c-0.3,0-0.6,0.2-0.6,0.7c0,0.3,0.2,0.7,0.7,0.7c0.2,0,0.4-0.1,0.5-0.3c0,0,0.1,0,0.1,0.1c-0.1,0.3-0.5,0.4-0.7,0.4	c-0.2,0-0.4-0.1-0.6-0.2c-0.2-0.1-0.2-0.4-0.2-0.6c0-0.5,0.3-1,1-1C6,21.4,6.2,21.5,6.3,21.5z" />
-                                            <path class="js-st-logo st-logo"
-                                                d="M7.7,20.8c0-0.3,0-0.3-0.1-0.4l0,0c0,0,0-0.1,0-0.1c0.1,0,0.3-0.1,0.5-0.2c0,0,0,0,0,0c0,0.1,0,0.3,0,0.5v0.9	c0,0,0,0.1,0,0.1c0.2-0.1,0.4-0.2,0.6-0.2c0.4,0,0.6,0.3,0.6,0.6v0.7c0,0.3,0,0.4,0.2,0.4l0.1,0c0,0,0,0.1,0,0.1	c-0.2,0-0.3,0-0.4,0c-0.2,0-0.3,0-0.4,0c0,0,0-0.1,0-0.1l0.1,0c0.2,0,0.2-0.1,0.2-0.4v-0.6c0-0.3-0.1-0.5-0.4-0.5	c-0.1,0-0.3,0.1-0.3,0.1C8,21.8,8,21.8,8,22v0.7c0,0.3,0,0.4,0.2,0.4l0.1,0c0,0,0,0.1,0,0.1c-0.1,0-0.3,0-0.4,0	c-0.2,0-0.3,0-0.4,0c0,0,0-0.1,0-0.1l0.1,0c0.2,0,0.2-0.1,0.2-0.4V20.8z" />
-                                            <path class="js-st-logo st-logo" d="M10.8,22c0-0.2,0-0.2-0.1-0.3l0,0c0,0,0-0.1,0-0.1c0.1,0,0.3-0.1,0.4-0.2c0,0,0,0,0,0c0,0.2,0,0.4,0,0.5v0.8	c0,0.3,0,0.4,0.2,0.4l0.1,0c0,0,0,0.1,0,0.1c-0.1,0-0.3,0-0.4,0c-0.2,0-0.3,0-0.4,0c0,0,0-0.1,0-0.1l0.1,0c0.2,0,0.2-0.1,0.2-0.4	V22z M11.2,20.7c0,0.2-0.1,0.2-0.2,0.2c-0.1,0-0.2-0.1-0.2-0.2c0-0.1,0.1-0.2,0.2-0.2C11.1,20.5,11.2,20.6,11.2,20.7z" />
-                                            <path class="js-st-logo st-logo" d="M13.1,21.7c-0.1,0-0.1,0-0.1,0.1v0.8c0,0.2,0,0.5,0.3,0.5c0,0,0.1,0,0.1,0c0,0,0.1-0.1,0.1-0.1	c0,0,0.1,0,0,0.1c-0.1,0.1-0.2,0.2-0.5,0.2c-0.4,0-0.4-0.2-0.4-0.5v-1c0-0.1,0-0.1-0.1-0.1h-0.1c0,0,0-0.1,0-0.1	c0.1,0,0.2-0.1,0.3-0.1c0.1-0.1,0.1-0.2,0.2-0.3c0,0,0.1,0,0.1,0v0.2c0,0.1,0,0.1,0.1,0.1h0.5c0.1,0,0,0.2,0,0.2H13.1z" />
-                                            <path class="js-st-logo st-logo" d="M15.1,22.1c-0.1,0-0.1,0-0.1,0.1c0,0.4,0.3,0.8,0.7,0.8c0.1,0,0.3,0,0.4-0.2c0,0,0.1,0,0.1,0.1	c-0.1,0.3-0.5,0.4-0.7,0.4c-0.3,0-0.5-0.1-0.6-0.3c-0.1-0.2-0.2-0.4-0.2-0.6c0-0.5,0.3-1,0.9-1c0.4,0,0.6,0.3,0.6,0.5	c0,0.1,0,0.1,0,0.1c0,0-0.1,0-0.3,0H15.1z M15.4,22c0.3,0,0.4,0,0.4,0c0,0,0,0,0-0.1c0-0.1-0.1-0.3-0.3-0.3	c-0.3,0-0.5,0.2-0.5,0.4c0,0,0,0,0,0H15.4z" />
-                                            <path class="js-st-logo st-logo" d="M18.7,21.5c0,0,0.1,0.1,0.1,0.2c0,0.1,0,0.2-0.1,0.2c0,0,0,0-0.1,0c-0.1-0.1-0.3-0.2-0.4-0.2	c-0.3,0-0.6,0.2-0.6,0.7c0,0.3,0.2,0.7,0.7,0.7c0.2,0,0.4-0.1,0.5-0.3c0,0,0.1,0,0.1,0.1c-0.1,0.3-0.5,0.4-0.7,0.4	c-0.2,0-0.4-0.1-0.6-0.2c-0.2-0.1-0.2-0.4-0.2-0.6c0-0.5,0.3-1,1-1C18.4,21.4,18.6,21.5,18.7,21.5z" />
-                                            <path class="js-st-logo st-logo" d="M20.5,21.7c-0.1,0-0.1,0-0.1,0.1v0.8c0,0.2,0,0.5,0.3,0.5c0,0,0.1,0,0.1,0c0,0,0.1-0.1,0.1-0.1	c0,0,0.1,0,0,0.1c-0.1,0.1-0.2,0.2-0.5,0.2c-0.4,0-0.4-0.2-0.4-0.5v-1c0-0.1,0-0.1-0.1-0.1h-0.1c0,0,0-0.1,0-0.1	c0.1,0,0.2-0.1,0.3-0.1c0.1-0.1,0.1-0.2,0.2-0.3c0,0,0.1,0,0.1,0v0.2c0,0.1,0,0.1,0.1,0.1h0.5c0.1,0,0,0.2,0,0.2H20.5z" />
-                                            <path class="js-st-logo st-logo"
-                                                d="M23,21.5c0,0.1,0.1,0.2,0.1,0.3c0,0-0.1,0-0.1,0c-0.1-0.2-0.2-0.3-0.4-0.3c-0.2,0-0.3,0.1-0.3,0.3	c0,0.2,0.2,0.3,0.3,0.4c0.2,0.1,0.4,0.3,0.4,0.6c0,0.3-0.3,0.5-0.6,0.5c-0.2,0-0.4,0-0.5-0.1c0-0.1-0.1-0.3-0.1-0.4	c0,0,0.1,0,0.1,0c0.1,0.2,0.2,0.4,0.5,0.4c0.2,0,0.3-0.1,0.3-0.3c0-0.2-0.2-0.3-0.3-0.4c-0.2-0.1-0.4-0.3-0.4-0.5	c0-0.3,0.3-0.5,0.6-0.5C22.8,21.4,23,21.5,23,21.5z" />
-                                            <path class="js-st-logo st-logo"
-                                                d="M27.1,22.3c0.1,0,0.1-0.1,0.1-0.1l0-0.2c0-0.2,0-0.4-0.3-0.4c-0.1,0-0.3,0.1-0.3,0.2c0,0.1,0,0.1,0,0.1	C26.5,22,26.3,22,26.3,22c0,0-0.1,0-0.1-0.1c0-0.2,0.5-0.5,0.8-0.5c0.3,0,0.5,0.2,0.4,0.5l0,0.7c0,0.2,0,0.4,0.2,0.4	c0,0,0.1,0,0.1,0c0,0,0,0,0.1,0c0,0,0,0,0,0.1c0,0-0.2,0.2-0.4,0.2c-0.1,0-0.2,0-0.3-0.1c0,0,0-0.1-0.1-0.1c0,0-0.1,0-0.2,0.1	c-0.1,0.1-0.2,0.1-0.3,0.1c-0.1,0-0.2,0-0.3-0.1c-0.1-0.1-0.1-0.2-0.1-0.3c0-0.2,0.1-0.3,0.4-0.4L27.1,22.3z M26.8,23.1	c0.1,0,0.2-0.1,0.3-0.1c0.1-0.1,0.1-0.1,0.1-0.2l0-0.3c0,0,0-0.1,0-0.1c0,0-0.1,0-0.2,0c-0.3,0.1-0.4,0.2-0.4,0.3	C26.5,22.9,26.6,23.1,26.8,23.1z" />
-                                            <path class="js-st-logo st-logo"
-                                                d="M29.1,22c0-0.2,0-0.2-0.1-0.3l0,0c0,0,0-0.1,0-0.1c0.1,0,0.3-0.1,0.4-0.2c0,0,0,0,0,0c0,0.1,0,0.2,0,0.2	c0,0,0,0,0,0c0.2-0.1,0.4-0.2,0.6-0.2c0.4,0,0.5,0.2,0.5,0.5v0.7c0,0.3,0,0.4,0.2,0.4l0.1,0c0,0,0,0.1,0,0.1c-0.1,0-0.3,0-0.4,0	c-0.2,0-0.3,0-0.4,0c0,0,0-0.1,0-0.1l0.1,0c0.2,0,0.2-0.1,0.2-0.4v-0.6c0-0.2-0.1-0.4-0.4-0.4c-0.2,0-0.3,0.1-0.4,0.2	c-0.1,0.1-0.1,0.1-0.1,0.3v0.7c0,0.3,0,0.3,0.2,0.4l0.1,0c0,0,0,0.1,0,0.1c-0.1,0-0.2,0-0.4,0c-0.2,0-0.3,0-0.4,0c0,0,0-0.1,0-0.1	l0.1,0c0.2,0,0.2-0.1,0.2-0.4V22z" />
-                                            <path class="js-st-logo st-logo"
-                                                d="M33.6,22.6c0,0.3,0,0.5,0.1,0.5c0,0,0.1,0,0.2,0c0,0,0,0.1,0,0.1c-0.2,0-0.4,0.1-0.6,0.1c0,0,0,0,0,0v-0.1	c0-0.1,0-0.1,0-0.1h0c-0.2,0.1-0.3,0.2-0.5,0.2c-0.5,0-0.8-0.4-0.8-0.8c0-0.6,0.5-1,1-1c0.1,0,0.2,0,0.3,0c0,0,0,0,0-0.1v-0.7	c0-0.3,0-0.3-0.1-0.4l0,0c0,0,0-0.1,0-0.1c0.1,0,0.3-0.1,0.5-0.2c0,0,0,0,0,0c0,0.1,0,0.3,0,0.5V22.6z M33.3,21.9	c0-0.1,0-0.1,0-0.2c-0.1-0.1-0.2-0.2-0.4-0.2c-0.4,0-0.6,0.3-0.6,0.7c0,0.4,0.2,0.8,0.6,0.8c0.1,0,0.3-0.1,0.3-0.1	c0,0,0-0.1,0-0.2V21.9z" />
-                                            <path class="js-st-logo st-logo"
-                                                d="M37.8,22.3c0.1,0,0.1-0.1,0.1-0.1l0-0.2c0-0.2,0-0.4-0.3-0.4c-0.1,0-0.3,0.1-0.3,0.2c0,0.1,0,0.1,0,0.1	C37.2,22,37.1,22,37,22c0,0-0.1,0-0.1-0.1c0-0.2,0.5-0.5,0.8-0.5c0.3,0,0.5,0.2,0.4,0.5l0,0.7c0,0.2,0,0.4,0.2,0.4	c0,0,0.1,0,0.1,0c0,0,0,0,0.1,0c0,0,0,0,0,0.1c0,0-0.2,0.2-0.4,0.2c-0.1,0-0.2,0-0.3-0.1c0,0,0-0.1-0.1-0.1c0,0-0.1,0-0.2,0.1	c-0.1,0.1-0.2,0.1-0.3,0.1c-0.1,0-0.2,0-0.3-0.1c-0.1-0.1-0.1-0.2-0.1-0.3c0-0.2,0.1-0.3,0.4-0.4L37.8,22.3z M37.5,23.1	c0.1,0,0.2-0.1,0.3-0.1c0.1-0.1,0.1-0.1,0.1-0.2l0-0.3c0,0,0-0.1,0-0.1c0,0-0.1,0-0.2,0c-0.3,0.1-0.4,0.2-0.4,0.3	C37.3,22.9,37.3,23.1,37.5,23.1z" />
-                                            <path class="js-st-logo st-logo"
-                                                d="M40.6,21.5c0,0.1,0.1,0.2,0.1,0.3c0,0-0.1,0-0.1,0c-0.1-0.2-0.2-0.3-0.4-0.3c-0.2,0-0.3,0.1-0.3,0.3	c0,0.2,0.2,0.3,0.3,0.4c0.2,0.1,0.4,0.3,0.4,0.6c0,0.3-0.3,0.5-0.6,0.5c-0.2,0-0.4,0-0.5-0.1c0-0.1-0.1-0.3-0.1-0.4	c0,0,0.1,0,0.1,0c0.1,0.2,0.2,0.4,0.5,0.4c0.2,0,0.3-0.1,0.3-0.3c0-0.2-0.2-0.3-0.3-0.4c-0.2-0.1-0.4-0.3-0.4-0.5	c0-0.3,0.3-0.5,0.6-0.5C40.4,21.4,40.5,21.5,40.6,21.5z" />
-                                            <path class="js-st-logo st-logo"
-                                                d="M42.8,21.5c0,0.1,0.1,0.2,0.1,0.3c0,0-0.1,0-0.1,0c-0.1-0.2-0.2-0.3-0.4-0.3c-0.2,0-0.3,0.1-0.3,0.3	c0,0.2,0.2,0.3,0.3,0.4c0.2,0.1,0.4,0.3,0.4,0.6c0,0.3-0.3,0.5-0.6,0.5c-0.2,0-0.4,0-0.5-0.1c0-0.1-0.1-0.3-0.1-0.4	c0,0,0.1,0,0.1,0c0.1,0.2,0.2,0.4,0.5,0.4c0.2,0,0.3-0.1,0.3-0.3c0-0.2-0.2-0.3-0.3-0.4c-0.2-0.1-0.4-0.3-0.4-0.5	c0-0.3,0.3-0.5,0.6-0.5C42.6,21.4,42.8,21.5,42.8,21.5z" />
-                                            <path class="js-st-logo st-logo" d="M45.8,22.3c0,0.5-0.4,0.9-0.9,0.9c-0.5,0-0.9-0.3-0.9-0.9c0-0.5,0.4-0.9,0.9-0.9	C45.4,21.4,45.8,21.8,45.8,22.3z M44.9,21.6c-0.3,0-0.5,0.3-0.5,0.7c0,0.4,0.2,0.8,0.6,0.8c0.4,0,0.5-0.4,0.5-0.7	C45.5,22,45.3,21.6,44.9,21.6z" />
-                                            <path class="js-st-logo st-logo" d="M48.4,21.5c0,0,0.1,0.1,0.1,0.2c0,0.1,0,0.2-0.1,0.2c0,0,0,0-0.1,0c-0.1-0.1-0.3-0.2-0.4-0.2	c-0.3,0-0.6,0.2-0.6,0.7c0,0.3,0.2,0.7,0.7,0.7c0.2,0,0.4-0.1,0.5-0.3c0,0,0.1,0,0.1,0.1c-0.1,0.3-0.5,0.4-0.7,0.4	c-0.2,0-0.4-0.1-0.6-0.2c-0.2-0.1-0.2-0.4-0.2-0.6c0-0.5,0.3-1,1-1C48.1,21.4,48.3,21.5,48.4,21.5z" />
-                                            <path class="js-st-logo st-logo" d="M49.8,22c0-0.2,0-0.2-0.1-0.3l0,0c0,0,0-0.1,0-0.1c0.1,0,0.3-0.1,0.4-0.2c0,0,0,0,0,0c0,0.2,0,0.4,0,0.5v0.8	c0,0.3,0,0.4,0.2,0.4l0.1,0c0,0,0,0.1,0,0.1c-0.1,0-0.3,0-0.4,0c-0.2,0-0.3,0-0.4,0c0,0,0-0.1,0-0.1l0.1,0c0.2,0,0.2-0.1,0.2-0.4	V22z M50.2,20.7c0,0.2-0.1,0.2-0.2,0.2c-0.1,0-0.2-0.1-0.2-0.2c0-0.1,0.1-0.2,0.2-0.2C50.1,20.5,50.2,20.6,50.2,20.7z" />
-                                            <path class="js-st-logo st-logo"
-                                                d="M52.4,22.3c0.1,0,0.1-0.1,0.1-0.1l0-0.2c0-0.2,0-0.4-0.3-0.4c-0.1,0-0.3,0.1-0.3,0.2c0,0.1,0,0.1,0,0.1	C51.8,22,51.7,22,51.6,22c0,0-0.1,0-0.1-0.1c0-0.2,0.5-0.5,0.8-0.5c0.3,0,0.5,0.2,0.4,0.5l0,0.7c0,0.2,0,0.4,0.2,0.4	c0,0,0.1,0,0.1,0c0,0,0,0,0.1,0c0,0,0,0,0,0.1c0,0-0.2,0.2-0.4,0.2c-0.1,0-0.2,0-0.3-0.1c0,0,0-0.1-0.1-0.1c0,0-0.1,0-0.2,0.1	c-0.1,0.1-0.2,0.1-0.3,0.1c-0.1,0-0.2,0-0.3-0.1c-0.1-0.1-0.1-0.2-0.1-0.3c0-0.2,0.1-0.3,0.4-0.4L52.4,22.3z M52.1,23.1	c0.1,0,0.2-0.1,0.3-0.1c0.1-0.1,0.1-0.1,0.1-0.2l0-0.3c0,0,0-0.1,0-0.1c0,0-0.1,0-0.2,0c-0.3,0.1-0.4,0.2-0.4,0.3	C51.9,22.9,51.9,23.1,52.1,23.1z" />
-                                            <path class="js-st-logo st-logo" d="M54.8,21.7c-0.1,0-0.1,0-0.1,0.1v0.8c0,0.2,0,0.5,0.3,0.5c0,0,0.1,0,0.1,0c0,0,0.1-0.1,0.1-0.1	c0,0,0.1,0,0,0.1c-0.1,0.1-0.2,0.2-0.5,0.2c-0.4,0-0.4-0.2-0.4-0.5v-1c0-0.1,0-0.1-0.1-0.1h-0.1c0,0,0-0.1,0-0.1	c0.1,0,0.2-0.1,0.3-0.1c0.1-0.1,0.1-0.2,0.2-0.3c0,0,0.1,0,0.1,0v0.2c0,0.1,0,0.1,0.1,0.1h0.5c0.1,0,0,0.2,0,0.2H54.8z" />
-                                            <path class="js-st-logo st-logo" d="M56.7,22.1c-0.1,0-0.1,0-0.1,0.1c0,0.4,0.3,0.8,0.7,0.8c0.1,0,0.3,0,0.4-0.2c0,0,0.1,0,0.1,0.1	c-0.1,0.3-0.5,0.4-0.7,0.4c-0.3,0-0.5-0.1-0.6-0.3c-0.1-0.2-0.2-0.4-0.2-0.6c0-0.5,0.3-1,0.9-1c0.4,0,0.6,0.3,0.6,0.5	c0,0.1,0,0.1,0,0.1c0,0-0.1,0-0.3,0H56.7z M57,22c0.3,0,0.4,0,0.4,0c0,0,0,0,0-0.1c0-0.1-0.1-0.3-0.3-0.3c-0.3,0-0.5,0.2-0.5,0.4	c0,0,0,0,0,0H57z" />
-                                            <path class="js-st-logo st-logo"
-                                                d="M59.9,21.5c0,0.1,0.1,0.2,0.1,0.3c0,0-0.1,0-0.1,0c-0.1-0.2-0.2-0.3-0.4-0.3c-0.2,0-0.3,0.1-0.3,0.3	c0,0.2,0.2,0.3,0.3,0.4c0.2,0.1,0.4,0.3,0.4,0.6c0,0.3-0.3,0.5-0.6,0.5c-0.2,0-0.4,0-0.5-0.1c0-0.1-0.1-0.3-0.1-0.4	c0,0,0.1,0,0.1,0c0.1,0.2,0.2,0.4,0.5,0.4c0.2,0,0.3-0.1,0.3-0.3c0-0.2-0.2-0.3-0.3-0.4c-0.2-0.1-0.4-0.3-0.4-0.5	c0-0.3,0.3-0.5,0.6-0.5C59.7,21.4,59.9,21.5,59.9,21.5z" />
+                                <svg id="logo" class="p-header__logo js-logo" x="0px" y="0px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 684.62 320.15" style="enable-background:new 0 0 684.62 320.15;" xml:space="preserve">
+
+                                    <g >
+                                        <g >
+                                            <path class="js-st-logo st-logo" d="M242.4 102.22V3.4c0-3.64-.32-3.39 3.35-3.39h84C333.17 0 333-.21 333 3.28v105.78c0 4.14-.4 3.71 3.74 3.72h101.25c3.91 0 3.56-.4 3.57 3.66v84.67c0 3.47.23 3.24-3.26 3.24H245.6c-3.48 0-3.2.18-3.2-3.3zM0 102.23V3.4C0-.25-.3 0 3.35 0h83.5c3.59 0 3.31-.28 3.32 3.42v197.66c0 3.48.25 3.27-3.23 3.27H3.2c-3.48 0-3.19.16-3.19-3.3Q0 151.64 0 102.23zM109 102.24V3.66c0-4-.33-3.65 3.58-3.65h83.26c3.6 0 3.52-.41 3.52 3.51v197.4c0 3.77 0 3.43-3.37 3.43h-83.75c-3.26 0-3.26 0-3.26-3.29zM584.82 204.35h-96.24c-3.75 0-3.46.36-3.47-3.52v-84.7c0-3.71-.2-3.35 3.39-3.35h192.72c3.38 0 3.4-.39 3.4 3.4v84.93c0 3.61-.08 3.24-3.32 3.24z"/>
+                                            <path class="js-st-logo st-logo" d="M351 46.08V4.34 2.67c0-2.64 0-2.66 2.66-2.66h86.37c1 0 1.5.39 1.47 1.41V89c0 3.46.25 3.25-3.25 3.25h-84.18c-3 0-3.05 0-3.05-3Q351 67.66 351 46.08zM485.11 46V4.32 2.4c0-2.36 0-2.39 2.43-2.39H574.36a1 1 0 011 1.06v88.72c0 2.36 0 2.39-2.42 2.39H486.12a1 1 0 01-1-1.06c0-.72-.05-1.44-.05-2.16zM594.24 46.1V2.94c0-2.92 0-2.93 2.85-2.93h85.38c2 .07 2.08.13 2.15 2.25V88.58c0 4.06.16 3.64-3.61 3.64h-83.23c-3.89 0-3.53.3-3.53-3.44q-.03-21.34-.01-42.68z"/>
+                                            <path class="js-st-logo st-logo" d="M20.72 282.1V277h27.8v4.1a59.06 59.06 0 00-8.13 11.6 70.73 70.73 0 00-6.22 14.88 55.49 55.49 0 00-2 11.81h-5.45a52.8 52.8 0 012-12.25 64.49 64.49 0 015.46-13.84 59.3 59.3 0 017.57-11.23zM113.94 305.62l5.36-.47a11.9 11.9 0 001.78 5.29 9.57 9.57 0 004.32 3.34 16.34 16.34 0 006.59 1.27 15.88 15.88 0 005.74-1 8 8 0 003.71-2.65 6.17 6.17 0 001.21-3.68 5.6 5.6 0 00-1.17-3.53 8.6 8.6 0 00-3.87-2.53 75.57 75.57 0 00-7.64-2.1 39.08 39.08 0 01-8.29-2.68 11.66 11.66 0 01-4.59-4 9.76 9.76 0 01-1.51-5.35 10.9 10.9 0 011.85-6.07 11.44 11.44 0 015.39-4.3 20.56 20.56 0 017.88-1.46 21.44 21.44 0 018.42 1.54 12.13 12.13 0 015.61 4.52 13 13 0 012.11 6.77l-5.45.41a8.77 8.77 0 00-3-6.15q-2.53-2.08-7.49-2.08c-3.43 0-5.94.63-7.51 1.89a5.68 5.68 0 00-2.36 4.55 4.88 4.88 0 001.67 3.81q1.63 1.5 8.57 3.06a57.37 57.37 0 019.51 2.74 13.1 13.1 0 015.53 4.38 10.7 10.7 0 011.79 6.11 11.65 11.65 0 01-2 6.46 13 13 0 01-5.64 4.72 19.69 19.69 0 01-8.28 1.68 24.61 24.61 0 01-9.77-1.7 13.59 13.59 0 01-6.18-5.11 14.54 14.54 0 01-2.29-7.68zM226.82 319.42v-37.88h-14.15v-5.07h34.05v5.07h-14.21v37.88zM309.73 298.5q0-10.69 5.74-16.74a19.54 19.54 0 0114.83-6.05 20.6 20.6 0 0110.7 2.84 18.62 18.62 0 017.28 7.93 25.7 25.7 0 012.53 11.52 25.25 25.25 0 01-2.64 11.69 18 18 0 01-7.47 7.81 21.31 21.31 0 01-10.43 2.65 20.25 20.25 0 01-10.84-2.93 18.86 18.86 0 01-7.24-8 24.21 24.21 0 01-2.46-10.72zm5.86.09q0 7.77 4.18 12.23a14.56 14.56 0 0021 0Q345 306.27 345 298a22 22 0 00-1.77-9.15 13.66 13.66 0 00-5.19-6.06 14 14 0 00-7.66-2.16 14.51 14.51 0 00-10.39 4.15q-4.4 4.11-4.4 13.81zM418.07 319.42v-42.95h5.83l22.56 33.72v-33.72h5.45v42.95h-5.83l-22.56-33.75v33.75zM521.58 319.42v-42.95h31v5.07h-25.32v13.15H551v5h-23.74v14.62h26.37v5.07zM631.55 305.62l5.36-.47a11.78 11.78 0 001.77 5.29 9.68 9.68 0 004.32 3.34 16.38 16.38 0 006.59 1.27 15.93 15.93 0 005.75-1 8 8 0 003.7-2.65 6.18 6.18 0 001.22-3.68 5.6 5.6 0 00-1.17-3.53 8.6 8.6 0 00-3.87-2.53 75.23 75.23 0 00-7.65-2.1 39.28 39.28 0 01-8.29-2.68 11.56 11.56 0 01-4.58-4 9.76 9.76 0 01-1.51-5.35 10.89 10.89 0 011.81-6.03 11.44 11.44 0 015.39-4.3 20.61 20.61 0 017.89-1.46 21.44 21.44 0 018.42 1.54 12.13 12.13 0 015.61 4.52 13 13 0 012.11 6.77L659 289a8.77 8.77 0 00-3-6.15c-1.68-1.39-4.18-2.08-7.48-2.08s-5.94.63-7.52 1.89a5.66 5.66 0 00-2.35 4.55 4.85 4.85 0 001.67 3.81q1.63 1.5 8.57 3.06a57.48 57.48 0 019.5 2.74 13.14 13.14 0 015.54 4.38 10.7 10.7 0 011.79 6.11 11.66 11.66 0 01-2 6.46 12.89 12.89 0 01-5.64 4.72 19.68 19.68 0 01-8.27 1.68 24.55 24.55 0 01-9.77-1.7 13.59 13.59 0 01-6.18-5.11 14.45 14.45 0 01-2.31-7.74z"/>
                                         </g>
                                     </g>
-                                </svg> -->
+                                </svg>
+
                             </div>
                         </a>
                     </div>
@@ -103,8 +65,8 @@
                         <li class="p-header__list__item works pc">
                             <div class="p-header__list__item__inner--works">
                                 <div class="p-header__list__item--all">
-                                    <a @click="ss2()" class="js-nav__link js-target--pointer__stateChange" href="/works">
-                                        <span class="js-target__inner--pointer__stateChange js-target__parent--spring">All</span>
+                                    <a @click="projects()" class="js-nav__link js-target--pointer__stateChange" href="/projects">
+                                        <span class="js-target__inner--pointer__stateChange js-target__parent--spring">Projects</span>
                                     </a>
                                 </div>
                                 <div class="p-header__list__item--focus">
@@ -115,7 +77,7 @@
                             </div>
                         </li>
                          <li class="p-header__list__item has-children">
-                            <a @click="ss()" class="js-nav__link js-target--pointer__stateChange" href="/about"  >
+                            <a @click="about()" class="js-nav__link js-target--pointer__stateChange" href="/about"  >
                                 <span  class="js-target__inner--pointer__stateChange js-target__parent--spring">About</span>
                             </a>
 
@@ -148,8 +110,8 @@
             <div class="p-navSp">
                 <div class="p-header__list__item__inner--works">
                     <div class="p-header__list__item--all p-navSp__item">
-                        <a class="js-nav__link js-target--pointer__stateChange" href="/works">
-                            <span class="js-target__inner--pointer__stateChange js-target__parent--spring">All</span>
+                        <a class="js-nav__link js-target--pointer__stateChange" href="/projects">
+                            <span class="js-target__inner--pointer__stateChange js-target__parent--spring">Projects</span>
                         </a>
                     </div>
                     <div class="p-header__list__item--focus p-navSp__item">
@@ -195,52 +157,21 @@
             <div id="stage" class="p-stage">
                 <div id="app-canvas"></div>
                 <ul class="p-stage__menu">
-                     <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="images/7stones/2-min.jpg" data-canvas-zoom="images/7stones/1.jpg" data-canvas-url="work1">
-                       نمونه کار شماره ۱<br>Minami Azabu
+
+                    <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/yas-project-main.jpg" data-canvas-url="yas-project">
+                      Yas Project
                     </li>
-                    <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="images/7stones/2-min.jpg" data-canvas-zoom="images/7stones/2-min.jpg" data-canvas-url="work2">
-                       نمونه کار شماره ۲<br>Minami Azabu
+                    <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/jaban-project-main.jpg" data-canvas-url="jaban-project">
+                       Jaban Project
                     </li>
-                     <!--<li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="images/7stones/3.jpg" data-canvas-zoom="images/7stones/3.jpg" data-canvas-url="">
-                       نمونه کار شماره ۳<br>Minami Azabu
-                    </li> -->
-                    <!--<li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2020/01/00-main-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2020/01/00-main-2048x1024.jpg" data-canvas-url="https://asmobius.co.jp/works/asm-kawana-project/">ASM Kawana Project</li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/03/main-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/03/main.jpg" data-canvas-url="https://asmobius.co.jp/works/hikawa-gardens/">HIKAWA GARDENS</li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-2-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-2.jpg" data-canvas-url="https://asmobius.co.jp/works/one-avenue/">ONE AVENUE</li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-10-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-10.jpg" data-canvas-url="https://asmobius.co.jp/works/century-forest/">CENTURY FOREST</li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-4-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-4.jpg" data-canvas-url="https://asmobius.co.jp/works/proudrokakoen/">
-                        PROUD<br>Rokakoen
+                     <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/jaban-project-main2.jpg" data-canvas-url="jaban-project">
+                       Jaban Project<br>view 2
                     </li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-6-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-6.jpg" data-canvas-url="https://asmobius.co.jp/works/park-mansionroppongi/">
-                        PARK MANSION<br>Roppongi
+                     <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/jaban-project-main3.jpg" data-canvas-url="jaban-project">
+                       Jaban Project<br>view 3
+
                     </li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-5-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-5.jpg" data-canvas-url="https://asmobius.co.jp/works/nishiazaburesidence/">
-                        NISHIAZABU<br>RESIDENCE
-                    </li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-12-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-12.jpg" data-canvas-url="https://asmobius.co.jp/works/azabu-gardens/">AZABU GARDENS</li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-7-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-7.jpg" data-canvas-url="https://asmobius.co.jp/works/the-park-housegran-minamiaoyama/">
-                        THE PARK HOUSE<br>Gran Minamiaoyama
-                    </li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-9-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-9.jpg" data-canvas-url="https://asmobius.co.jp/works/dianacourtbunkyo-hongodai/">
-                        DIANACOURT<br>Bunkyo Hongodai
-                    </li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-11-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-11.jpg" data-canvas-url="https://asmobius.co.jp/works/classy-househiroo-fiorire/">
-                        CLASSY HOUSE<br>Hiroo Fiorire
-                    </li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-8-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-8.jpg" data-canvas-url="https://asmobius.co.jp/works/cloistershiroo/">
-                        CLOISTERS<br>Hiroo
-                    </li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-13-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-13.jpg" data-canvas-url="https://asmobius.co.jp/works/f-house/">F HOUSE</li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-14-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-14.jpg" data-canvas-url="https://asmobius.co.jp/works/k-house/">K HOUSE</li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-16-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-16.jpg" data-canvas-url="https://asmobius.co.jp/works/inokashira/">INOKASHIRA</li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-17-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-17.jpg" data-canvas-url="https://asmobius.co.jp/works/itohpia-jiyugaoka/">ITOHPIA jiyugaoka</li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main.jpg" data-canvas-url="https://asmobius.co.jp/works/atlassuwacho-residence/">
-                        ATLAS<br>Suwacho Residence
-                    </li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-15-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-15.jpg" data-canvas-url="https://asmobius.co.jp/works/brilliahongo-sanchome/">
-                        Brillia<br>Hongo Sanchome
-                    </li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-3-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-3.jpg" data-canvas-url="https://asmobius.co.jp/works/five/">FIVE</li> -->
+
                 </ul>
             </div>
             <div id="indicator">
@@ -248,7 +179,7 @@
             </div>
             <div id="pageCover" class="p-pageCover js-target--height__screenFix--mobile" data-fix-height-ratio="1.1">
                 <div class="p-pageCover__inner js-target--height__screenFix--mobile" data-fix-height-ratio="1">
-                    <p id="pageCoverText" class="p-pageCover__text b-fonts__medium">بعدی</p>
+                    <p id="pageCoverText" class="p-pageCover__text b-fonts__medium">next</p>
                 </div>
             </div>
         </div>
@@ -393,11 +324,11 @@ export default {
         // })
     },
     methods:{
-        ss(){
+        about(){
            window.location.href = "/about";
         },
-        ss2(){
-           window.location.href = "/works";
+        projects(){
+           window.location.href = "/projects";
         },
 
     }

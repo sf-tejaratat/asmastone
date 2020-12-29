@@ -40,9 +40,9 @@
 
 <body class="font-sans antialiased  yekan-regular max-h-screen overflow-hidden">
 
-    <div id="app" class="flex flex-col justify-start pt-10 items-center h-screen w-full overflow-screen bg-white" >
+    <div id="app" class="flex flex-col justify-start items-center h-screen w-full overflow-hidden" style="background-color:#141414" >
 
-        <div class="mx-auto flex">
+        {{-- <div class="mx-auto flex">
             <img class="transform scale-90" src="/images/construct.png" alt="">
         </div>
         <svg class="w-16 h-16 current-color text-indigo-600 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
@@ -57,17 +57,18 @@
             <span>logout</span>
             </form> --}}
 
-        </div>
+      {{--  </div> --}}
+      <img class="h-screen w-full  object-contain transform scale-150 lg:object-cover " src="/images/uc-min.jpg" alt="">
         <div class="login-form fixed flex  h-full w-full justify-center  hidden z-10 top-0">
             <span class="fixed h-full w-full bg-gray-200 top-0 opacity-75"></span>
 
-            <div class="fixed flex flex-col mt-40 w-1/2 bg-white rounded-lg mx-auto z-20 opacity-100 shadow-xl">
+            <div class="fixed flex flex-col mt-40 w-11/12 md:px-0 md:w-1/2 bg-white rounded-lg mx-auto z-20 opacity-100 shadow-xl">
                 <div class="flex flex-col w-full py-10">
                     <form class="container mx-auto flex flex-col items-center w-full justify-center" method="POST" action="{{ route('login') }}">
                         @csrf
 
                         <div class="flex flex-row-reverse items-center mb-6">
-                            <label for="نام کاربری" class="mr-4 w-24">: نام کاربری</label>
+                            <label for="نام کاربری" class="mr-2 md:mr-4 w-24">: نام کاربری</label>
 
                             <div class="px-8">
                                 <input style="direction:rtl" id="email" type="email" class="flex appearance-none focus:outline-none border border-gray-400 rounded py-2 px-4 @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
@@ -80,7 +81,7 @@
                             </div>
                         </div>
                         <div class="flex flex-row-reverse items-center">
-                            <label  class="mr-4 w-24">: رمز عبور</label>
+                            <label  class="mr-2 md:mr-4 w-24">: رمز عبور</label>
 
                             <div class="px-8">
                                 <input style="direction:rtl" id="password" type="password" class="flex appearance-none focus:outline-none border border-gray-400 rounded py-2 px-4 @error('password') is-invalid @enderror" name="password" value="{{ old('email') }}" required autocomplete="current-password" autofocus>
@@ -185,9 +186,30 @@ $('body').keypress(function( event ) {
     }
     });
 
+
+
+function double_tap(){
+    $('.login-form').removeClass('hidden');
+}
+
+var tapped=false
+$(document).on("touchstart",function(e){
+    if(!tapped){
+      tapped=setTimeout(function(){
+
+          tapped=null
+      },300); //wait 300ms
+    } else {
+      clearTimeout(tapped);
+      tapped=null
+      double_tap()
+    }
+
+
+});
     </script>
 
-//     {{-- <script>
+     {{-- <script>
 //         if ('serviceWorker' in navigator) {
 //   // Use the window load event to keep the page load performant
 //   window.addEventListener('load', () => {

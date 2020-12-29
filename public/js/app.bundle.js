@@ -5916,7 +5916,7 @@
                                     }),
                                     m.add(function (e) {
 
-                                        document.querySelector(".js-target__aboutClose").setAttribute("href", "/works/"),
+                                        document.querySelector(".js-target__aboutClose").setAttribute("href", "/projects"),
                                             PROJECT.smoothScrollManager.run(),
                                             i.a.wait(100).then(e)
                                     }),
@@ -10386,7 +10386,7 @@
 
                                     ,
                                     this.canParallaxUpdate = !0,
-                                    "list" === PROJECT.worksMode ? this.$worksDetailClose.setAttribute("href", "/works/") : this.$worksDetailClose.setAttribute("href", "/")
+                                    "list" === PROJECT.worksMode ? this.$worksDetailClose.setAttribute("href", "/projects") : this.$worksDetailClose.setAttribute("href", "/")
                             }
                         }, {
                             key: "viewDidAppear",
@@ -10458,8 +10458,8 @@
                                         PROJECT.screenFix.addNoKeyUp(),
                                         PROJECT.screenFix.addNoWheel(),
                                         "list" === PROJECT.worksMode ? (PROJECT.pageTransitionState.worksDetailToWorks = 1,
-                                            i.a.triggerPageTransition("/works/")) : (PROJECT.pageTransitionState.worksDetailToTop = 1,
-                                                i.a.triggerPageTransition("/"))))
+                                            i.a.triggerPageTransition("/projects")) : (PROJECT.pageTransitionState.worksDetailToTop = 1,
+                                                i.a.triggerPageTransition("/projects"))))
                             }
                         }, {
                             key: "_setIndicator",
@@ -11419,7 +11419,7 @@
                     staticClass: "js-control__text p-control__text "
                 }, [t("div", {
                     staticClass: "js-target__inner--pointer__stateChange js-target__parent--spring"
-                }, [this._v("قبلی")])])
+                }, [this._v("prev")])])
             }
                 , function () {
                     var e = this.$createElement
@@ -11428,7 +11428,7 @@
                         staticClass: "js-control__text p-control__text"
                     }, [t("div", {
                         staticClass: "js-target__inner--pointer__stateChange js-target__parent--spring"
-                    }, [this._v("بعدی")])])
+                    }, [this._v("next")])])
                 }
                 , function () {
                     var e = this.$createElement

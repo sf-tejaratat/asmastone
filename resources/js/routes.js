@@ -1,8 +1,8 @@
 import Home from './components/Home'
 import About from './components/About'
-import Works from './components/Works'
-import Work1 from './components/Work1'
-import Work2 from './components/Work2'
+import Projects from './components/Projects'
+import JabanProject from './components/JabanProject'
+import YasProject from './components/YasProject'
 
 export default {
     mode: 'history',
@@ -16,14 +16,14 @@ export default {
             component: About
         },
         {
-            path: '/works/',
-            component: Works
+            path: '/projects',
+            component: Projects
         }, {
-            path: '/work1',
-            component: Work1
+            path: '/jaban-project',
+            component: JabanProject
         }, {
-            path: '/work2',
-            component: Work2
+            path: '/yas-project',
+            component: YasProject
         }
     ]
 }
