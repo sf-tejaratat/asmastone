@@ -3,6 +3,7 @@ import About from './components/About'
 import Projects from './components/Projects'
 import JabanProject from './components/JabanProject'
 import YasProject from './components/YasProject'
+import LimooProject from './components/LimooProject'
 
 export default {
     mode: 'history',
@@ -24,6 +25,9 @@ export default {
         }, {
             path: '/yas-project',
             component: YasProject
+        }, {
+            path: '/limoo-project',
+            component: LimooProject
         }
     ]
 }

@@ -5,7 +5,7 @@
                 <div class="p-header l-wide-container">
                     <div class="p-header__left js-logo">
                         <div class="p-header__left__inner">
-                            <a class="js-target--pointer__stateChange" href="/">
+                            <a @click="home()" class="js-target--pointer__stateChange" href="/">
                                 <div class="js-target__inner--pointer__stateChange js-target__parent--spring">
                                     <svg id="logo" class="p-header__logo js-logo" x="0px" y="0px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 684.62 320.15" style="enable-background:new 0 0 684.62 320.15;" xml:space="preserve">
                                         <g>
@@ -144,7 +144,7 @@
                                         <div class="l-container js-transition__listContainer">
                                             <ul class="p-works-detail__list js-transition__list js-target--smooth" data-smooth-move-ratio="0.012">
                                                 <li class="js-target--imageZoom p-works-detail__list__item js-target--indicator js-transition__list__item js-target--pointer__stateChange" data-mouse-pointer-type="zoom">
-                                                    <div style="overflow:hidden;" class="p-works-detail__opacity" data-image-zoom="images/7stones/1.jpg">
+                                                    <div style="overflow:hidden;" class="p-works-detail__opacity" data-image-zoom="images/7stones/jaban-detail/1.jpg">
                                                         <div class="inner" style="pointer-events: none;">
                                                             <div class="js-parent--parallax">
                                                                 <div class="p-works-detail__list__item__inner">
@@ -161,7 +161,7 @@
                                                     </div>
                                                 </li>
                                                 <li class="js-target--imageZoom p-works-detail__list__item js-target--indicator js-transition__list__item js-target--pointer__stateChange" data-mouse-pointer-type="zoom">
-                                                    <div style="overflow:hidden;" class="p-works-detail__opacity" data-image-zoom="images/7stones/2.jpg">
+                                                    <div style="overflow:hidden;" class="p-works-detail__opacity" data-image-zoom="images/7stones/jaban-detail/2.jpg">
                                                         <div class="inner" style="pointer-events: none;">
                                                             <div class="js-parent--parallax">
                                                                 <div class="p-works-detail__list__item__inner">
@@ -178,7 +178,7 @@
                                                     </div>
                                                 </li>
                                                 <li class="js-target--imageZoom p-works-detail__list__item js-target--indicator js-transition__list__item js-target--pointer__stateChange" data-mouse-pointer-type="zoom">
-                                                    <div style="overflow:hidden;" class="p-works-detail__opacity" data-image-zoom="images/7stones/2.jpg">
+                                                    <div style="overflow:hidden;" class="p-works-detail__opacity" data-image-zoom="images/7stones/jaban-detail/3.jpg">
                                                         <div class="inner" style="pointer-events: none;">
                                                             <div class="js-parent--parallax">
                                                                 <div class="p-works-detail__list__item__inner">
@@ -195,7 +195,7 @@
                                                     </div>
                                                 </li>
                                                 <li class="js-target--imageZoom p-works-detail__list__item js-target--indicator js-transition__list__item js-target--pointer__stateChange" data-mouse-pointer-type="zoom">
-                                                    <div style="overflow:hidden;" class="p-works-detail__opacity" data-image-zoom="images/7stones/2.jpg">
+                                                    <div style="overflow:hidden;" class="p-works-detail__opacity" data-image-zoom="images/7stones/jaban-detail/4.jpg">
                                                         <div class="inner" style="pointer-events: none;">
                                                             <div class="js-parent--parallax">
                                                                 <div class="p-works-detail__list__item__inner">
@@ -212,7 +212,7 @@
                                                     </div>
                                                 </li>
                                                 <li class="js-target--imageZoom p-works-detail__list__item js-target--indicator js-transition__list__item js-target--pointer__stateChange" data-mouse-pointer-type="zoom">
-                                                    <div style="overflow:hidden;" class="p-works-detail__opacity" data-image-zoom="images/7stones/2.jpg">
+                                                    <div style="overflow:hidden;" class="p-works-detail__opacity" data-image-zoom="images/7stones/jaban-detail/5.jpg">
                                                         <div class="inner" style="pointer-events: none;">
                                                             <div class="js-parent--parallax">
                                                                 <div class="p-works-detail__list__item__inner">
@@ -229,7 +229,7 @@
                                                     </div>
                                                 </li>
                                                 <li class="js-target--imageZoom p-works-detail__list__item js-target--indicator js-transition__list__item js-target--pointer__stateChange" data-mouse-pointer-type="zoom">
-                                                    <div style="overflow:hidden;" class="p-works-detail__opacity" data-image-zoom="images/7stones/2.jpg">
+                                                    <div style="overflow:hidden;" class="p-works-detail__opacity" data-image-zoom="images/7stones/jaban-detail/6.jpg">
                                                         <div class="inner" style="pointer-events: none;">
                                                             <div class="js-parent--parallax">
                                                                 <div class="p-works-detail__list__item__inner">

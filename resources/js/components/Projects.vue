@@ -151,8 +151,9 @@
                             <div class="p-works__bg"></div>
                             <div class="l-middle-container">
                                 <ul class="p-works__list p-list b-fonts__medium js-target--smooth">
+
                                     <li class="p-list__item p-works__list__item">
-                                        <a @click="yasproject()" class="js-hover__works-list js-trigger--pageTransition js-target--pointer__stateChange js-hover" data-hover-in-time="450" data-hover-out-time="700" href="/yas-project">
+                                        <a @click="limooproject()" class="js-hover__works-list js-trigger--pageTransition js-target--pointer__stateChange js-hover" data-hover-in-time="450" data-hover-out-time="700" href="/limoo-project">
                                             <div>
                                                 <div class="js-parent--parallax p-works__text">
                                                     <div class="js-target--parallax" data-parallax-move-range-y="230">
@@ -162,7 +163,7 @@
                                                             </div>
                                                             <div class="p-works__title">
                                                                 <h1>
-                                                                  Yas Project
+                                                                  Limoo Teb Project
                                                                 </h1>
                                                             </div>
                                                         </div>
@@ -172,13 +173,14 @@
                                                     <div class="p-works__thumb">
                                                         <div class="p-works__thumb__maskCover"></div>
                                                         <div class="p-works__thumb__inner js-parent--parallax">
-                                                            <div class="p-works__thumb__img js-target--parallax" style="background-image:url('images/7stones/yas-project-main.jpg'); background-size: cover;"></div>
+                                                            <div class="p-works__thumb__img js-target--parallax" style="background-image:url('images/7stones/limoo-teb/limoo-teb4.jpg'); background-size: cover;"></div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </a>
                                     </li>
+
                                     <li class="p-list__item p-works__list__item">
                                         <a @click="jabanproject()" href="jaban-project" class="js-hover__works-list js-trigger--pageTransition js-target--pointer__stateChange js-hover" data-hover-in-time="450" data-hover-out-time="700">
                                             <div>
@@ -251,6 +253,34 @@
                                                         <div class="p-works__thumb__maskCover"></div>
                                                         <div class="p-works__thumb__inner js-parent--parallax">
                                                             <div class="p-works__thumb__img js-target--parallax" style="background-image:url('images/7stones/jaban-project-main3.jpg'); background-size: cover;"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="p-list__item p-works__list__item">
+                                        <a @click="yasproject()" class="js-hover__works-list js-trigger--pageTransition js-target--pointer__stateChange js-hover" data-hover-in-time="450" data-hover-out-time="700" href="/yas-project">
+                                            <div>
+                                                <div class="js-parent--parallax p-works__text">
+                                                    <div class="js-target--parallax" data-parallax-move-range-y="230">
+                                                        <div class="p-works__text__inner">
+                                                            <div class="num">
+                                                                <small>05</small>
+                                                            </div>
+                                                            <div class="p-works__title">
+                                                                <h1>
+                                                                  Yas Project
+                                                                </h1>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="p-works__panel">
+                                                    <div class="p-works__thumb">
+                                                        <div class="p-works__thumb__maskCover"></div>
+                                                        <div class="p-works__thumb__inner js-parent--parallax">
+                                                            <div class="p-works__thumb__img js-target--parallax" style="background-image:url('images/7stones/yas-project-main.jpg'); background-size: cover;"></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -477,6 +507,9 @@ export default {
         home(){
                window.location.href = "/";
         },
+        limooproject(){
+             window.location.href = "/limoo-project";
+        },
         jabanproject(){
               window.location.href = "/jaban-project";
         },
@@ -485,7 +518,8 @@ export default {
         },
         about(){
               window.location.href = "/about";
-        }
+        },
+
     }
 }
 </script>

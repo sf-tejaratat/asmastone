@@ -62,16 +62,16 @@
         <div class="login-form fixed flex  h-full w-full justify-center  hidden z-10 top-0">
             <span class="fixed h-full w-full bg-gray-200 top-0 opacity-75"></span>
 
-            <div class="fixed flex flex-col mt-40 w-11/12 md:px-0 md:w-1/2 bg-white rounded-lg mx-auto z-20 opacity-100 shadow-xl">
+            <div class="fixed flex flex-col mt-40 w-11/12 md:px-0 md:w-1/2 bg-gray-900 rounded-lg mx-auto z-20 opacity-100 shadow-xl">
                 <div class="flex flex-col w-full py-10">
                     <form class="container mx-auto flex flex-col items-center w-full justify-center" method="POST" action="{{ route('login') }}">
                         @csrf
 
                         <div class="flex flex-row-reverse items-center mb-6">
-                            <label for="نام کاربری" class="mr-2 md:mr-4 w-24">: نام کاربری</label>
+                            {{-- <label for="نام کاربری" class="mr-2 md:mr-4 w-16 md:w-24">: نام کاربری</label> --}}
 
                             <div class="px-8">
-                                <input style="direction:rtl" id="email" type="email" class="flex appearance-none focus:outline-none border border-gray-400 rounded py-2 px-4 @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+                                <input   id="email" type="email" placeholder="username" class="flex appearance-none focus:outline-none border border-gray-400 rounded py-2 px-4 @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
 
                                 {{-- @error('email')
                                     <span class="invalid-feedback" role="alert">
@@ -81,10 +81,10 @@
                             </div>
                         </div>
                         <div class="flex flex-row-reverse items-center">
-                            <label  class="mr-2 md:mr-4 w-24">: رمز عبور</label>
+                            {{-- <label  class="mr-2 md:mr-4 w-16 md:w-24">: رمز عبور</label> --}}
 
                             <div class="px-8">
-                                <input style="direction:rtl" id="password" type="password" class="flex appearance-none focus:outline-none border border-gray-400 rounded py-2 px-4 @error('password') is-invalid @enderror" name="password" value="{{ old('email') }}" required autocomplete="current-password" autofocus>
+                                <input  id="password" type="password" placeholder="password" class="flex appearance-none focus:outline-none border border-gray-400 rounded py-2 px-4 @error('password') is-invalid @enderror" name="password" value="{{ old('email') }}" required autocomplete="current-password" autofocus>
 
                                 {{-- @error('email')
                                     <span class="invalid-feedback" role="alert">
@@ -113,7 +113,7 @@
                         <div class="flex ">
                             <div class="mx-auto mt-10">
                                 <button type="submit" class="py-2 px-6 text-white bg-green-600 text-white text-center rounded-md">
-                                    لاگین
+                                    login
                                 </button>
                             </div>
                         </div>

@@ -6,19 +6,42 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="imagetoolbar" content="no">
+    <meta name="viewport" content="initial-scale=1.0,minimum-scale=1,maximum-scale=5">
+    <meta name="format-detection" content="telephone=no">
+    <title>7 STONES</title>
+    {{-- <meta name="author" content="https://asmobius.co.jp"> --}}
+    <meta name="copyright" content="7 STONES">
+    <meta name="description" content="طراحی پلن های ساختمانی با معماری مدرن با کیفیت مثال زدنی">
+    <meta name="keywords" content="7stones,طراحی ساختمان,مشاور ساخت,پیمانکاری ساختمان,نیاوران,ولنجک,لواسان,اقدسیه,قیطریه"/>
+    {{-- <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png"> --}}
+    {{-- <link rel="manifest" href="/assets/favicons/site.webmanifest"> --}}
+    {{-- <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#252525"> --}}
+    <meta name="msapplication-TileColor" content="#252525">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="7 STONES">
+    <meta property="og:type" content="website">
+
+    <meta property="og:url" content="">
+    <meta property="og:description" content="طراحی پلن های ساختمانی با معماری مدرن با کیفیت مثال زدنی">
+
 
     <title>{{ config('app.name', '7Stones') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js?version=2') }}" defer></script>
+    <script src="{{ asset('js/app.js?version=3') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    {{-- <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> --}}
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-    <link rel="stylesheet" href="/css/bundle.css?version=2 ">
+    <link rel="stylesheet" href="/css/bundle.css?version=3 ">
     {{-- <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"

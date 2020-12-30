@@ -11419,7 +11419,7 @@
                     staticClass: "js-control__text p-control__text "
                 }, [t("div", {
                     staticClass: "js-target__inner--pointer__stateChange js-target__parent--spring"
-                }, [this._v("prev")])])
+                }, [this._v("PREV")])])
             }
                 , function () {
                     var e = this.$createElement
@@ -11428,7 +11428,7 @@
                         staticClass: "js-control__text p-control__text"
                     }, [t("div", {
                         staticClass: "js-target__inner--pointer__stateChange js-target__parent--spring"
-                    }, [this._v("next")])])
+                    }, [this._v("NEXT")])])
                 }
                 , function () {
                     var e = this.$createElement
@@ -12593,7 +12593,7 @@
                 }]),
                     e
             }();
-        setTimeout(console.log.bind(console, "%cCreated By https://baqemono.jp", "color: #fff;background-color: rgb(76, 76, 76);border:6px solid rgb(76, 76, 76);")),
+        setTimeout(console.log.bind(console, "%cnemesisKO was here", "color: #fff;background-color: rgb(76, 76, 76);border:6px solid rgb(76, 76, 76);")),
             n(104),
             window.ua = new o,
             window.MOBILE = ua.mobile,

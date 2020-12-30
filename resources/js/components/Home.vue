@@ -158,8 +158,8 @@
                 <div id="app-canvas"></div>
                 <ul class="p-stage__menu">
 
-                    <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/yas-project-main.jpg" data-canvas-url="yas-project">
-                      Yas Project
+                    <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/limoo-teb/limoo-teb4.jpg" data-canvas-url="limoo-project">
+                      Limoo Project<br>Limoo Teb
                     </li>
                     <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/jaban-project-main.jpg" data-canvas-url="jaban-project">
                        Jaban Project
@@ -170,6 +170,9 @@
                      <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/jaban-project-main3.jpg" data-canvas-url="jaban-project">
                        Jaban Project<br>view 3
 
+                    </li>
+                     <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/yas-project-main.jpg" data-canvas-url="yas-project">
+                      Yas Project
                     </li>
 
                 </ul>
