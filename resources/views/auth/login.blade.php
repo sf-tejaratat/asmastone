@@ -12,12 +12,15 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js?version=4') }}" defer></script>
-    <script src="js/jquery3.5.min.js"></script>
-
+<
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+    {{-- <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> --}}
+    {{-- <script src="/js/jquery.min.js" ></script> --}}
+    <script src="/js/jquery3.5.min.js" ></script>
+
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
