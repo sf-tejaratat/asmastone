@@ -230,8 +230,8 @@
                                                     </dt>
                                                     <dd class="c-grid__body p-about__dd p-about__award__dd">
                                                         <p class="p-about__section__description">
-                                                            <span class="text">Good Design Award, Japan Industrial Design Promotion Organization</span>
-                                                            <small>[ Brillia THE TOWER TOKYO YAESU AVENUE ]</small>
+                                                            <span class="text">Good Design Award, Tehran Industrial Design Promotion Organization</span>
+                                                            <small>[ AGHDASIE ]</small>
                                                         </p>
                                                     </dd>
                                                 </div>
@@ -387,12 +387,12 @@
                                                 </div> -->
                                                 <div class="c-grid lang-fonts--zh-cmn-Hans" lang="zh-cmn-Hans">
                                                     <dt class="p-about__award__dt p-about__dt c-grid__head">
-                                                        <p class="p-about__section__description">2018</p>
+                                                        <p class="p-about__section__description">2020</p>
                                                     </dt>
                                                     <dd class="c-grid__body p-about__dd p-about__award__dd">
                                                         <p class="p-about__section__description">
-                                                            <span class="text">Good Design 获奖作品</span>
-                                                            <small>[ Brillia THE TOWER TOKYO YAESU AVENUE ]</small>
+                                                            <span class="text">Good Design </span>
+                                                            <small>[ LIMOO PROJECT ]</small>
                                                         </p>
                                                     </dd>
                                                 </div>
@@ -546,9 +546,9 @@
                                                         </p>
                                                     </dd>
                                                 </div> -->
-                                                <div class="c-grid lang-fonts--ja" lang="ja">
+                                                <!-- <div class="c-grid lang-fonts--ja" lang="ja">
                                                     <dt class="p-about__award__dt p-about__dt c-grid__head">
-                                                        <p class="p-about__section__description">2018</p>
+                                                        <p class="p-about__section__description">2020</p>
                                                     </dt>
                                                     <dd class="c-grid__body p-about__dd p-about__award__dd">
                                                         <p class="p-about__section__description">
@@ -556,8 +556,8 @@
                                                             <small>[ ブリリアザタワー東京八重洲アベニュー ]</small>
                                                         </p>
                                                     </dd>
-                                                </div>
-                                                <div class="c-grid lang-fonts--ja" lang="ja">
+                                                </div> -->
+                                                <!-- <div class="c-grid lang-fonts--ja" lang="ja">
                                                     <dt class="p-about__award__dt p-about__dt c-grid__head">
                                                         <p class="p-about__section__description">2017</p>
                                                     </dt>
@@ -575,7 +575,7 @@
                                                             </small>
                                                         </p>
                                                     </dd>
-                                                </div>
+                                                </div> -->
                                                 <!-- <div class="c-grid lang-fonts--ja" lang="ja">
                                                     <dt class="p-about__award__dt p-about__dt c-grid__head">
                                                         <p class="p-about__section__description">2016</p>
@@ -721,7 +721,7 @@
                                                     <p class="p-about__section__description lang-fonts--en" lang="en">
                                                         <span>7stones Co., Ltd.</span>
                                                         <br>
-                                                        <small>Architectural design office (Tokyo Metropolitan Governor's Registration no. 62121)</small>
+                                                        <small>Architectural design office (Tehran Registration no. 12345)</small>
                                                     </p>
                                                 </div>
                                                 <dl class="lang-fonts--en" lang="en">
@@ -782,41 +782,41 @@
                                                 </dl>
                                                 <div class="p-about__weAre__content__head" lang="zh-cmn-Hans">
                                                     <p class="p-about__section__description lang-fonts--zh-cmn-Hans" lang="zh-cmn-Hans">
-                                                        <span>ARCHI SITE MOBIUS CO., LTD.</span>
+                                                        <span>7STONES</span>
                                                         <br>
-                                                        <small>建筑设计事务所 (东京都知事登录第62121号) </small>
+                                                        <small>وتقدم مظاهر السحر الخالد</small>
                                                     </p>
                                                 </div>
                                                 <dl class="lang-fonts--zh-cmn-Hans" lang="zh-cmn-Hans">
                                                     <div class="c-grid">
                                                         <dt class="p-about__weAre__dt p-about__dt c-grid__head">
-                                                            <p class="p-about__section__description">設立</p>
+                                                            <p class="p-about__section__description">فی</p>
                                                         </dt>
                                                         <dd class="c-grid__body p-about__dd p-about__weAre__dd">
                                                             <p class="p-about__section__description">
-                                                                <span class="text">1992年7月</span>
+                                                                <span class="text">۱۹۹۲</span>
                                                             </p>
                                                         </dd>
                                                     </div>
                                                     <div class="c-grid">
                                                         <dt class="p-about__weAre__dt p-about__dt c-grid__head">
-                                                            <p class="p-about__section__description">代表者名</p>
+                                                            <p class="p-about__section__description">فی</p>
                                                         </dt>
                                                         <dd class="c-grid__body p-about__dd p-about__weAre__dd">
                                                             <p class="p-about__section__description">
-                                                                <span class="text">今井 敦</span>
+                                                                <span class="text">فی</span>
                                                             </p>
                                                         </dd>
                                                     </div>
                                                     <div class="c-grid">
                                                         <dt class="p-about__weAre__dt p-about__dt c-grid__head">
-                                                            <p class="p-about__section__description">所在地</p>
+                                                            <p class="p-about__section__description">فی</p>
                                                         </dt>
                                                         <dd class="c-grid__body p-about__dd p-about__weAre__dd">
                                                             <p class="p-about__section__description">
                                                                 <a class="js-target--pointer__stateChange c-link--underline js-hover" data-hover-in-time="1010" data-hover-out-time="850" href="https://goo.gl/maps/EPvd5juRCsr" target="_blank">
                                                                     <span class="text js-target__inner--pointer__stateChange c-link--underline__inner">
-                                                                        東京都渋谷区広尾1-６-10 Giraffa 9F<span class="c-link--underline__line"></span>
+                                                                      فی اقدسیه<span class="c-link--underline__line"></span>
                                                                     </span>
                                                                 </a>
                                                             </p>
@@ -824,11 +824,11 @@
                                                     </div>
                                                     <div class="c-grid">
                                                         <dt class="p-about__weAre__dt p-about__dt c-grid__head">
-                                                            <p class="p-about__section__description">電話</p>
+                                                            <p class="p-about__section__description">فی</p>
                                                         </dt>
                                                         <dd class="c-grid__body p-about__dd p-about__weAre__dd">
                                                             <p class="p-about__section__description">
-                                                                <span class="text">03-6408-9073</span>
+                                                                <span class="text">98 (21) 88888</span>
                                                             </p>
                                                         </dd>
                                                     </div>
@@ -838,12 +838,12 @@
                                                         </dt>
                                                         <dd class="c-grid__body p-about__dd p-about__weAre__dd">
                                                             <p class="p-about__section__description">
-                                                                <span class="text">03-5420-0503</span>
+                                                                <span class="text">98 (21) 88888</span>
                                                             </p>
                                                         </dd>
                                                     </div>
                                                 </dl>
-                                                <div class="p-about__weAre__content__head" lang="ja">
+                                                <!-- <div class="p-about__weAre__content__head" lang="ja">
                                                     <p class="p-about__section__description lang-fonts--ja" lang="ja">
                                                         <span>アーキサイト メビウス 株式会社</span>
                                                         <br>
@@ -905,7 +905,7 @@
                                                             </p>
                                                         </dd>
                                                     </div>
-                                                </dl>
+                                                </dl> -->
                                             </div>
                                         </div>
                                     </section>
@@ -925,9 +925,9 @@
                                                 <div class="p-about__subContact__unit">
                                                     <dt class="b-fonts__medium">Work Together.</dt>
                                                     <dd>
-                                                        <a class="js-target--pointer__stateChange lang-fonts--en c-link--underline js-hover" data-hover-in-time="1010" data-hover-out-time="850" href="mailto: &#106;&#111;&#98;&#115;&#64;&#97;&#115;&#109;&#111;&#98;&#105;&#117;&#115;&#46;&#99;&#111;&#46;&#106;&#112;">
+                                                        <a class="js-target--pointer__stateChange lang-fonts--en c-link--underline js-hover" data-hover-in-time="1010" data-hover-out-time="850" href="mailto: mrn@usa.com">
                                                             <span class="js-target__inner--pointer__stateChange c-link--underline__inner">
-                                                                &#106;&#111;&#98;&#115;&#64;&#97;&#115;&#109;&#111;&#98;&#105;&#117;&#115;&#46;&#99;&#111;&#46;&#106;&#112;<span class="c-link--underline__line"></span>
+                                                                mailto: mrn@usa.com<span class="c-link--underline__line"></span>
                                                             </span>
                                                         </a>
                                                     </dd>
