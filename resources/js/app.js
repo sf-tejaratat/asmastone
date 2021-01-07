@@ -8,7 +8,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import routes from './routes';
 
-
+Vue.use(VueRouter);
 // import router from './router';
 // import Home from './components/Home';
 // Vue.component('example-component', require('./components/ExampleComponent.vue').default);
