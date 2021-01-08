@@ -224,7 +224,7 @@
                                         </div>
                                         <div class="p-about__section__body js-award">
                                             <dl>
-                                                <div class="c-grid lang-fonts--en" lang="en">
+                                                <!-- <div class="c-grid lang-fonts--en" lang="en">
                                                     <dt class="p-about__award__dt p-about__dt c-grid__head">
                                                         <p class="p-about__section__description">2018</p>
                                                     </dt>
@@ -234,7 +234,7 @@
                                                             <small>[ AGHDASIE ]</small>
                                                         </p>
                                                     </dd>
-                                                </div>
+                                                </div> -->
                                                 <!-- <div class="c-grid lang-fonts--en" lang="en">
                                                     <dt class="p-about__award__dt p-about__dt c-grid__head">
                                                         <p class="p-about__section__description">2017</p>
@@ -721,7 +721,7 @@
                                                     <p class="p-about__section__description lang-fonts--en" lang="en">
                                                         <span>7stones Co., Ltd.</span>
                                                         <br>
-                                                        <small>Architectural design office (Tehran Registration no. 12345)</small>
+                                                        <small>Architectural design office (Tehran Registration no)</small>
                                                     </p>
                                                 </div>
                                                 <dl class="lang-fonts--en" lang="en">
@@ -731,7 +731,7 @@
                                                         </dt>
                                                         <dd class="c-grid__body p-about__dd p-about__weAre__dd">
                                                             <p class="p-about__section__description">
-                                                                <span class="text">July 1992</span>
+                                                                <span class="text">June 2014</span>
                                                             </p>
                                                         </dd>
                                                     </div>
@@ -741,7 +741,7 @@
                                                         </dt>
                                                         <dd class="c-grid__body p-about__dd p-about__weAre__dd">
                                                             <p class="p-about__section__description">
-                                                                <span class="text">Nojaba</span>
+                                                                <span class="text">M.R Nojaba</span>
                                                             </p>
                                                         </dd>
                                                     </div>
@@ -751,9 +751,9 @@
                                                         </dt>
                                                         <dd class="c-grid__body p-about__dd p-about__weAre__dd">
                                                             <p class="p-about__section__description">
-                                                                <a class="js-target--pointer__stateChange c-link--underline js-hover" data-hover-in-time="1010" data-hover-out-time="850" href="https://goo.gl/maps/EPvd5juRCsr" target="_blank">
+                                                                <a class="js-target--pointer__stateChange c-link--underline js-hover" data-hover-in-time="1010" data-hover-out-time="850" href="" target="_blank">
                                                                     <span class="text js-target__inner--pointer__stateChange c-link--underline__inner">
-                                                                       Tehran<span class="c-link--underline__line"></span>
+                                                                       Tehran, Aghdasie<span class="c-link--underline__line"></span>
                                                                     </span>
                                                                 </a>
                                                             </p>
@@ -765,7 +765,7 @@
                                                         </dt>
                                                         <dd class="c-grid__body p-about__dd p-about__weAre__dd">
                                                             <p class="p-about__section__description">
-                                                                <span class="text">+ 98 (21) 888888</span>
+                                                                <span class="text">+ 98 (21) 22557700</span>
                                                             </p>
                                                         </dd>
                                                     </div>
@@ -775,7 +775,7 @@
                                                         </dt>
                                                         <dd class="c-grid__body p-about__dd p-about__weAre__dd">
                                                             <p class="p-about__section__description">
-                                                                <span class="text">+ 98 (21) 888888</span>
+                                                                <span class="text">+ 98 (21) 22932194</span>
                                                             </p>
                                                         </dd>
                                                     </div>
@@ -790,33 +790,33 @@
                                                 <dl class="lang-fonts--zh-cmn-Hans" lang="zh-cmn-Hans">
                                                     <div class="c-grid">
                                                         <dt class="p-about__weAre__dt p-about__dt c-grid__head">
-                                                            <p class="p-about__section__description">فی</p>
+                                                            <p class="p-about__section__description">أنشئت</p>
                                                         </dt>
                                                         <dd class="c-grid__body p-about__dd p-about__weAre__dd">
                                                             <p class="p-about__section__description">
-                                                                <span class="text">۱۹۹۲</span>
+                                                                <span class="text">۲۰۱۶</span>
                                                             </p>
                                                         </dd>
                                                     </div>
                                                     <div class="c-grid">
                                                         <dt class="p-about__weAre__dt p-about__dt c-grid__head">
-                                                            <p class="p-about__section__description">فی</p>
+                                                            <p class="p-about__section__description">المالك</p>
                                                         </dt>
                                                         <dd class="c-grid__body p-about__dd p-about__weAre__dd">
                                                             <p class="p-about__section__description">
-                                                                <span class="text">فی</span>
+                                                                <span class="text">م.ر نوجبا</span>
                                                             </p>
                                                         </dd>
                                                     </div>
                                                     <div class="c-grid">
                                                         <dt class="p-about__weAre__dt p-about__dt c-grid__head">
-                                                            <p class="p-about__section__description">فی</p>
+                                                            <p class="p-about__section__description">موقعك</p>
                                                         </dt>
                                                         <dd class="c-grid__body p-about__dd p-about__weAre__dd">
                                                             <p class="p-about__section__description">
-                                                                <a class="js-target--pointer__stateChange c-link--underline js-hover" data-hover-in-time="1010" data-hover-out-time="850" href="https://goo.gl/maps/EPvd5juRCsr" target="_blank">
+                                                                <a class="js-target--pointer__stateChange c-link--underline js-hover" data-hover-in-time="1010" data-hover-out-time="850" href="" target="_blank">
                                                                     <span class="text js-target__inner--pointer__stateChange c-link--underline__inner">
-                                                                      فی اقدسیه<span class="c-link--underline__line"></span>
+                                                                      طهران اقدسیه<span class="c-link--underline__line"></span>
                                                                     </span>
                                                                 </a>
                                                             </p>
@@ -824,21 +824,21 @@
                                                     </div>
                                                     <div class="c-grid">
                                                         <dt class="p-about__weAre__dt p-about__dt c-grid__head">
-                                                            <p class="p-about__section__description">فی</p>
+                                                            <p class="p-about__section__description">هاتف</p>
                                                         </dt>
                                                         <dd class="c-grid__body p-about__dd p-about__weAre__dd">
                                                             <p class="p-about__section__description">
-                                                                <span class="text">98 (21) 88888</span>
+                                                                <span class="text">۹۸ (۲۱) ۲۲۵۵۷۷۰۰</span>
                                                             </p>
                                                         </dd>
                                                     </div>
                                                     <div class="c-grid">
                                                         <dt class="p-about__weAre__dt p-about__dt c-grid__head">
-                                                            <p class="p-about__section__description">FAX</p>
+                                                            <p class="p-about__section__description">فاكس</p>
                                                         </dt>
                                                         <dd class="c-grid__body p-about__dd p-about__weAre__dd">
                                                             <p class="p-about__section__description">
-                                                                <span class="text">98 (21) 88888</span>
+                                                                <span class="text">۹۸ (۲۱) ۲۲۹۳۲۱۹۴</span>
                                                             </p>
                                                         </dd>
                                                     </div>
@@ -915,9 +915,9 @@
                                                 <div class="p-about__subContact__unit">
                                                     <dt class="b-fonts__medium">Hello.</dt>
                                                     <dd>
-                                                        <a class="js-target--pointer__stateChange lang-fonts--en c-link--underline js-hover" data-hover-in-time="1010" data-hover-out-time="850" href="mailto: mrn@usa.com">
+                                                        <a class="js-target--pointer__stateChange lang-fonts--en c-link--underline js-hover" data-hover-in-time="1010" data-hover-out-time="850" href="mailto:info@7stones.ir">
                                                             <span class="js-target__inner--pointer__stateChange c-link--underline__inner">
-                                                               mrn@usa.com<span class="c-link--underline__line"></span>
+                                                               mailto:info@7stones.ir<span class="c-link--underline__line"></span>
                                                             </span>
                                                         </a>
                                                     </dd>
@@ -925,9 +925,9 @@
                                                 <div class="p-about__subContact__unit">
                                                     <dt class="b-fonts__medium">Work Together.</dt>
                                                     <dd>
-                                                        <a class="js-target--pointer__stateChange lang-fonts--en c-link--underline js-hover" data-hover-in-time="1010" data-hover-out-time="850" href="mailto: mrn@usa.com">
+                                                        <a class="js-target--pointer__stateChange lang-fonts--en c-link--underline js-hover" data-hover-in-time="1010" data-hover-out-time="850" href="mailto:jobs@7stones.ir">
                                                             <span class="js-target__inner--pointer__stateChange c-link--underline__inner">
-                                                                mailto: mrn@usa.com<span class="c-link--underline__line"></span>
+                                                                mailto:jobs@7stones.ir<span class="c-link--underline__line"></span>
                                                             </span>
                                                         </a>
                                                     </dd>
@@ -950,7 +950,7 @@
                                 </div>
                                 <div class="p-about__contact__dummy">
                                     <address>
-                                        <a class="p-about__contact__link js-target--pointer__stateChange js-trigger--aboutHover" data-hover-in-time="1350" data-hover-out-time="1350" href="mailto:mrn@usa.com"></a>
+                                        <a class="p-about__contact__link js-target--pointer__stateChange js-trigger--aboutHover" data-hover-in-time="1350" data-hover-out-time="1350" href="mailto:info@7stones.ir"></a>
                                         <div class="p-about__contact__bg"></div>
                                     </address>
                                 </div>
@@ -965,9 +965,9 @@
                         <div class="p-sideContact__unit">
                             <dt class="b-fonts__medium">Hello.</dt>
                             <dd>
-                                <a class="js-target--pointer__stateChange lang-fonts--en c-link--underline js-hover" data-hover-in-time="1010" data-hover-out-time="850" href="mailto:mrn@usa.com">
+                                <a class="js-target--pointer__stateChange lang-fonts--en c-link--underline js-hover" data-hover-in-time="1010" data-hover-out-time="850" href="mailto:info@7stones.ir">
                                     <span class="js-target__inner--pointer__stateChange c-link--underline__inner">
-                                     mrn@usa.com<span class="c-link--underline__line"></span>
+                                     info@7stones.ir<span class="c-link--underline__line"></span>
                                     </span>
                                 </a>
                             </dd>
@@ -975,9 +975,9 @@
                         <div class="p-sideContact__unit">
                             <dt class="b-fonts__medium">Work Together.</dt>
                             <dd>
-                                <a class="js-target--pointer__stateChange lang-fonts--en c-link--underline js-hover" data-hover-in-time="1010" data-hover-out-time="850" href="mailto: mrn@usa.com">
+                                <a class="js-target--pointer__stateChange lang-fonts--en c-link--underline js-hover" data-hover-in-time="1010" data-hover-out-time="850" href="mailto:jobs@7stones.ir">
                                     <span class="js-target__inner--pointer__stateChange c-link--underline__inner">
-                                      mrn@usa.com<span class="c-link--underline__line"></span>
+                                      jobs@7stones.ir<span class="c-link--underline__line"></span>
                                     </span>
                                 </a>
                             </dd>

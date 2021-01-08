@@ -143,7 +143,14 @@
                                             <div class="bg js-transition__bg js-parallax__target"></div>
                                         </div>
                                         <div class="l-container js-transition__listContainer">
+
                                             <ul class="p-works-detail__list js-transition__list js-target--smooth" data-smooth-move-ratio="0.012">
+                                                  <ul style="width:100%;margin-top:40px;margin-bottom:40px">
+                                                    <li>
+                                                        <video style="width:100%" controls src="images/mohanna.mp4"></video>
+                                                    </li>
+                                            </ul>
+                                                <li class="js-target--imageZoom p-works-detail__list__item js-target--indicator js-transition__list__item js-target--pointer__stateChange" data-mouse-pointer-type="zoom"></li>
                                                 <li class="js-target--imageZoom p-works-detail__list__item js-target--indicator js-transition__list__item js-target--pointer__stateChange" data-mouse-pointer-type="zoom">
                                                     <div style="overflow:hidden;" class="p-works-detail__opacity" data-image-zoom="images/7stones/1.jpg">
                                                         <div class="inner" style="pointer-events: none;">
@@ -180,7 +187,9 @@
                                                 </li>
 
 
+
                                             </ul>
+
                                         </div>
                                     </div>
                                 </div>

@@ -12,7 +12,7 @@
     <meta name="viewport" content="initial-scale=1.0,minimum-scale=1,maximum-scale=5">
     <meta name="format-detection" content="telephone=no">
     <title>7 STONES</title>
-    {{-- <meta name="author" content="https://asmobius.co.jp"> --}}
+    <meta name="author" content="https://7stones.ir">
     <meta name="copyright" content="7 STONES">
     <meta name="description" content="طراحی پلن های ساختمانی با معماری مدرن با کیفیت مثال زدنی">
     <meta name="keywords" content="7stones,طراحی ساختمان,مشاور ساخت,پیمانکاری ساختمان,نیاوران,ولنجک,لواسان,اقدسیه,قیطریه"/>

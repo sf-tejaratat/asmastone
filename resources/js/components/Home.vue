@@ -159,16 +159,16 @@
                 <ul class="p-stage__menu">
 
                     <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/limoo-teb/limoo-teb4.jpg" data-canvas-url="limoo-project">
-                      Limoo Project<br>Limoo Teb
+                      Limoo Teb
                     </li>
                     <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/jaban-project-main.jpg" data-canvas-url="jaban-project">
                        Jaban Project
                     </li>
                      <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/jaban-project-main2.jpg" data-canvas-url="jaban-project">
-                       Jaban Project<br>view 2
+                       Jaban2 Project
                     </li>
                      <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/jaban-project-main3.jpg" data-canvas-url="jaban-project">
-                       Jaban Project<br>view 3
+                       Jaban3 Project
 
                     </li>
                      <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/yas-project-main.jpg" data-canvas-url="yas-project">

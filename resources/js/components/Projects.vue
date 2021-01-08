@@ -326,43 +326,7 @@
                     <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="" data-canvas-url="">
                         PARK MANSION<br>Minami Azabu
                     </li>
-                    <!-- <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2020/01/00-main-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2020/01/00-main-2048x1024.jpg" data-canvas-url="https://asmobius.co.jp/works/asm-kawana-project/">ASM Kawana Project</li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/03/main-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/03/main.jpg" data-canvas-url="https://asmobius.co.jp/works/hikawa-gardens/">HIKAWA GARDENS</li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-2-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-2.jpg" data-canvas-url="https://asmobius.co.jp/works/one-avenue/">ONE AVENUE</li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-10-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-10.jpg" data-canvas-url="https://asmobius.co.jp/works/century-forest/">CENTURY FOREST</li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-4-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-4.jpg" data-canvas-url="https://asmobius.co.jp/works/proudrokakoen/">
-                        PROUD<br>Rokakoen
-                    </li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-6-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-6.jpg" data-canvas-url="https://asmobius.co.jp/works/park-mansionroppongi/">
-                        PARK MANSION<br>Roppongi
-                    </li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-5-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-5.jpg" data-canvas-url="https://asmobius.co.jp/works/nishiazaburesidence/">
-                        NISHIAZABU<br>RESIDENCE
-                    </li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-12-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-12.jpg" data-canvas-url="https://asmobius.co.jp/works/azabu-gardens/">AZABU GARDENS</li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-7-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-7.jpg" data-canvas-url="https://asmobius.co.jp/works/the-park-housegran-minamiaoyama/">
-                        THE PARK HOUSE<br>Gran Minamiaoyama
-                    </li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-9-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-9.jpg" data-canvas-url="https://asmobius.co.jp/works/dianacourtbunkyo-hongodai/">
-                        DIANACOURT<br>Bunkyo Hongodai
-                    </li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-11-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-11.jpg" data-canvas-url="https://asmobius.co.jp/works/classy-househiroo-fiorire/">
-                        CLASSY HOUSE<br>Hiroo Fiorire
-                    </li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-8-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-8.jpg" data-canvas-url="https://asmobius.co.jp/works/cloistershiroo/">
-                        CLOISTERS<br>Hiroo
-                    </li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-13-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-13.jpg" data-canvas-url="https://asmobius.co.jp/works/f-house/">F HOUSE</li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-14-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-14.jpg" data-canvas-url="https://asmobius.co.jp/works/k-house/">K HOUSE</li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-16-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-16.jpg" data-canvas-url="https://asmobius.co.jp/works/inokashira/">INOKASHIRA</li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-17-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-17.jpg" data-canvas-url="https://asmobius.co.jp/works/itohpia-jiyugaoka/">ITOHPIA jiyugaoka</li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main.jpg" data-canvas-url="https://asmobius.co.jp/works/atlassuwacho-residence/">
-                        ATLAS<br>Suwacho Residence
-                    </li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-15-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-15.jpg" data-canvas-url="https://asmobius.co.jp/works/brilliahongo-sanchome/">
-                        Brillia<br>Hongo Sanchome
-                    </li>
-                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-3-1024x512.jpg" data-canvas-zoom="https://asmobius.co.jp/asm_cp/wp-content/uploads/2019/02/main-3.jpg" data-canvas-url="https://asmobius.co.jp/works/five/">FIVE</li> -->
+
                 </ul>
             </div>
             <div id="indicator">
