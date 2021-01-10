@@ -147,7 +147,7 @@
                                             <ul class="p-works-detail__list js-transition__list js-target--smooth" data-smooth-move-ratio="0.012">
                                                   <ul style="width:100%;margin-top:40px;margin-bottom:40px">
                                                     <li>
-                                                        <video style="width:100%" preload="auto" loop muted controls webkit-playsinline playsinline src="images/7stones/yas-project/mohanna.mp4" poster="images/7stones/yas-project/videothumb.jpeg"></video>
+                                                        <video style="width:100%"  loop muted controls webkit-playsinline playsinline src="images/7stones/yas-project/mohanna.mp4" poster="images/7stones/yas-project/videothumb.jpeg"></video>
                                                     </li>
                                             </ul>
                                                 <li class="js-target--imageZoom p-works-detail__list__item js-target--indicator js-transition__list__item js-target--pointer__stateChange" data-mouse-pointer-type="zoom"></li>
