@@ -111,7 +111,7 @@
                 <div class="p-header__list__item__inner--works">
                     <div class="p-header__list__item--all p-navSp__item">
                         <a class="js-nav__link js-target--pointer__stateChange" href="/projects">
-                            <span class="js-target__inner--pointer__stateChange js-target__parent--spring">Projects</span>
+                            <span class="js-target__inner--pointer__stateChange js-target__parent--spring">All</span>
                         </a>
                     </div>
                     <div class="p-header__list__item--focus p-navSp__item">
