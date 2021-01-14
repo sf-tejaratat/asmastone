@@ -7,7 +7,11 @@ require('./bootstrap');
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import routes from './routes';
-
+import VuePlyr from 'vue-plyr';
+import 'vue-plyr/dist/vue-plyr.css';
+Vue.use(VuePlyr, {
+    plyr: {}
+});
 Vue.use(VueRouter);
 // import router from './router';
 // import Home from './components/Home';

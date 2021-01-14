@@ -147,7 +147,23 @@
                                             <ul class="p-works-detail__list js-transition__list js-target--smooth" data-smooth-move-ratio="0.012">
                                                   <ul style="width:100%;margin-top:40px;margin-bottom:40px">
                                                     <li>
-                                                        <video style="width:100%"  loop muted controls webkit-playsinline playsinline src="images/7stones/yas-project/mohanna.mp4" poster="images/7stones/yas-project/videothumb.jpeg"></video>
+                                                            <vue-plyr :options="options">
+                                                                <video
+                                                                    controls
+                                                                    crossorigin
+                                                                    playsinline
+
+                                                                    >
+                                                                    <source
+                                                                        src="images/7stones/yas-project/mohanna.mp4"
+                                                                        type="video/mp4"
+                                                                    />
+                                                                </video>
+                                                            </vue-plyr>
+                                                        <!-- <vue-plyr :options="playerOptions">
+                                                            <video src="images/7stones/yas-project/mohanna.mp4" style="width:100%"></video>
+                                                        </vue-plyr> -->
+                                                        <!-- <video style="width:100%"  loop muted controls webkit-playsinline playsinline src="images/7stones/yas-project/mohanna.mp4" poster="images/7stones/yas-project/videothumb.jpeg"></video> -->
                                                     </li>
                                             </ul>
                                                 <li class="js-target--imageZoom p-works-detail__list__item js-target--indicator js-transition__list__item js-target--pointer__stateChange" data-mouse-pointer-type="zoom"></li>
@@ -185,11 +201,7 @@
                                                         </div>
                                                     </div>
                                                 </li>
-
-
-
                                             </ul>
-
                                         </div>
                                     </div>
                                 </div>
@@ -362,6 +374,44 @@
      <script>
      export default {
 
+         data(){
+             return{
+                options: {
+                    controls:['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'captions', 'pip', 'airplay', ]
+                }
+             }
+         },
+
+//         data() {
+//             return {
+//                 player: null,
+//                 options: {
+//                     controls: true,
+//                     children:{
+// fluid:false
+//                     },
+
+// 				    sources: [
+// 					    {
+// 					    	src:
+// 					    	    "images/7stones/yas-project/mohanna.mp4",
+// 					    	    type: "video/mp4"
+// 					    }
+// 				    ]
+//                 }
+//             }
+//         },
+        mounted() {
+            // this.player = videojs(this.$refs.videoPlayer, this.options, function onPlayerReady() {
+            // console.log('onPlayerReady', this);
+            // });
+            // player = new VuePlyr('#player',{
+            //     controls:['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'captions', 'settings', 'pip', 'airplay',]
+            // });
+            // player.play();
+
+
+        },
          methods:{
              home(){
                 window.location.href = "/";
@@ -369,7 +419,7 @@
              about(){
                 window.location.href = "/about";
              }
-         }
+         },
 
      }
      </script>
