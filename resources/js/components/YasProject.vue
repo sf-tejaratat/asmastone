@@ -149,10 +149,10 @@
                                                     <li>
                                                             <vue-plyr :options="options">
                                                                 <video
+                                                                id="video"
                                                                     controls
                                                                     crossorigin
                                                                     playsinline
-
                                                                     >
                                                                     <source
                                                                         src="images/7stones/yas-project/mohanna.mp4"
@@ -372,15 +372,19 @@
 </template>
 
      <script>
+
+import 'vue-plyr/dist/vue-plyr.css';
      export default {
 
          data(){
              return{
+
                 options: {
-                    controls:['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'captions', 'pip', 'airplay', ]
+                    controls:['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'captions', 'pip', 'airplay','fullscreen' ]
                 }
              }
          },
+
 
 //         data() {
 //             return {
@@ -402,6 +406,13 @@
 //             }
 //         },
         mounted() {
+            // var width=window.screen.width;
+            // if(width>800){
+            //     this.showFullscreen=true;
+            // }else{
+            //      this.showFullscreen=false
+            // }
+
             // this.player = videojs(this.$refs.videoPlayer, this.options, function onPlayerReady() {
             // console.log('onPlayerReady', this);
             // });
@@ -434,4 +445,25 @@
         .st-logo-load-back {
             fill: #fff;
         }
+        .plyr--full-ui input[type=range] {
+            color: #aaa;
+        }
+        .plyr__control--overlaid {
+          background: rgba(170,170,170, .8);
+        }
+
+        .plyr--video .plyr__control.plyr__tab-focus,
+        .plyr--video .plyr__control:hover,
+        .plyr--video .plyr__control[aria-expanded=true] {
+            background:  #aaa;
+        }
+
+        .plyr__control.plyr__tab-focus {
+            box-shadow: 0 0 0 5px rgba(170,170,170, .5);
+        }
+
+        .plyr__menu__container .plyr__control[role=menuitemradio][aria-checked=true]::before {
+            background:  #aaa;
+        }
+
     </style>
