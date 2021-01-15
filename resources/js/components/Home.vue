@@ -164,14 +164,13 @@
                     <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/jaban-project-main.jpg" data-canvas-url="jaban-project">
                        Jaban Project
                     </li>
-                     <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/jaban-project-main2.jpg" data-canvas-url="jaban-project">
-                       Jaban2 Project
+                     <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/savil-project.jpg" data-canvas-url="jaban-project">
+                       Savil Project
                     </li>
-                     <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/jaban-project-main3.jpg" data-canvas-url="jaban-project">
-                       Jaban3 Project
-
+                     <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/niavaran-project.jpg" data-canvas-url="jaban-project">
+                       Niavaran Teb
                     </li>
-                     <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/yas-project-main.jpg" data-canvas-url="yas-project">
+                     <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/yas2-project.jpg" data-canvas-url="yas-project">
                       Yas Project
                     </li>
 
