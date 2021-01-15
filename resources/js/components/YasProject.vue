@@ -153,6 +153,7 @@
                                                                     controls
                                                                     crossorigin
                                                                     playsinline
+                                                                    loop
                                                                     data-poster="images/7stones/yas-project/videothumb.jpeg"
                                                                     >
                                                                     <source
