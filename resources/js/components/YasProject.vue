@@ -153,6 +153,7 @@
                                                                     controls
                                                                     crossorigin
                                                                     playsinline
+                                                                    data-poster="images/7stones/yas-project/videothumb.jpeg"
                                                                     >
                                                                     <source
                                                                         src="images/7stones/yas-project/mohanna.mp4"
@@ -376,11 +377,15 @@
 import 'vue-plyr/dist/vue-plyr.css';
      export default {
 
+         created(){
+
+         },
+
          data(){
              return{
 
                 options: {
-                    controls:['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'captions', 'pip', 'airplay','fullscreen' ]
+                    controls:['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'captions', 'pip', 'airplay',(window.screen.width>800)?'fullscreen':'' ]
                 }
              }
          },
@@ -406,12 +411,7 @@ import 'vue-plyr/dist/vue-plyr.css';
 //             }
 //         },
         mounted() {
-            // var width=window.screen.width;
-            // if(width>800){
-            //     this.showFullscreen=true;
-            // }else{
-            //      this.showFullscreen=false
-            // }
+
 
             // this.player = videojs(this.$refs.videoPlayer, this.options, function onPlayerReady() {
             // console.log('onPlayerReady', this);
