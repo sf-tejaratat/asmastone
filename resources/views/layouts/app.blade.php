@@ -49,6 +49,7 @@
     <script src="js/vendor.bundle.js" defer></script>
     <script src="js/app.bundle.js" defer></script>
     {{-- <script src="js/service-worker.js" defer></script> --}}
+    @laravelPWA
 </head>
 
 <style>
@@ -75,14 +76,7 @@
         @yield('content')
     </div>
 
-    <script>
-        if ('serviceWorker' in navigator) {
-  // Use the window load event to keep the page load performant
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/service-worker.js');
-  });
-}
-    </script>
+
 </body>
 
 
