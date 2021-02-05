@@ -3,8 +3,8 @@ var filesToCache = [
     // '/offline',
     '/',
     '/css/app.css',
-    '/css/bundle.css?version=10',
-    '/js/app.js?version=10',
+    '/css/bundle.css?version=11',
+    '/js/app.js?version=11',
     '/js/vendor.bundle.js',
     '/js/app.bundle.js',
     '/images/7stones/limoo-teb/limoo-teb4.jpg',
@@ -21,8 +21,8 @@ var filesToCache = [
     '/images/icons/icon-384x384.png',
     '/images/icons/icon-512x512.png',
 ];
-//demand
-// Cache on install
+
+// Cache on install2
 self.addEventListener("install", event => {
     this.skipWaiting();
     event.waitUntil(
