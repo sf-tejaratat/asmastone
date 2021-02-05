@@ -21,7 +21,7 @@ var filesToCache = [
     '/images/icons/icon-384x384.png',
     '/images/icons/icon-512x512.png',
 ];
-
+//demand
 // Cache on install
 self.addEventListener("install", event => {
     this.skipWaiting();

@@ -3,7 +3,7 @@
       <!-- <div class="flex-1 bg-white py-10 z-9999 "></div> -->
         <div id="wrapper">
             <button class="add-button ">
-                   install
+                   install2
                 </button>
             <header class="l-header js-header b-fonts__medium">
             <div class="p-header l-wide-container">

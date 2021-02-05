@@ -44114,7 +44114,7 @@ var render = function() {
   return _c("div", [
     _c("div", { attrs: { id: "wrapper" } }, [
       _c("button", { staticClass: "add-button " }, [
-        _vm._v("\n                 install\n              ")
+        _vm._v("\n                 install2\n              ")
       ]),
       _vm._v(" "),
       _c("header", { staticClass: "l-header js-header b-fonts__medium" }, [
