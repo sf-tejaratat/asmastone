@@ -2,6 +2,9 @@
   <div>
       <!-- <div class="flex-1 bg-white py-10 z-9999 "></div> -->
         <div id="wrapper">
+            <button class="add-button ">
+                   install
+                </button>
             <header class="l-header js-header b-fonts__medium">
             <div class="p-header l-wide-container">
                 <div class="p-header__left js-logo">
@@ -304,7 +307,7 @@
 
 
 <script>
-import { precacheAndRoute } from 'workbox-precaching';
+
 
 
 // import '@/public/css/bundle.css';
@@ -312,7 +315,33 @@ import { precacheAndRoute } from 'workbox-precaching';
 export default {
   name:'Home',
     mounted() {
+        let deferredPrompt;
+const addBtn = document.querySelector('.add-button');
+addBtn.style.display = 'none';
+window.addEventListener('beforeinstallprompt', (e) => {
+  // Prevent Chrome 67 and earlier from automatically showing the prompt
+  e.preventDefault();
+  // Stash the event so it can be triggered later.
+  deferredPrompt = e;
+  // Update UI to notify the user they can add to home screen
+  addBtn.style.display = 'block';
 
+  addBtn.addEventListener('click', (e) => {
+    // hide our user interface that shows our A2HS button
+    addBtn.style.display = 'none';
+    // Show the prompt
+    deferredPrompt.prompt();
+    // Wait for the user to respond to the prompt
+    deferredPrompt.userChoice.then((choiceResult) => {
+        if (choiceResult.outcome === 'accepted') {
+          console.log('User accepted the A2HS prompt');
+        } else {
+          console.log('User dismissed the A2HS prompt');
+        }
+        deferredPrompt = null;
+      });
+  });
+});
 
 
 // if ('serviceWorker' in navigator) {
@@ -340,5 +369,14 @@ export default {
 
 <style >
 
+    .add-button{
+        position: fixed;
+        top: 100px;
+        left: 100px;
+        background-color: white;
+        padding: 20px 40px;
+        color: black;
+        z-index: 111;
+    }
 
 </style>
