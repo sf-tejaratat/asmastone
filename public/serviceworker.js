@@ -1,10 +1,9 @@
 var staticCacheName = "pwa-v" + new Date().getTime();
 var filesToCache = [
-    // '/offline',
     '/',
     '/css/app.css',
-    '/css/bundle.css?version=14',
-    '/js/app.js?version=14',
+    '/css/bundle.css?version=15',
+    '/js/app.js?version=15',
     '/js/vendor.bundle.js',
     '/js/app.bundle.js',
     '/images/7stones/limoo-teb/limoo-teb4.jpg',
@@ -49,7 +48,7 @@ self.addEventListener('activate', event => {
 });
 
 // Serve from Cache
-//destroy2
+//destroy23
 self.addEventListener("fetch", event => {
     event.respondWith(
         caches.match(event.request)
@@ -57,7 +56,7 @@ self.addEventListener("fetch", event => {
                 return response || fetch(event.request);
             })
             .catch(() => {
-                return caches.match('offline');
+                return caches.match('/pages/offline.html');
             })
     )
 });

@@ -15,7 +15,5 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 
-Route::get('/offline', 'HomeController@offline');
-
 
 Route::get('/{any}', 'HomeController@index')->where('any', '.*');
