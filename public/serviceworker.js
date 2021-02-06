@@ -34,6 +34,7 @@ self.addEventListener("install", event => {
 });
 
 // Clear cache on activate
+//destroy
 self.addEventListener('activate', event => {
     event.waitUntil(
         caches.keys().then(cacheNames => {
