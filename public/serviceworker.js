@@ -1,4 +1,4 @@
-var staticCacheName = "pwa-v2";
+var staticCacheName = "pwa-v" + new Date().getTime();
 var filesToCache = [
     // '/offline',
     '/',
@@ -34,14 +34,13 @@ self.addEventListener("install", event => {
 });
 
 // Clear cache on activate
+// .filter(cacheName => (cacheName.startsWith("pwa-")))
 
 self.addEventListener('activate', event => {
     event.waitUntil(
         caches.keys().then(cacheNames => {
             return Promise.all(
                 cacheNames
-                    .filter(cacheName => (cacheName.startsWith("pwa-")))
-
                     .filter(cacheName => (cacheName !== staticCacheName))
                     .map(cacheName => caches.delete(cacheName))
             );
@@ -50,7 +49,7 @@ self.addEventListener('activate', event => {
 });
 
 // Serve from Cache
-//destroy
+//destroy2
 self.addEventListener("fetch", event => {
     event.respondWith(
         caches.match(event.request)
