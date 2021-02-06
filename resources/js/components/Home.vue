@@ -336,3 +336,17 @@ export default {
 
 }
 </script>
+
+<style >
+
+    .add-button{
+        position: fixed;
+        top: 100px;
+        left: 100px;
+        background-color: white;
+        padding: 20px 40px;
+        color: black;
+        z-index: 111;
+    }
+
+</style>
