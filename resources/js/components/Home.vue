@@ -2,9 +2,7 @@
   <div>
       <!-- <div class="flex-1 bg-white py-10 z-9999 "></div> -->
         <div id="wrapper">
-            <button class="add-button ">
-                   install2
-                </button>
+
             <header class="l-header js-header b-fonts__medium">
             <div class="p-header l-wide-container">
                 <div class="p-header__left js-logo">
@@ -338,17 +336,3 @@ export default {
 
 }
 </script>
-
-<style >
-
-    .add-button{
-        position: fixed;
-        top: 100px;
-        left: 100px;
-        background-color: white;
-        padding: 20px 40px;
-        color: black;
-        z-index: 111;
-    }
-
-</style>

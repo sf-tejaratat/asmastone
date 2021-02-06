@@ -1,10 +1,10 @@
 var staticCacheName = "pwa-v" + new Date().getTime();
 var filesToCache = [
-    '/offline',
+    // '/offline',
     '/',
     '/css/app.css',
-    '/css/bundle.css?version=12',
-    '/js/app.js?version=12',
+    '/css/bundle.css?version=13',
+    '/js/app.js?version=13',
     '/js/vendor.bundle.js',
     '/js/app.bundle.js',
     '/images/7stones/limoo-teb/limoo-teb4.jpg',
@@ -39,7 +39,8 @@ self.addEventListener('activate', event => {
         caches.keys().then(cacheNames => {
             return Promise.all(
                 cacheNames
-                    .filter(cacheName => (cacheName.startsWith("workbox")))
+                    .filter(cacheName => (cacheName.startsWith("pwa-")))
+                    .filter(cacheName => (cacheName.startsWith("work")))
                     .filter(cacheName => (cacheName !== staticCacheName))
                     .map(cacheName => caches.delete(cacheName))
             );
