@@ -1,10 +1,11 @@
 var staticCacheName = "pwa-v" + new Date().getTime();
+//total
 var filesToCache = [
     '/',
     '/css/app.css',
     '/pages/offline.html',
-    '/css/bundle.css?version=16',
-    '/js/app.js?version=16',
+    '/css/bundle.css?version=17',
+    '/js/app.js?version=17',
     '/js/vendor.bundle.js',
     '/js/app.bundle.js',
     '/images/7stones/limoo-teb/limoo-teb4.jpg',
@@ -34,13 +35,14 @@ self.addEventListener("install", event => {
 });
 
 // Clear cache on activate
-// .filter(cacheName => (cacheName.startsWith("pwa-")))
+
 
 self.addEventListener('activate', event => {
     event.waitUntil(
         caches.keys().then(cacheNames => {
             return Promise.all(
                 cacheNames
+                    .filter(cacheName => (cacheName.startsWith("pwa-")))
                     .filter(cacheName => (cacheName !== staticCacheName))
                     .map(cacheName => caches.delete(cacheName))
             );
