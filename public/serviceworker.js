@@ -3,8 +3,8 @@ var filesToCache = [
     '/',
     '/css/app.css',
     '/pages/offline.html',
-    '/css/bundle.css?version=15',
-    '/js/app.js?version=15',
+    '/css/bundle.css?version=16',
+    '/js/app.js?version=16',
     '/js/vendor.bundle.js',
     '/js/app.bundle.js',
     '/images/7stones/limoo-teb/limoo-teb4.jpg',
@@ -49,7 +49,7 @@ self.addEventListener('activate', event => {
 });
 
 // Serve from Cache
-//destroy23
+//destroy234
 self.addEventListener("fetch", event => {
     event.respondWith(
         caches.match(event.request)

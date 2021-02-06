@@ -33,7 +33,7 @@
     <title>{{ config('app.name', '7Stones') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js?version=15') }}" defer></script>
+    <script src="{{ asset('js/app.js?version=16') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -41,7 +41,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-    <link rel="stylesheet" href="/css/bundle.css?version=15">
+    <link rel="stylesheet" href="/css/bundle.css?version=16">
     {{-- <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
