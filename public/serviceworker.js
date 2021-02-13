@@ -3,7 +3,7 @@ var staticCacheName = "pwa-v44";
 var filesToCache = [
     '/',
     '/css/app.css',
-    // '/pages/offline.html',
+    '/pages/offline.html',
     '/css/bundle.css?version=18',
     '/js/app.js?version=18',
     '/js/vendor.bundle.js',
