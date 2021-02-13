@@ -3,9 +3,9 @@ var staticCacheName = "pwa-v44";
 var filesToCache = [
     '/',
     '/css/app.css',
-    '/pages/offline.html',
-    '/css/bundle.css?version=17',
-    '/js/app.js?version=17',
+    // '/pages/offline.html',
+    '/css/bundle.css?version=18',
+    '/js/app.js?version=18',
     '/js/vendor.bundle.js',
     '/js/app.bundle.js',
     '/images/7stones/limoo-teb/limoo-teb4.jpg',
@@ -36,7 +36,6 @@ self.addEventListener("install", event => {
 
 // Clear cache on activate
 
-
 self.addEventListener('activate', event => {
     event.waitUntil(
         caches.keys().then(cacheNames => {
@@ -59,7 +58,7 @@ self.addEventListener("fetch", event => {
                 return response || fetch(event.request);
             })
             .catch(() => {
-                return caches.match('/pages/offline.html');
+                // return caches.match('/pages/offline.html');
             })
     )
 });

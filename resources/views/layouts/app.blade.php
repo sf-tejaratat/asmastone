@@ -33,7 +33,7 @@
     <title>{{ config('app.name', '7Stones') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js?version=17') }}" defer></script>
+    <script src="{{ asset('js/app.js?version=18') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
