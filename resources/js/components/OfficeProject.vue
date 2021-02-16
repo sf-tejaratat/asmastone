@@ -262,6 +262,57 @@
                                                         </div>
                                                     </div>
                                                 </li>
+                                                <li class="js-target--imageZoom p-works-detail__list__item js-target--indicator js-transition__list__item js-target--pointer__stateChange" data-mouse-pointer-type="zoom">
+                                                    <div style="overflow:hidden;" class="p-works-detail__opacity" data-image-zoom="images/7stones/office-project/detail_office8.jpg">
+                                                        <div class="inner" style="pointer-events: none;">
+                                                            <div class="js-parent--parallax">
+                                                                <div class="p-works-detail__list__item__inner">
+                                                                    <div class="js-target--parallax">
+                                                                        <div>
+                                                                            <div class="img">
+                                                                                 <img src="images/7stones/office-project/detail_office8.jpg" alt="" width="1100" height="556">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                 <li class="js-target--imageZoom p-works-detail__list__item js-target--indicator js-transition__list__item js-target--pointer__stateChange" data-mouse-pointer-type="zoom">
+                                                    <div style="overflow:hidden;" class="p-works-detail__opacity" data-image-zoom="images/7stones/office-project/detail_office9.jpg">
+                                                        <div class="inner" style="pointer-events: none;">
+                                                            <div class="js-parent--parallax">
+                                                                <div class="p-works-detail__list__item__inner">
+                                                                    <div class="js-target--parallax">
+                                                                        <div>
+                                                                            <div class="img">
+                                                                                 <img src="images/7stones/office-project/detail_office9.jpg" alt="" width="1100" height="556">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="js-target--imageZoom p-works-detail__list__item js-target--indicator js-transition__list__item js-target--pointer__stateChange" data-mouse-pointer-type="zoom">
+                                                    <div style="overflow:hidden;" class="p-works-detail__opacity" data-image-zoom="images/7stones/office-project/detail_office10.jpg">
+                                                        <div class="inner" style="pointer-events: none;">
+                                                            <div class="js-parent--parallax">
+                                                                <div class="p-works-detail__list__item__inner">
+                                                                    <div class="js-target--parallax">
+                                                                        <div>
+                                                                            <div class="img">
+                                                                                 <img src="images/7stones/office-project/detail_office10.jpg" alt="" width="1100" height="556">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>

@@ -67,7 +67,7 @@
                             <div class="p-header__list__item__inner--works">
                                 <div class="p-header__list__item--all">
                                     <a @click="projects()" class="js-nav__link js-target--pointer__stateChange" href="/projects">
-                                        <span class="js-target__inner--pointer__stateChange js-target__parent--spring">All</span>
+                                        <span class="js-target__inner--pointer__stateChange js-target__parent--spring">Works</span>
                                     </a>
                                 </div>
                                 <div class="p-header__list__item--focus">
@@ -112,7 +112,7 @@
                 <div class="p-header__list__item__inner--works">
                     <div class="p-header__list__item--all p-navSp__item">
                         <a class="js-nav__link js-target--pointer__stateChange" href="/projects">
-                            <span class="js-target__inner--pointer__stateChange js-target__parent--spring">All</span>
+                            <span class="js-target__inner--pointer__stateChange js-target__parent--spring">Works</span>
                         </a>
                     </div>
                     <div class="p-header__list__item--focus p-navSp__item">
@@ -158,23 +158,22 @@
             <div id="stage" class="p-stage">
                 <div id="app-canvas"></div>
                 <ul class="p-stage__menu">
-
-                    <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/limoo-teb/limoo-teb4.jpg" data-canvas-url="limoo-project">
-                      Limoo Teb
-                    </li>
                     <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/sarvenaz-project/sarvenaz_main.jpg" data-canvas-url="sarvenaz-project">
                        Sarvenaz Project
                     </li>
                     <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/office-project/office_main.jpg" data-canvas-url="office-project">
                        Office Project
                     </li>
+                    <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/savil-project.jpg" data-canvas-url="jaban-project">
+                       Savil Project
+                    </li>
+                    <li class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/limoo-teb/limoo-teb4.jpg" data-canvas-url="limoo-project">
+                      Limoo Teb
+                    </li>
                     <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/jaban-project-main.jpg" data-canvas-url="jaban-project">
                        Jaban Project
                     </li>
-                     <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/savil-project.jpg" data-canvas-url="jaban-project">
-                       Savil Project
-                    </li>
-                     <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/yas2-project.jpg" data-canvas-url="yas-project">
+                    <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/yas2-project.jpg" data-canvas-url="yas-project">
                       Yas Project
                     </li>
                 </ul>
