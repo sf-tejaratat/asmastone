@@ -182,7 +182,7 @@
                                     </li>
 
                                     <li class="p-list__item p-works__list__item">
-                                        <a @click="jabanproject()" href="jaban-project" class="js-hover__works-list js-trigger--pageTransition js-target--pointer__stateChange js-hover" data-hover-in-time="450" data-hover-out-time="700">
+                                        <a @click="sarvenazproject()" href="sarvenaz-project" class="js-hover__works-list js-trigger--pageTransition js-target--pointer__stateChange js-hover" data-hover-in-time="450" data-hover-out-time="700">
                                             <div>
                                                 <div class="js-parent--parallax p-works__text">
                                                     <div class="js-target--parallax" data-parallax-move-range-y="230">
@@ -191,7 +191,7 @@
                                                                 <small>02</small>
                                                             </div>
                                                             <div class="p-works__title">
-                                                                <h1>Jaban Project</h1>
+                                                                <h1>Sarvenaz Project</h1>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -200,7 +200,7 @@
                                                     <div class="p-works__thumb">
                                                         <div class="p-works__thumb__maskCover"></div>
                                                         <div class="p-works__thumb__inner js-parent--parallax">
-                                                            <div class="p-works__thumb__img js-target--parallax" style="background-image:url('images/7stones/jaban-project-main.jpg'); background-size: cover;"></div>
+                                                            <div class="p-works__thumb__img js-target--parallax" style="background-image:url('images/7stones/sarvenaz-project/sarvenaz_main.jpg'); background-size: cover;"></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -208,7 +208,7 @@
                                         </a>
                                     </li>
                                     <li class="p-list__item p-works__list__item">
-                                        <a @click="jabanproject()" href="jaban-project" class="js-hover__works-list js-trigger--pageTransition js-target--pointer__stateChange js-hover" data-hover-in-time="450" data-hover-out-time="700">
+                                        <a @click="officeproject()" href="office-project" class="js-hover__works-list js-trigger--pageTransition js-target--pointer__stateChange js-hover" data-hover-in-time="450" data-hover-out-time="700">
                                             <div>
                                                 <div class="js-parent--parallax p-works__text">
                                                     <div class="js-target--parallax" data-parallax-move-range-y="230">
@@ -217,7 +217,7 @@
                                                                 <small>03</small>
                                                             </div>
                                                             <div class="p-works__title">
-                                                                <h1>Jaban Project view 2</h1>
+                                                                <h1>Office Project</h1>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -226,7 +226,7 @@
                                                     <div class="p-works__thumb">
                                                         <div class="p-works__thumb__maskCover"></div>
                                                         <div class="p-works__thumb__inner js-parent--parallax">
-                                                            <div class="p-works__thumb__img js-target--parallax" style="background-image:url('images/7stones/jaban-project-main2.jpg'); background-size: cover;"></div>
+                                                            <div class="p-works__thumb__img js-target--parallax" style="background-image:url('images/7stones/office-project/office_main.jpg'); background-size: cover;"></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -243,7 +243,7 @@
                                                                 <small>04</small>
                                                             </div>
                                                             <div class="p-works__title">
-                                                                <h1>Jaban Project view 3</h1>
+                                                                <h1>Jaban Project</h1>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -473,6 +473,12 @@ export default {
         },
         limooproject(){
              window.location.href = "/limoo-project";
+        },
+        officeproject(){
+              window.location.href = "/office-project";
+        },
+        sarvenazproject(){
+              window.location.href = "/sarvenaz-project";
         },
         jabanproject(){
               window.location.href = "/jaban-project";

@@ -4,6 +4,8 @@ import Projects from './components/Projects'
 import JabanProject from './components/JabanProject'
 import YasProject from './components/YasProject'
 import LimooProject from './components/LimooProject'
+import SarvenazProject from './components/SarvenazProject'
+import OfficeProject from './components/OfficeProject'
 
 export default {
     mode: 'history',
@@ -28,6 +30,13 @@ export default {
         }, {
             path: '/limoo-project',
             component: LimooProject
+        }, {
+            path: '/sarvenaz-project',
+            component: SarvenazProject
+        },
+        {
+            path: '/office-project',
+            component: OfficeProject
         }
     ]
 }

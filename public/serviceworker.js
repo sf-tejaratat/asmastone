@@ -1,17 +1,19 @@
-var staticCacheName = "pwa-v44";
+var staticCacheName = "pwa-v" + new Date().getTime();
 //total2
 var filesToCache = [
     '/',
     '/css/app.css',
     '/pages/offline.html',
-    '/css/bundle.css?version=18',
-    '/js/app.js?version=18',
+    '/css/bundle.css?version=20',
+    '/js/app.js?version=20',
     '/js/vendor.bundle.js',
     '/js/app.bundle.js',
     '/images/7stones/limoo-teb/limoo-teb4.jpg',
+    '/images/7stones/office-project/office_main.jpg',
+    '/images/7stones/sarvenaz-project/sarvenaz_main.jpg',
     '/images/7stones/jaban-project-main.jpg',
     '/images/7stones/savil-project.jpg',
-    '/images/7stones/niavaran-project.jpg',
+    // '/images/7stones/niavaran-project.jpg',
     '/images/7stones/yas2-project.jpg',
     '/images/icons/icon-72x72.png',
     '/images/icons/icon-96x96.png',
@@ -41,7 +43,7 @@ self.addEventListener('activate', event => {
         caches.keys().then(cacheNames => {
             return Promise.all(
                 cacheNames
-                    // .filter(cacheName => (cacheName.startsWith("pwa-")))
+                    .filter(cacheName => (cacheName.startsWith("pwa-")))
                     // .filter(cacheName => (cacheName !== staticCacheName))
                     .map(cacheName => caches.delete(cacheName))
             );
@@ -58,7 +60,7 @@ self.addEventListener("fetch", event => {
                 return response || fetch(event.request);
             })
             .catch(() => {
-                // return caches.match('/pages/offline.html');
+                return caches.match('/pages/offline.html');
             })
     )
 });

@@ -1,30 +1,44 @@
 <template>
-  <div>
-      <!-- <div class="flex-1 bg-white py-10 z-9999 "></div> -->
+      <div>
         <div id="wrapper">
-
             <header class="l-header js-header b-fonts__medium">
-            <div class="p-header l-wide-container">
-                <div class="p-header__left js-logo">
-                    <div class="p-header__left__inner">
-                        <a class="js-target--pointer__stateChange" href="/">
-                            <div class="js-target__inner--pointer__stateChange js-target__parent--spring">
-
-                                <svg id="logo" class="p-header__logo js-logo" x="0px" y="0px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 684.62 320.15" style="enable-background:new 0 0 684.62 320.15;" xml:space="preserve">
-
-                                    <g >
-                                        <g >
-                                            <path class="js-st-logo st-logo" d="M242.4 102.22V3.4c0-3.64-.32-3.39 3.35-3.39h84C333.17 0 333-.21 333 3.28v105.78c0 4.14-.4 3.71 3.74 3.72h101.25c3.91 0 3.56-.4 3.57 3.66v84.67c0 3.47.23 3.24-3.26 3.24H245.6c-3.48 0-3.2.18-3.2-3.3zM0 102.23V3.4C0-.25-.3 0 3.35 0h83.5c3.59 0 3.31-.28 3.32 3.42v197.66c0 3.48.25 3.27-3.23 3.27H3.2c-3.48 0-3.19.16-3.19-3.3Q0 151.64 0 102.23zM109 102.24V3.66c0-4-.33-3.65 3.58-3.65h83.26c3.6 0 3.52-.41 3.52 3.51v197.4c0 3.77 0 3.43-3.37 3.43h-83.75c-3.26 0-3.26 0-3.26-3.29zM584.82 204.35h-96.24c-3.75 0-3.46.36-3.47-3.52v-84.7c0-3.71-.2-3.35 3.39-3.35h192.72c3.38 0 3.4-.39 3.4 3.4v84.93c0 3.61-.08 3.24-3.32 3.24z"/>
-                                            <path class="js-st-logo st-logo" d="M351 46.08V4.34 2.67c0-2.64 0-2.66 2.66-2.66h86.37c1 0 1.5.39 1.47 1.41V89c0 3.46.25 3.25-3.25 3.25h-84.18c-3 0-3.05 0-3.05-3Q351 67.66 351 46.08zM485.11 46V4.32 2.4c0-2.36 0-2.39 2.43-2.39H574.36a1 1 0 011 1.06v88.72c0 2.36 0 2.39-2.42 2.39H486.12a1 1 0 01-1-1.06c0-.72-.05-1.44-.05-2.16zM594.24 46.1V2.94c0-2.92 0-2.93 2.85-2.93h85.38c2 .07 2.08.13 2.15 2.25V88.58c0 4.06.16 3.64-3.61 3.64h-83.23c-3.89 0-3.53.3-3.53-3.44q-.03-21.34-.01-42.68z"/>
-                                            <path class="js-st-logo st-logo" d="M20.72 282.1V277h27.8v4.1a59.06 59.06 0 00-8.13 11.6 70.73 70.73 0 00-6.22 14.88 55.49 55.49 0 00-2 11.81h-5.45a52.8 52.8 0 012-12.25 64.49 64.49 0 015.46-13.84 59.3 59.3 0 017.57-11.23zM113.94 305.62l5.36-.47a11.9 11.9 0 001.78 5.29 9.57 9.57 0 004.32 3.34 16.34 16.34 0 006.59 1.27 15.88 15.88 0 005.74-1 8 8 0 003.71-2.65 6.17 6.17 0 001.21-3.68 5.6 5.6 0 00-1.17-3.53 8.6 8.6 0 00-3.87-2.53 75.57 75.57 0 00-7.64-2.1 39.08 39.08 0 01-8.29-2.68 11.66 11.66 0 01-4.59-4 9.76 9.76 0 01-1.51-5.35 10.9 10.9 0 011.85-6.07 11.44 11.44 0 015.39-4.3 20.56 20.56 0 017.88-1.46 21.44 21.44 0 018.42 1.54 12.13 12.13 0 015.61 4.52 13 13 0 012.11 6.77l-5.45.41a8.77 8.77 0 00-3-6.15q-2.53-2.08-7.49-2.08c-3.43 0-5.94.63-7.51 1.89a5.68 5.68 0 00-2.36 4.55 4.88 4.88 0 001.67 3.81q1.63 1.5 8.57 3.06a57.37 57.37 0 019.51 2.74 13.1 13.1 0 015.53 4.38 10.7 10.7 0 011.79 6.11 11.65 11.65 0 01-2 6.46 13 13 0 01-5.64 4.72 19.69 19.69 0 01-8.28 1.68 24.61 24.61 0 01-9.77-1.7 13.59 13.59 0 01-6.18-5.11 14.54 14.54 0 01-2.29-7.68zM226.82 319.42v-37.88h-14.15v-5.07h34.05v5.07h-14.21v37.88zM309.73 298.5q0-10.69 5.74-16.74a19.54 19.54 0 0114.83-6.05 20.6 20.6 0 0110.7 2.84 18.62 18.62 0 017.28 7.93 25.7 25.7 0 012.53 11.52 25.25 25.25 0 01-2.64 11.69 18 18 0 01-7.47 7.81 21.31 21.31 0 01-10.43 2.65 20.25 20.25 0 01-10.84-2.93 18.86 18.86 0 01-7.24-8 24.21 24.21 0 01-2.46-10.72zm5.86.09q0 7.77 4.18 12.23a14.56 14.56 0 0021 0Q345 306.27 345 298a22 22 0 00-1.77-9.15 13.66 13.66 0 00-5.19-6.06 14 14 0 00-7.66-2.16 14.51 14.51 0 00-10.39 4.15q-4.4 4.11-4.4 13.81zM418.07 319.42v-42.95h5.83l22.56 33.72v-33.72h5.45v42.95h-5.83l-22.56-33.75v33.75zM521.58 319.42v-42.95h31v5.07h-25.32v13.15H551v5h-23.74v14.62h26.37v5.07zM631.55 305.62l5.36-.47a11.78 11.78 0 001.77 5.29 9.68 9.68 0 004.32 3.34 16.38 16.38 0 006.59 1.27 15.93 15.93 0 005.75-1 8 8 0 003.7-2.65 6.18 6.18 0 001.22-3.68 5.6 5.6 0 00-1.17-3.53 8.6 8.6 0 00-3.87-2.53 75.23 75.23 0 00-7.65-2.1 39.28 39.28 0 01-8.29-2.68 11.56 11.56 0 01-4.58-4 9.76 9.76 0 01-1.51-5.35 10.89 10.89 0 011.81-6.03 11.44 11.44 0 015.39-4.3 20.61 20.61 0 017.89-1.46 21.44 21.44 0 018.42 1.54 12.13 12.13 0 015.61 4.52 13 13 0 012.11 6.77L659 289a8.77 8.77 0 00-3-6.15c-1.68-1.39-4.18-2.08-7.48-2.08s-5.94.63-7.52 1.89a5.66 5.66 0 00-2.35 4.55 4.85 4.85 0 001.67 3.81q1.63 1.5 8.57 3.06a57.48 57.48 0 019.5 2.74 13.14 13.14 0 015.54 4.38 10.7 10.7 0 011.79 6.11 11.66 11.66 0 01-2 6.46 12.89 12.89 0 01-5.64 4.72 19.68 19.68 0 01-8.27 1.68 24.55 24.55 0 01-9.77-1.7 13.59 13.59 0 01-6.18-5.11 14.45 14.45 0 01-2.31-7.74z"/>
+                <div class="p-header l-wide-container">
+                    <div class="p-header__left js-logo">
+                        <div class="p-header__left__inner">
+                            <a @click="home()" class="js-target--pointer__stateChange" href="/">
+                                <div class="js-target__inner--pointer__stateChange js-target__parent--spring">
+                                    <svg id="logo" class="p-header__logo js-logo" x="0px" y="0px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 684.62 320.15" style="enable-background:new 0 0 684.62 320.15;" xml:space="preserve">
+                                        <g>
+                                            <g>
+                                                <path class="js-st-logo st-logo" d="M242.4 102.22V3.4c0-3.64-.32-3.39 3.35-3.39h84C333.17 0 333-.21 333 3.28v105.78c0 4.14-.4 3.71 3.74 3.72h101.25c3.91 0 3.56-.4 3.57 3.66v84.67c0 3.47.23 3.24-3.26 3.24H245.6c-3.48 0-3.2.18-3.2-3.3zM0 102.23V3.4C0-.25-.3 0 3.35 0h83.5c3.59 0 3.31-.28 3.32 3.42v197.66c0 3.48.25 3.27-3.23 3.27H3.2c-3.48 0-3.19.16-3.19-3.3Q0 151.64 0 102.23zM109 102.24V3.66c0-4-.33-3.65 3.58-3.65h83.26c3.6 0 3.52-.41 3.52 3.51v197.4c0 3.77 0 3.43-3.37 3.43h-83.75c-3.26 0-3.26 0-3.26-3.29zM584.82 204.35h-96.24c-3.75 0-3.46.36-3.47-3.52v-84.7c0-3.71-.2-3.35 3.39-3.35h192.72c3.38 0 3.4-.39 3.4 3.4v84.93c0 3.61-.08 3.24-3.32 3.24z"/>
+                                                <path class="js-st-logo st-logo" d="M351 46.08V4.34 2.67c0-2.64 0-2.66 2.66-2.66h86.37c1 0 1.5.39 1.47 1.41V89c0 3.46.25 3.25-3.25 3.25h-84.18c-3 0-3.05 0-3.05-3Q351 67.66 351 46.08zM485.11 46V4.32 2.4c0-2.36 0-2.39 2.43-2.39H574.36a1 1 0 011 1.06v88.72c0 2.36 0 2.39-2.42 2.39H486.12a1 1 0 01-1-1.06c0-.72-.05-1.44-.05-2.16zM594.24 46.1V2.94c0-2.92 0-2.93 2.85-2.93h85.38c2 .07 2.08.13 2.15 2.25V88.58c0 4.06.16 3.64-3.61 3.64h-83.23c-3.89 0-3.53.3-3.53-3.44q-.03-21.34-.01-42.68z"/>
+                                                <path class=" js-st-logo st-logo" d="M20.72 282.1V277h27.8v4.1a59.06 59.06 0 00-8.13 11.6 70.73 70.73 0 00-6.22 14.88 55.49 55.49 0 00-2 11.81h-5.45a52.8 52.8 0 012-12.25 64.49 64.49 0 015.46-13.84 59.3 59.3 0 017.57-11.23zM113.94 305.62l5.36-.47a11.9 11.9 0 001.78 5.29 9.57 9.57 0 004.32 3.34 16.34 16.34 0 006.59 1.27 15.88 15.88 0 005.74-1 8 8 0 003.71-2.65 6.17 6.17 0 001.21-3.68 5.6 5.6 0 00-1.17-3.53 8.6 8.6 0 00-3.87-2.53 75.57 75.57 0 00-7.64-2.1 39.08 39.08 0 01-8.29-2.68 11.66 11.66 0 01-4.59-4 9.76 9.76 0 01-1.51-5.35 10.9 10.9 0 011.85-6.07 11.44 11.44 0 015.39-4.3 20.56 20.56 0 017.88-1.46 21.44 21.44 0 018.42 1.54 12.13 12.13 0 015.61 4.52 13 13 0 012.11 6.77l-5.45.41a8.77 8.77 0 00-3-6.15q-2.53-2.08-7.49-2.08c-3.43 0-5.94.63-7.51 1.89a5.68 5.68 0 00-2.36 4.55 4.88 4.88 0 001.67 3.81q1.63 1.5 8.57 3.06a57.37 57.37 0 019.51 2.74 13.1 13.1 0 015.53 4.38 10.7 10.7 0 011.79 6.11 11.65 11.65 0 01-2 6.46 13 13 0 01-5.64 4.72 19.69 19.69 0 01-8.28 1.68 24.61 24.61 0 01-9.77-1.7 13.59 13.59 0 01-6.18-5.11 14.54 14.54 0 01-2.29-7.68zM226.82 319.42v-37.88h-14.15v-5.07h34.05v5.07h-14.21v37.88zM309.73 298.5q0-10.69 5.74-16.74a19.54 19.54 0 0114.83-6.05 20.6 20.6 0 0110.7 2.84 18.62 18.62 0 017.28 7.93 25.7 25.7 0 012.53 11.52 25.25 25.25 0 01-2.64 11.69 18 18 0 01-7.47 7.81 21.31 21.31 0 01-10.43 2.65 20.25 20.25 0 01-10.84-2.93 18.86 18.86 0 01-7.24-8 24.21 24.21 0 01-2.46-10.72zm5.86.09q0 7.77 4.18 12.23a14.56 14.56 0 0021 0Q345 306.27 345 298a22 22 0 00-1.77-9.15 13.66 13.66 0 00-5.19-6.06 14 14 0 00-7.66-2.16 14.51 14.51 0 00-10.39 4.15q-4.4 4.11-4.4 13.81zM418.07 319.42v-42.95h5.83l22.56 33.72v-33.72h5.45v42.95h-5.83l-22.56-33.75v33.75zM521.58 319.42v-42.95h31v5.07h-25.32v13.15H551v5h-23.74v14.62h26.37v5.07zM631.55 305.62l5.36-.47a11.78 11.78 0 001.77 5.29 9.68 9.68 0 004.32 3.34 16.38 16.38 0 006.59 1.27 15.93 15.93 0 005.75-1 8 8 0 003.7-2.65 6.18 6.18 0 001.22-3.68 5.6 5.6 0 00-1.17-3.53 8.6 8.6 0 00-3.87-2.53 75.23 75.23 0 00-7.65-2.1 39.28 39.28 0 01-8.29-2.68 11.56 11.56 0 01-4.58-4 9.76 9.76 0 01-1.51-5.35 10.89 10.89 0 011.81-6.03 11.44 11.44 0 015.39-4.3 20.61 20.61 0 017.89-1.46 21.44 21.44 0 018.42 1.54 12.13 12.13 0 015.61 4.52 13 13 0 012.11 6.77L659 289a8.77 8.77 0 00-3-6.15c-1.68-1.39-4.18-2.08-7.48-2.08s-5.94.63-7.52 1.89a5.66 5.66 0 00-2.35 4.55 4.85 4.85 0 001.67 3.81q1.63 1.5 8.57 3.06a57.48 57.48 0 019.5 2.74 13.14 13.14 0 015.54 4.38 10.7 10.7 0 011.79 6.11 11.66 11.66 0 01-2 6.46 12.89 12.89 0 01-5.64 4.72 19.68 19.68 0 01-8.27 1.68 24.55 24.55 0 01-9.77-1.7 13.59 13.59 0 01-6.18-5.11 14.45 14.45 0 01-2.31-7.74z"/>
+                                            </g>
                                         </g>
-                                    </g>
-                                </svg>
-
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                        <a @click="home()" href="/" class="p-header__close c-btn--close js-target__aboutClose js-target--pointer__stateChange js-hover" data-hover-in-time="1200" data-hover-out-time="100">
+                            <div class="c-btn--close__layer front js-target__inner--pointer__stateChange js-target__parent--spring">
+                                <div class="c-btn--close__bar">
+                                    <div class="c-btn--close__bar__inner js-closeBar"></div>
+                                </div>
+                                <div class="c-btn--close__bar">
+                                    <div class="c-btn--close__bar__inner js-closeBar"></div>
+                                </div>
+                            </div>
+                            <div class="c-btn--close__layer back">
+                                <div class="c-btn--close__bar">
+                                    <div class="c-btn--close__bar__inner js-closeBar"></div>
+                                </div>
+                                <div class="c-btn--close__bar">
+                                    <div class="c-btn--close__bar__inner js-closeBar"></div>
+                                </div>
                             </div>
                         </a>
                     </div>
-                    <a href="/" class="p-header__close c-btn--close js-target__aboutClose js-target--pointer__stateChange js-hover" data-hover-in-time="1200" data-hover-out-time="100">
+                    <a @click="home()" href="/" class="p-header__close--works-detail c-btn--close js-target__worksDetailClose js-target--pointer__stateChange js-hover" data-hover-in-time="1200" data-hover-out-time="100">
                         <div class="c-btn--close__layer front js-target__inner--pointer__stateChange js-target__parent--spring">
                             <div class="c-btn--close__bar">
                                 <div class="c-btn--close__bar__inner js-closeBar"></div>
@@ -42,91 +56,219 @@
                             </div>
                         </div>
                     </a>
+                    <nav class="js-nav">
+                        <ul class="p-header__list">
+                            <li class="p-header__list__item works pc">
+                                <div class="p-header__list__item__inner--works">
+                                    <div class="p-header__list__item--all">
+                                        <a class="js-nav__link js-target--pointer__stateChange" href="/works/">
+                                            <span class="js-target__inner--pointer__stateChange js-target__parent--spring">All</span>
+                                        </a>
+                                    </div>
+                                    <div class="p-header__list__item--focus">
+                                        <a class="js-nav__link js-target--pointer__stateChange" href="/">
+                                            <span class="js-target__inner--pointer__stateChange js-target__parent--spring">Focus</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="p-header__list__item has-children">
+                                <a @click="about()" class="js-nav__link js-target--pointer__stateChange about" href="/about">
+                                    <span class="js-target__inner--pointer__stateChange js-target__parent--spring">About</span>
+                                </a>
+                                <div class="p-header__list__item__inner">
+                                    <ul class="p-header__languageList">
+                                        <li class="p-header__languageList__item">
+                                            <a class="js-nav__link js-trigger--langChange js-target--pointer__stateChange" data-lang="en" href="#">
+                                                <span class="js-target__inner--pointer__stateChange js-target__parent--spring">En</span>
+                                            </a>
+                                        </li>
+                                        <li class="p-header__languageList__item">
+                                            <a class="js-nav__link js-trigger--langChange js-target--pointer__stateChange" data-lang="zh-cmn-Hans" href="#">
+                                                <span class="js-target__inner--pointer__stateChange js-target__parent--spring">Cn</span>
+                                            </a>
+                                        </li>
+                                        <li class="p-header__languageList__item">
+                                            <a class="js-nav__link js-trigger--langChange js-target--pointer__stateChange" data-lang="ja" href="#">
+                                                <span class="js-target__inner--pointer__stateChange js-target__parent--spring">Jp</span>
+                                            </a>
+                                        </li>
+                                        <li class="p-header__languageList__item line"></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-                <a href="/" class="p-header__close--works-detail c-btn--close js-target__worksDetailClose js-target--pointer__stateChange js-hover" data-hover-in-time="1200" data-hover-out-time="100">
-                    <div class="c-btn--close__layer front js-target__inner--pointer__stateChange js-target__parent--spring">
-                        <div class="c-btn--close__bar">
-                            <div class="c-btn--close__bar__inner js-closeBar"></div>
-                        </div>
-                        <div class="c-btn--close__bar">
-                            <div class="c-btn--close__bar__inner js-closeBar"></div>
-                        </div>
-                    </div>
-                    <div class="c-btn--close__layer back">
-                        <div class="c-btn--close__bar">
-                            <div class="c-btn--close__bar__inner js-closeBar"></div>
-                        </div>
-                        <div class="c-btn--close__bar">
-                            <div class="c-btn--close__bar__inner js-closeBar"></div>
-                        </div>
-                    </div>
-                </a>
-                <nav class="js-nav">
-                    <ul class="p-header__list">
-                        <li class="p-header__list__item works pc">
-                            <div class="p-header__list__item__inner--works">
-                                <div class="p-header__list__item--all">
-                                    <a @click="projects()" class="js-nav__link js-target--pointer__stateChange" href="/projects">
-                                        <span class="js-target__inner--pointer__stateChange js-target__parent--spring">All</span>
-                                    </a>
-                                </div>
-                                <div class="p-header__list__item--focus">
-                                    <a class="js-nav__link js-target--pointer__stateChange" href="/">
-                                        <span class="js-target__inner--pointer__stateChange js-target__parent--spring">Focus</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-                         <li class="p-header__list__item has-children">
-                            <a @click="about()" class="js-nav__link js-target--pointer__stateChange" href="/about"  >
-                                <span  class="js-target__inner--pointer__stateChange js-target__parent--spring">About</span>
-                            </a>
-
-                            <div class="p-header__list__item__inner">
-                                <ul class="p-header__languageList">
-                                    <li class="p-header__languageList__item">
-                                        <a class="js-nav__link js-trigger--langChange js-target--pointer__stateChange" data-lang="en" href="#">
-                                            <span class="js-target__inner--pointer__stateChange js-target__parent--spring">En</span>
-                                        </a>
-                                    </li>
-                                    <li class="p-header__languageList__item">
-                                        <a class="js-nav__link js-trigger--langChange js-target--pointer__stateChange" data-lang="zh-cmn-Hans" href="#">
-                                            <span class="js-target__inner--pointer__stateChange js-target__parent--spring">Cn</span>
-                                        </a>
-                                    </li>
-                                    <li class="p-header__languageList__item">
-                                        <a class="js-nav__link js-trigger--langChange js-target--pointer__stateChange" data-lang="ja" href="#">
-                                            <span class="js-target__inner--pointer__stateChange js-target__parent--spring">Jp</span>
-                                        </a>
-                                    </li>
-                                    <li class="p-header__languageList__item line"></li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
             </header>
             <div class="l-navSp b-fonts__medium js-nav">
-            <div class="p-navSp">
-                <div class="p-header__list__item__inner--works">
-                    <div class="p-header__list__item--all p-navSp__item">
-                        <a class="js-nav__link js-target--pointer__stateChange" href="/projects">
-                            <span class="js-target__inner--pointer__stateChange js-target__parent--spring">All</span>
-                        </a>
-                    </div>
-                    <div class="p-header__list__item--focus p-navSp__item">
-                        <a class="js-nav__link js-target--pointer__stateChange" href="/">
-                            <span class="js-target__inner--pointer__stateChange js-target__parent--spring">Focus</span>
-                        </a>
+                <div class="p-navSp">
+                    <div class="p-header__list__item__inner--works">
+                        <div class="p-header__list__item--all p-navSp__item">
+                            <a class="js-nav__link js-target--pointer__stateChange" href="/works/">
+                                <span class="js-target__inner--pointer__stateChange js-target__parent--spring">All</span>
+                            </a>
+                        </div>
+                        <div class="p-header__list__item--focus p-navSp__item">
+                            <a class="js-nav__link js-target--pointer__stateChange" href="/">
+                                <span class="js-target__inner--pointer__stateChange js-target__parent--spring">Focus</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
             <main id="page" class="js-smooth-scroll-wrapper">
                 <div id="contents" class="js-smooth-scroll-content">
-                    <div id="top" class="page-content"></div>
-
+                    <div id="works-detail" class="l-works-detail page-content" data-works-num="2">
+                        <article class="p-works-detail b-fonts__medium">
+                            <section class="l-works-detail__head js-parallax__content" data-parallax-ratio="0.8">
+                                <div class="p-works-detail__head js-parallax__target">
+                                    <div class="p-works-detail__head__blank"></div>
+                                    <div style="position: relative">
+                                        <h1 class="p-works-detail__title js-work__title">
+                                            <span class="p-works-detail__title__inner js-work__title__inner">Office Project</span>
+                                        </h1>
+                                    </div>
+                                    <div class="l-container p-info">
+                                        <p class="p-info__number js-transition__number js-target--split">02</p>
+                                        <time class="p-info__year js-transition__year js-target--split">2020</time>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="l-works-detail__body">
+                                <div class="p-works-detail__body">
+                                    <div class="p-works-detail__body__inner">
+                                        <div class="js-parallax__content" data-parallax-ratio="0.5">
+                                            <div class="bg js-transition__bg js-parallax__target"></div>
+                                        </div>
+                                        <div class="l-container js-transition__listContainer">
+                                            <ul class="p-works-detail__list js-transition__list js-target--smooth" data-smooth-move-ratio="0.012">
+                                                <li class="js-target--imageZoom p-works-detail__list__item js-target--indicator js-transition__list__item js-target--pointer__stateChange" data-mouse-pointer-type="zoom">
+                                                    <div style="overflow:hidden;" class="p-works-detail__opacity" data-image-zoom="images/7stones/office-project/detail_office1.jpg">
+                                                        <div class="inner" style="pointer-events: none;">
+                                                            <div class="js-parent--parallax">
+                                                                <div class="p-works-detail__list__item__inner">
+                                                                    <div class="js-target--parallax">
+                                                                        <div>
+                                                                            <div class="img">
+                                                                                <img src="images/7stones/office-project/detail_office1.jpg" alt="" width="1100" height="858">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="js-target--imageZoom p-works-detail__list__item js-target--indicator js-transition__list__item js-target--pointer__stateChange" data-mouse-pointer-type="zoom">
+                                                    <div style="overflow:hidden;" class="p-works-detail__opacity" data-image-zoom="images/7stones/office-project/detail_office2 .jpg">
+                                                        <div class="inner" style="pointer-events: none;">
+                                                            <div class="js-parent--parallax">
+                                                                <div class="p-works-detail__list__item__inner">
+                                                                    <div class="js-target--parallax">
+                                                                        <div>
+                                                                            <div class="img">
+                                                                                 <img src="images/7stones/office-project/detail_office2.jpg" alt="" width="1100" height="556">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="js-target--imageZoom p-works-detail__list__item js-target--indicator js-transition__list__item js-target--pointer__stateChange" data-mouse-pointer-type="zoom">
+                                                    <div style="overflow:hidden;" class="p-works-detail__opacity" data-image-zoom="images/7stones/office-project/detail_office3.jpg">
+                                                        <div class="inner" style="pointer-events: none;">
+                                                            <div class="js-parent--parallax">
+                                                                <div class="p-works-detail__list__item__inner">
+                                                                    <div class="js-target--parallax">
+                                                                        <div>
+                                                                            <div class="img">
+                                                                                 <img src="images/7stones/office-project/detail_office3.jpg" alt="" width="1100" height="556">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="js-target--imageZoom p-works-detail__list__item js-target--indicator js-transition__list__item js-target--pointer__stateChange" data-mouse-pointer-type="zoom">
+                                                    <div style="overflow:hidden;" class="p-works-detail__opacity" data-image-zoom="images/7stones/office-project/detail_office4.jpg">
+                                                        <div class="inner" style="pointer-events: none;">
+                                                            <div class="js-parent--parallax">
+                                                                <div class="p-works-detail__list__item__inner">
+                                                                    <div class="js-target--parallax">
+                                                                        <div>
+                                                                            <div class="img">
+                                                                                 <img src="images/7stones/office-project/detail_office4.jpg" alt="" width="1100" height="556">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="js-target--imageZoom p-works-detail__list__item js-target--indicator js-transition__list__item js-target--pointer__stateChange" data-mouse-pointer-type="zoom">
+                                                    <div style="overflow:hidden;" class="p-works-detail__opacity" data-image-zoom="images/7stones/office-project/detail_office5.jpg">
+                                                        <div class="inner" style="pointer-events: none;">
+                                                            <div class="js-parent--parallax">
+                                                                <div class="p-works-detail__list__item__inner">
+                                                                    <div class="js-target--parallax">
+                                                                        <div>
+                                                                            <div class="img">
+                                                                                 <img src="images/7stones/office-project/detail_office5.jpg" alt="" width="1100" height="556">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="js-target--imageZoom p-works-detail__list__item js-target--indicator js-transition__list__item js-target--pointer__stateChange" data-mouse-pointer-type="zoom">
+                                                    <div style="overflow:hidden;" class="p-works-detail__opacity" data-image-zoom="images/7stones/office-project/detail_office6.jpg">
+                                                        <div class="inner" style="pointer-events: none;">
+                                                            <div class="js-parent--parallax">
+                                                                <div class="p-works-detail__list__item__inner">
+                                                                    <div class="js-target--parallax">
+                                                                        <div>
+                                                                            <div class="img">
+                                                                                 <img src="images/7stones/office-project/detail_office6.jpg" alt="" width="1100" height="556">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="js-target--imageZoom p-works-detail__list__item js-target--indicator js-transition__list__item js-target--pointer__stateChange" data-mouse-pointer-type="zoom">
+                                                    <div style="overflow:hidden;" class="p-works-detail__opacity" data-image-zoom="images/7stones/office-project/detail_office7.jpg">
+                                                        <div class="inner" style="pointer-events: none;">
+                                                            <div class="js-parent--parallax">
+                                                                <div class="p-works-detail__list__item__inner">
+                                                                    <div class="js-target--parallax">
+                                                                        <div>
+                                                                            <div class="img">
+                                                                                 <img src="images/7stones/office-project/detail_office7.jpg" alt="" width="1100" height="556">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </article>
+                    </div>
                 </div>
             </main>
             <aside id="side-contact" class="p-sideContact">
@@ -158,33 +300,18 @@
             <div id="stage" class="p-stage">
                 <div id="app-canvas"></div>
                 <ul class="p-stage__menu">
+                    <li @click="work1()" class="p-stage__menu__item js-canvas__target" data-canvas-thumb="images/7stones/1.jpg" data-canvas-zoom="images/7stones/1.jpg" data-canvas-url="work1">
+                       نمونه کار شماره ۱<br>Minami Azabu
+                    </li>
 
-                    <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/limoo-teb/limoo-teb4.jpg" data-canvas-url="limoo-project">
-                      Limoo Teb
-                    </li>
-                    <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/sarvenaz-project/sarvenaz_main.jpg" data-canvas-url="sarvenaz-project">
-                       Sarvenaz Project
-                    </li>
-                    <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/office-project/office_main.jpg" data-canvas-url="office-project">
-                       Office Project
-                    </li>
-                    <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/jaban-project-main.jpg" data-canvas-url="jaban-project">
-                       Jaban Project
-                    </li>
-                     <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/savil-project.jpg" data-canvas-url="jaban-project">
-                       Savil Project
-                    </li>
-                     <li  class="p-stage__menu__item js-canvas__target" data-canvas-thumb="" data-canvas-zoom="images/7stones/yas2-project.jpg" data-canvas-url="yas-project">
-                      Yas Project
-                    </li>
                 </ul>
             </div>
             <div id="indicator">
-            <div id="app-indicator"></div>
+                <div id="app-indicator"></div>
             </div>
             <div id="pageCover" class="p-pageCover js-target--height__screenFix--mobile" data-fix-height-ratio="1.1">
                 <div class="p-pageCover__inner js-target--height__screenFix--mobile" data-fix-height-ratio="1">
-                    <p id="pageCoverText" class="p-pageCover__text b-fonts__medium">next</p>
+                    <p id="pageCoverText" class="p-pageCover__text b-fonts__medium">Next</p>
                 </div>
             </div>
         </div>
@@ -197,7 +324,7 @@
                 </div>
             </div>
         </div>
-        <div id="loading" class="p-loading">
+         <div id="loading" class="p-loading">
         <div class="p-loading__outer">
             <div class="p-loading__bg"></div>
             <div class="p-loading__inner">
@@ -206,8 +333,8 @@
                         <div class="p-loading__front__inner">
                             <svg class="p-loading__logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 280.13 113.21" style="enable-background:new 0 0 280.13 113.21;" xml:space="preserve">
                                 <g>
-                                    <g id="Layer_2" data-name="Layer 2">
-                                        <g id="Layer_1-2" data-name="Layer 1">
+                                    <g >
+                                        <g >
                                             <path class="st-logo-load"  d="M0,26.21,9.9.44h3.67L24.12,26.21H20.23l-3-7.81H6.45L3.62,26.21ZM7.44,15.63h8.73L13.48,8.49q-1.23-3.25-1.83-5.34a32.85,32.85,0,0,1-1.38,4.92Z"/>
                                             <path class="st-logo-load"  d="M26.89,26.21V.44H38.32a15.31,15.31,0,0,1,5.24.69,5.73,5.73,0,0,1,2.86,2.46A7.25,7.25,0,0,1,47.5,7.47a6.48,6.48,0,0,1-1.78,4.62,8.94,8.94,0,0,1-5.48,2.39,9.14,9.14,0,0,1,2,1.29,17.2,17.2,0,0,1,2.83,3.43l4.49,7H45.32l-3.41-5.36q-1.5-2.33-2.46-3.55a8,8,0,0,0-1.74-1.73,5.28,5.28,0,0,0-1.55-.68,10.54,10.54,0,0,0-1.9-.12h-4V26.21Zm3.41-14.4h7.33a11.09,11.09,0,0,0,3.66-.48,3.84,3.84,0,0,0,2-1.55A4.17,4.17,0,0,0,44,7.47a3.84,3.84,0,0,0-1.33-3,6.22,6.22,0,0,0-4.19-1.17H30.3Z"/>
                                             <path class="st-logo-load"  d="M71.23,17.17l3.41.87a11.48,11.48,0,0,1-3.86,6.4A10.65,10.65,0,0,1,64,26.65,12.25,12.25,0,0,1,57.19,25a10.61,10.61,0,0,1-4-4.91,17.53,17.53,0,0,1-1.36-6.91,15.26,15.26,0,0,1,1.53-7,10.53,10.53,0,0,1,4.38-4.55A12.77,12.77,0,0,1,64,0a10.55,10.55,0,0,1,6.5,2A10.21,10.21,0,0,1,74.2,7.51l-3.36.79a8,8,0,0,0-2.6-4.1A7,7,0,0,0,64,2.92a8.34,8.34,0,0,0-5,1.42,7.54,7.54,0,0,0-2.8,3.83,15.27,15.27,0,0,0-.81,4.94,15.69,15.69,0,0,0,1,5.74,7.13,7.13,0,0,0,3,3.67,8.36,8.36,0,0,0,4.38,1.21,7.35,7.35,0,0,0,4.85-1.65A8.49,8.49,0,0,0,71.23,17.17Z"/>
@@ -302,53 +429,32 @@
         <div class="p-alert js-target--height__screenFix--mobile">
             <p class="p-alert__text b-fonts__medium">Roate your device.</p>
         </div>
-  </div>
+     </div>
 </template>
 
+     <script>
+     export default {
 
-<script>
+         methods:{
+             home(){
+                window.location.href = "/";
+             },
+             about(){
+                window.location.href = "/about";
+             }
+         }
 
+     }
+     </script>
 
-
-// import '@/public/css/bundle.css';
-//    import {Workbox} from 'workbox-window';
-export default {
-  name:'Home',
-    mounted() {
-
-// if ('serviceWorker' in navigator) {
-//   const wb = new Workbox('/js/service-worker.js');
-
-//   wb.register();
-// }
-
-        // $('a').click(function(){
-        //     alert('ss');
-        // })
-    },
-    methods:{
-        about(){
-           window.location.href = "/about";
-        },
-        projects(){
-           window.location.href = "/projects";
-        },
-
-    }
-
-}
-</script>
-
-<style >
-
-    .add-button{
-        position: fixed;
-        top: 100px;
-        left: 100px;
-        background-color: white;
-        padding: 20px 40px;
-        color: black;
-        z-index: 111;
-    }
-
-</style>
+    <style >
+        .st-logo {
+           fill: #FFFFFF;
+        }
+          .st-logo-load {
+              fill: #666;
+           }
+        .st-logo-load-back {
+            fill: #fff;
+        }
+    </style>
