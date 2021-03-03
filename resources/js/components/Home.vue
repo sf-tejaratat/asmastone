@@ -11,7 +11,6 @@
                             <div class="js-target__inner--pointer__stateChange js-target__parent--spring">
 
                                 <svg id="logo" class="p-header__logo js-logo" x="0px" y="0px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 684.62 320.15" style="enable-background:new 0 0 684.62 320.15;" xml:space="preserve">
-
                                     <g >
                                         <g >
                                             <path class="js-st-logo st-logo" d="M242.4 102.22V3.4c0-3.64-.32-3.39 3.35-3.39h84C333.17 0 333-.21 333 3.28v105.78c0 4.14-.4 3.71 3.74 3.72h101.25c3.91 0 3.56-.4 3.57 3.66v84.67c0 3.47.23 3.24-3.26 3.24H245.6c-3.48 0-3.2.18-3.2-3.3zM0 102.23V3.4C0-.25-.3 0 3.35 0h83.5c3.59 0 3.31-.28 3.32 3.42v197.66c0 3.48.25 3.27-3.23 3.27H3.2c-3.48 0-3.19.16-3.19-3.3Q0 151.64 0 102.23zM109 102.24V3.66c0-4-.33-3.65 3.58-3.65h83.26c3.6 0 3.52-.41 3.52 3.51v197.4c0 3.77 0 3.43-3.37 3.43h-83.75c-3.26 0-3.26 0-3.26-3.29zM584.82 204.35h-96.24c-3.75 0-3.46.36-3.47-3.52v-84.7c0-3.71-.2-3.35 3.39-3.35h192.72c3.38 0 3.4-.39 3.4 3.4v84.93c0 3.61-.08 3.24-3.32 3.24z"/>
@@ -70,12 +69,19 @@
                                         <span class="js-target__inner--pointer__stateChange js-target__parent--spring">Works</span>
                                     </a>
                                 </div>
+
                                 <div class="p-header__list__item--focus">
                                     <a class="js-nav__link js-target--pointer__stateChange" href="/">
                                         <span class="js-target__inner--pointer__stateChange js-target__parent--spring">Focus</span>
                                     </a>
                                 </div>
                             </div>
+                        </li>
+
+                        <li class="p-header__list__item has-children">
+                            <a @click="event()" class="js-nav__link js-target--pointer__stateChange" href="/event"  >
+                                <span  class="js-target__inner--pointer__stateChange js-target__parent--spring">Event</span>
+                            </a>
                         </li>
                          <li class="p-header__list__item has-children">
                             <a @click="about()" class="js-nav__link js-target--pointer__stateChange" href="/about"  >
@@ -332,6 +338,9 @@ export default {
         projects(){
            window.location.href = "/projects";
         },
+        event(){
+              window.location.href = "/event";
+        }
 
     }
 

@@ -24,4 +24,12 @@ class HomeController extends Controller
     {
         return view('welcome');
     }
+    public function event()
+    {
+        return view('event');
+    }
+    public function notFound()
+    {
+        return abort(404);
+    }
 }

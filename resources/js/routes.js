@@ -6,6 +6,8 @@ import YasProject from './components/YasProject'
 import LimooProject from './components/LimooProject'
 import SarvenazProject from './components/SarvenazProject'
 import OfficeProject from './components/OfficeProject'
+import Event from './components/Event'
+import NotFound from './components/NotFound'
 
 export default {
     mode: 'history',
@@ -37,6 +39,10 @@ export default {
         {
             path: '/office-project',
             component: OfficeProject
-        }
+        }, {
+            path: '/event1',
+            component: Event
+        },
+        { path: "*", component: NotFound }
     ]
 }
