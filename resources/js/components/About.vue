@@ -157,12 +157,42 @@
                                             </h1>
                                         </div>
                                         <div class="p-about__section__body">
-                                            <div lang="en">
+                                            <div lang="en" style="margin-bottom:100px">
                                                 <p class="p-about__section__description lang-fonts--en">
-                                                    Our architecture seeks to create spaces with serenity.<br>
-                                                    Luis Barragán Morfin, an architect whose work we deeply respect, declared, "Serenity is the great and true antidote against anguish and fear, and today, more than ever, it is the architect's duty to make of it a permanent guest in the home, no matter how sumptuous or how humble."<br>
-                                                    We will continue to provide architectural spaces that embody beauty and pleasure in serene settings, touching the sentiments of those who use them.<br>We will, at the same time, work to create buildings that will endure both physically and aesthetically, informed by the techniques of sustainable design so as to be ecologically sound, and presenting appearances of timeless charm.
+                                                   We Embrace and Empower Meaningful Change
+                                                    7Stones is a different kind of design practice, one that helps our clients drive innovation by creating highly productive, sustainable spaces that free people to live, learn, work and play.
+
+                                                    Founded in 2015, 7stones has locations in Tehran. Our network of “renaissance teams” includes more than 15 researchers, strategists, architects, planners and interior designers who generate ideas that have a profound and lasting impact.
+
+                                                    Together, we offer a comprehensive, end-to-end host of services including:
                                                 </p>
+                                                 <p class="p-about__section__description lang-fonts--en addition-info" >
+                                                     Consulting and Contractor
+                                                     <ul>
+                                                         <li>Residential Building</li>
+                                                         <li>Commercial</li>
+                                                         <li>Residential Complex</li>
+                                                         <li>Feasibility Studies</li>
+                                                     </ul>
+                                                 </p>
+                                                 <p class="p-about__section__description lang-fonts--en addition-info">
+                                                     Design
+                                                     <ul>
+                                                         <li>Residential Building</li>
+                                                         <li>Commercial</li>
+                                                         <li>Residential Complex</li>
+                                                         <li>Feasibility Studies</li>
+                                                     </ul>
+                                                 </p>
+                                                 <p class="p-about__section__description lang-fonts--en addition-info" >
+                                                     Building
+                                                     <ul>
+                                                         <li>Villa</li>
+                                                         <li>Residential Building</li>
+                                                         <li>Commercial</li>
+                                                         <li>Residential Complex</li>
+                                                     </ul>
+                                                 </p>
                                             </div>
                                             <div lang="zh-cmn-Hans">
                                                 <p class="p-about__section__description lang-fonts--zh-cmn-Hans" style="text-align:right">
@@ -184,7 +214,7 @@
                                             </div> -->
                                         </div>
                                     </section>
-                                    <section class="p-about__section js-target--indicator">
+                                    <section class="p-about__section js-target--indicator cofounder-info" >
                                         <p class="p-about__section__num b-fonts__medium">02</p>
                                         <div class="p-about__section__head">
                                             <h1 class="p-about__section__title b-fonts__medium">MohamadReza Nojaba</h1>
@@ -1142,4 +1172,45 @@ export default {
     .st-logo-load {
         fill: #666;
     }
+    @media (max-width: 1100px) {
+        .addition-info{
+            width:70%;float:left;margin-left:0
+        }
+        .cofounder-info{
+            padding-top:450px !important
+        }
+         .addition-info ul li::before{
+            content: "";
+            position: absolute;
+            width: 7px;
+            height: 7px;
+            background-color: #a5a5a5;
+            border-radius: 50%;
+            top: 12px;
+            left: -15px;
+         }
+    }
+     .addition-info li{
+          position: relative;
+          margin-left: 16px;
+        }
+    @media (min-width:1101px) {
+        .addition-info{
+            width:30%;float:left;margin-left:20px
+        }
+         .addition-info ul li::before{
+            content: "";
+            position: absolute;
+            width: 7px;
+            height: 7px;
+            background-color: #a5a5a5;
+            border-radius: 50%;
+            top: 18px;
+            left: -15px;
+         }
+        .cofounder-info{
+            padding-top:150px !important
+        }
+    }
+
     </style>
