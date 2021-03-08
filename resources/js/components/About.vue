@@ -244,7 +244,7 @@
                                         </div>
                                     </section> -->
 
-                                    <section class="p-about__section p-about__weAre js-target--indicator" style="padding-top:160px">
+                                    <section class="p-about__section p-about__weAre js-target--indicator weare-info" style="padding-top:160px">
                                         <p class="p-about__section__num b-fonts__medium">02</p>
                                         <div>
                                             <div class="p-about__section__head">
@@ -680,7 +680,7 @@ export default {
         .addition-info{
             width:70%;float:left;margin-left:0
         }
-        .cofounder-info{
+        .cofounder-info,.weare-info{
             padding-top:450px !important
         }
          .addition-info ul li::before{
