@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Auth::routes(['register' => false]);
-Route::get('/event', 'HomeController@event');
+// Route::get('/event', 'HomeController@event');
 Route::middleware('auth')->get('/admin/order', 'AdminordersController@index');
 Route::get('/404', 'HomeController@notFound');
 Route::post('/order', 'AdminordersController@setOrder');

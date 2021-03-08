@@ -78,11 +78,11 @@
                             </div>
                         </li>
 
-                        <li class="p-header__list__item has-children">
+                        <!-- <li class="p-header__list__item has-children">
                             <a @click="event()" class="js-nav__link js-target--pointer__stateChange" href="/event"  >
                                 <span  class="js-target__inner--pointer__stateChange js-target__parent--spring">Event</span>
                             </a>
-                        </li>
+                        </li> -->
                          <li class="p-header__list__item has-children">
                             <a @click="about()" class="js-nav__link js-target--pointer__stateChange" href="/about"  >
                                 <span  class="js-target__inner--pointer__stateChange js-target__parent--spring">About</span>
@@ -338,9 +338,9 @@ export default {
         projects(){
            window.location.href = "/projects";
         },
-        event(){
-              window.location.href = "/event";
-        }
+        // event(){
+        //       window.location.href = "/event";
+        // }
 
     }
 
